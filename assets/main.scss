@@ -12,7 +12,32 @@
 // Example: tint the site header
 // .site-header { background-color: #1a1a2e; }
 
+:root {
+  --space-small: 10px;
+}
+
+
 .test-image {
   border: #000 2px solid;
   border-radius: 200px;
+}
+
+.site-title {
+  // display: inline-flex;
+  // height: 100%;
+  width: 200px;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.header-logo img {
+  padding: var(--space-small) 0;
+}
+
+.wrapper {
+  padding: var(--space-small);
+}
+
+.site-nav {
+  top: 17px;
 }
