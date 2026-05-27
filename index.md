@@ -23,3 +23,6 @@ Climate change and population growth in sub-Saharan Africa make it difficult to 
     * Backend
     * Teleagriculture Firmware
 * 
+
+
+![test](assets/images/test.jpg){: .test-image}
