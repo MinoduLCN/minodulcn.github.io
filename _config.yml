@@ -1,0 +1,20 @@
+title: Minodu Project
+description: >-
+  Documentation and presentation for the Minodu Project.
+baseurl: ""
+url: "https://minodulcn.github.io"
+github_username: minodulcn
+
+theme: minima
+minima:
+  skin: classic
+
+header_pages:
+  - getting-started.md
+  - features.md
+  - docs.md
+  - about.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
