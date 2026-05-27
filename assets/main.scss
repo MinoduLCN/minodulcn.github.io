@@ -16,6 +16,13 @@
   --space-small: 10px;
 }
 
+.page-heading { 
+  display: none; 
+}
+
+h1 {
+  font-size: 300%;
+}
 
 .test-image {
   border: #000 2px solid;
@@ -28,16 +35,14 @@
   width: 200px;
   // justify-content: center;
   // align-items: center;
+  padding: var(--space-small) 0;
 }
 
 .header-logo img {
   padding: var(--space-small) 0;
 }
 
-.wrapper {
-  padding: var(--space-small);
-}
-
 .site-nav {
   top: 17px;
+  line-height: 74px;
 }

@@ -9,13 +9,11 @@ theme: minima
 minima:
   skin: classic
 
-nav_pages:
-  - about.md
-  - portfolio.md
-
 header_pages:
+  - index.md
   - about/index.md
   - setup/index.md
+  - docs/index.md
 
 header_image: /assets/images/minodu-logo.jpg
 
