@@ -1,9 +1,10 @@
-title: Minodu Project
+title: The Minodu Project
 description: >-
   Documentation and presentation for the Minodu Project.
 baseurl: ""
 url: "https://minodulcn.github.io"
 github_username: minodulcn
+author: Minodu Team
 
 theme: minima
 minima:
