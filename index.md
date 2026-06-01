@@ -5,12 +5,11 @@ title: Home
 
 # Welcome to the Minodu Project
 
-**Fostering local sustainable development through technology and research**
+## Fostering local sustainable development through technology and research
 
 ![test](assets/images/cover.jpg){: .cover-image}
 
 Climate change and population growth in sub-Saharan Africa make it difficult to manage land sustainably while conserving natural resources. There is often a gap between existing, scientific concepts on sustainable land management and concrete solutions on the ground.
-
 
 
 ## Explore

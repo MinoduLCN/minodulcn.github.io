@@ -34,10 +34,20 @@ body {
 h1 {
   font-size: 300%;
 }
+h2 {
+  line-height: 1.1;
+}
 
 .site-title {
   width: 200px;
   padding: var(--space-small) 0;
+}
+
+.site-header {
+  border-top: unset;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
 }
 
 .header-logo img {
