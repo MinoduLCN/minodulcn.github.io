@@ -1,10 +1,14 @@
 ---
 layout: page
-title: Minodu App
+title: Le Manuel
 ---
 
-## Minodu App
+## Boîte à outils pour créer un réseau local et une station météo DIY
 
-Minodu started as … *(tell the origin story: what gap it fills, when it was created, what drives it)*.
+[Version pdf in french](../assets/pdf/minodu_manuel_v2.pdf) for printing
 
-Today it is used for … *(describe the current scope and audience)*.
+## Contenue
+- [Introduction](#introduction)
+
+
+## Introduction
