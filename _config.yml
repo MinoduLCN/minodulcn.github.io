@@ -14,6 +14,7 @@ header_pages:
   - index.md
   - about/index.md
   - setup/index.md
+  - manual/index.md
   - docs/index.md
 
 header_image: /assets/images/minodu-logo.jpg

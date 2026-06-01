@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Project structure
+title: Workshop materials
 ---
 
-## The Project
+## Workshop Materials
 
 Minodu started as … *(tell the origin story: what gap it fills, when it was created, what drives it)*.
 

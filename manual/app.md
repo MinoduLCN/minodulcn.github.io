@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Project structure
+title: Minodu App
 ---
 
-## The Project
+## Minodu App
 
 Minodu started as … *(tell the origin story: what gap it fills, when it was created, what drives it)*.
 
