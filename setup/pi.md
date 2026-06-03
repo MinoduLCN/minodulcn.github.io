@@ -42,13 +42,13 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
 * follow the instructions and wait until the installer is done
 * if the installer fails at any time because of a connection error, reboot raspberry pi and retry
   
-## Troubleshooting
+### Troubleshooting
 
 * Make sure raspberrpi is reachable with `ping minodupi.local`. If not. reinstall image and make sure to set the hostname to minodupi.local
 * make sure there is a user on the raspberry pi with the name *pi* (standard username).
 * Make sure ssh is enabled, test with `ssh pi@minodupi.local`. Default password is *raspberry*. If it is not working reinstall image and enable ssh access.
 * Make sure your computer is connected to the internet during the install procedure.
 
-### Manual installation
+## Manual installation
 
 Check the repo [https://github.com/MinoduLCN/minodu-installer](https://github.com/MinoduLCN/minodu-installer) for manually installing the Minodu LCN.
