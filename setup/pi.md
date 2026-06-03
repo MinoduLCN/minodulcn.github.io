@@ -3,6 +3,11 @@ layout: page
 title: RPI Setup
 ---
 
+## Content
+{:.no_toc}
+* TOC
+{:toc}
+
 ## Installation instructions
 
 This will guide you through the setup process of the Minodu LCN on the Raspberry Pi
