@@ -30,9 +30,9 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
   cd minodu-installer-main
   pip install pyinfra
   # run install script (adapt password if you used another one) 
-  pyinfra @ssh/minodupi.local deploy.py -v --ssh-user="pi" --ssh-password="raspberry"
+  pyinfra @ssh/minodupi.local deploy.py -v --ssh-user="pi" --ssh-password="<pi-user-password>"
   # or
-  pyinfra @ssh/<ip-adress> deploy.py -v --ssh-user="pi" --ssh-password="raspberry"
+  pyinfra @ssh/<ip-adress> deploy.py -v --ssh-user="pi" --ssh-password="<pi-user-password>"
   ```
 * follow the instructions and wait until the installer is done
 
