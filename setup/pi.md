@@ -24,7 +24,7 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
 
 ### Install MinoduLCN on the raspberry pi
 
-* download the minodu installer with `curl -L https://github.com/MinoduLCN/minodu-installer/archive/refs/heads/main.zip -o repo.zip && unzip repo.zip`
+* download and unzip the minodu installer from [https://github.com/MinoduLCN/minodu-installer/archive/refs/heads/main.zip](https://github.com/MinoduLCN/minodu-installer/archive/refs/heads/main.zip) or download it with `curl -L https://github.com/MinoduLCN/minodu-installer/archive/refs/heads/main.zip -o repo.zip && unzip repo.zip`
 * open a terminal and run:
   ```
   cd minodu-installer-main
