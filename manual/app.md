@@ -130,12 +130,34 @@ Because agriculture thrives best when we work together. Messages can be transcri
 ![forum](../assets/images/manual_app_forum.webp)
 
 ### Weather
+This screen visualizes local live weather data. The current weather is displayed through animations and shown in figures. The audio weather report gives you information about the current weather.
+
+![weather](../assets/images/manual_app_weather.webp)
 
 ### Market
+Welcome to your local digital marketplace! Here you can view various listings. The contact person in your community receives requests from wholesalers and posts them here. This way, you can see how many units of each product are in demand and at what price.
+
+![market](../assets/images/manual_app_market.webp)
 
 ## Materials
 ___
 <br>
+Your toolkit contains all the equipment you need to set up your local network. Here are the four main components:
 
+The Raspberry Pi mini-computer which is at the core of the local network, the weather station board which captures temperature, humidity, rain, wind and air quality, and the 3D printed protection box which keeps the boards dry and cool (protected from dust, heat and rain).
+
+![toolkit](../assets/images/manual_materials_raspberry.webp)
+
+Your Local Community Network is powered by a solar panel connected to a battery for complete energy independence.
+
+![solar-panel](../assets/images/manual_materials_solar-panel.webp)
+
+### Core of the LCN: Raspberry Pi 5
+
+### Weather station: TeleAgriCulture Board & sensors
+
+### Admin panel & content management system
 
 ## Support
+___
+<br>
