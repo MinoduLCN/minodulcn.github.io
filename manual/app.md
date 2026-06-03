@@ -5,7 +5,7 @@ title: Le Manuel
 
 ![baobab](../assets/images/baobab.svg)
 
-## Boîte à outils pour créer un réseau local et une station météo DIY
+## Toolkit for Setting Up a Local Network and a DIY Weather Station
 {:.no_toc}
 
 
@@ -66,7 +66,72 @@ connect with others and share your knowledge and challenges on the field
 Séti AFANOU (software), Ousia FOLI-BÉBÉ (hardware/software interface), Friederike Fröbel (coordination and management), Lutz Reiter (software), Eric Tiedt (illustrations, animations), Victoire TSAMEDI (database), Jannes Ulbrich (UI/UX design, wireframing)*
 
 ### Access the app
-1. Start by connecting to the "Minodu" Wi-Fi network.
+1) Start by connecting to the "Minodu" Wi-Fi network.
+
+![manual_wifi](../assets/images/manual_app_wi-fi.jpg)
+
+2) Open your browser and enter the address <span style="color:#25B86E">**minodupi.local**</span>
+
+![manual_browser](../assets/images/manual_app_browser.jpg)
+
+<span style="color:#fff; background-color:#25B86E; padding:10px">http://minodupi.local</span>
+
+### Home Page
+This is where you land when you launch the local network. This is the home page.
+
+The app is divided into four sections: agriculture, market, forum, and weather.
+
+Simply click on the section of your choice on the home screen or in the menu bar at the bottom of the interface to navigate to the selected section.
+
+![home_screen](../assets/images/manual_app_home_screen.webp)
+
+### Agriculture Page
+This section contains reliable agricultural information and advice, as well as a chatbot—a conversational agent—that you can use to ask questions about the content.
+
+This includes:
+- best farming practices
+- advice on crops, soil conservation, and livestock farming
+- innovations and sustainable techniques
+
+Improve your yields and make better farming decisions.
+
+**How to use the agriculture page?**
+
+The audios are oraganized into four categories: plants, soil, livestock, and other. You can select or deselect the different categories by clicking on their icons at the top.
+
+To access the audio files:
+Click the play button (small triangle) to play the audio. 
+To pause, click the two lines that appear once you start playing the audio.
+
+![agriculture](../assets/images/manual_app_agriculture.webp)
+
+### Chatbot
+The chatbot can answer your questions about agriculture around the clock. It can only understand and speak french.
+
+**How to use the chatbot?**
+
+When you open the chatbot, it will greet you. To respond to the chatbot and ask your question, you have two options:
+1. Record an audio message by clicking the white microphone icon on a green background and speaking. Your message will be automatically transcribed into text. Note: Make sure the audio recording is no longer than 30 seconds.
+2. Write a message using the white field at the bottom and type your message there.
+
+Then, click the green paper airplane icon to send your question.
+
+![chatbot](../assets/images/manual_app_chatbot.webp)
+
+### Forum
+Connect with the active community:
+- Ask questions via text or voice message
+- Share photos of issues in your fields
+- Share your experiences and chat with other farmers from your community
+- Discuss the challenges and opportunities facing the agricultural sector
+
+Because agriculture thrives best when we work together. Messages can be transcribed and listened to only in French.
+
+![forum](../assets/images/manual_app_forum.webp)
+
+### Weather
+
+### Market
 
 ## Materials
 ___
