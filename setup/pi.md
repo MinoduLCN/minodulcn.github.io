@@ -42,7 +42,7 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
 * follow the instructions and wait until the installer is done
 * if the installer fails at any time because of a connection error, reboot raspberry pi and retry
 
-*Manual installation*
+### Manual installation
 If the installation script fails, you can check this repo to guide you through the manual installation process: [https://github.com/MinoduLCN/minodu-installer](https://github.com/MinoduLCN/minodu-installer).
   
 ### Troubleshooting
