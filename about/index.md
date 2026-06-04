@@ -1,31 +1,36 @@
 ---
 layout: page
-title: The Project
+title: The Minodu Project
 ---
 
-## The Minodu Project
-Minodu is a participative research project. It bridges local knowledge with scientific knowledge to better address the effects of climate change. The project follows a **co-design**-approach: We design, test and build together.
+Minodu explores how decentralised, locally maintained digital infrastructures can support climate resilience in low-resource settings. Its aim is to bridge local knowledge with scientific knowledge to better address the effects of climate change. The project follows a **co-design** approach: we design, test, and build together.
+At the core of Minodu is the Local Community Network (LCN), a decentralised, offline-first system based on low-cost hardware and software. It combines environmental sensing, local data access, and community exchange.
+The system enables access to environmental data, agricultural advice, and community knowledge through local networks that operate without continuous Internet connectivity.
 
 ### Objectives
-Launched in 2023 in the Kara region, Minodu aims to:
+Launched in 2023 in the Kara region, Togo, Minodu aims to:
 - facilitate access to useful knowledge without reliance on the Internet
-- promote local knowledge and on-the-ground experience, particularly of the communities of Tchitchao, Lama-Saoudé and Soumdina-Haut
+- promote local knowledge and on-the-ground experience, particularly from the communities of Tchitchao, Lama-Saoudé and Soumdina-Haut
 - co-create and develop practical solutions with the communities
 - strengthen self-reliance and mutual aid among villages
 
-Students from the university of Kara co-designed with the communitis **simple and practical** approaches that are **adapted to their specific needs**.
+Students from the [**Kara University**](https://univ-kara.org/) co-designed with the communities **simple and practical** approaches that are **adapted to their specific needs**.
 
-**DIY** stands for **«Do It Yourself»**. It means making things using simple materials, without the need to hire expensive professionals. DIY helps to build a **robust**, **local community network** that is **inexpensive** and that you can **maintain on your own**.
+**DIY** stands for **«Do It Yourself»** and means making things using simple materials, without the need to hire expensive professionals. DIY helps to build a **robust**, **local community network** that is **inexpensive** and can be **maintained locally**.
+
+---
 
 ### Partners
-This innovation is the result of a collaboration between the following parties:
-- Local communities: Tchitchao, Lama-Saoudé, Soumdina-Haut
-- University of Kara: Magnim Essolakina BOKOBANA, Damghane OUDANOU, Mikémina PILO
-- DFKI (German Center for Artificial Intelligence): Carina Lange, Friederike Fröbel, Antonia Katthaen, Jannes Ulbrich, Philipp Gschwendtner
-- Contributers: Séti AFANOU, Nihade ASSOUMANOU, Abiré BÉRÉ, Ousia FOLI-BEBE, Lutz Reiter, Eric Tiedt, Victoire TSAMEDI
+This project is the result of a collaboration between the following parties:
+- **Local communities**: Tchitchao, Lama-Saoudé, Soumdina-Haut
+- **Kara University**: Magnim Essolakina BOKOBANA, Damghane OUDANOU, Mikémina PILO
+- **DFKI (German Center for Artificial Intelligence)**: Carina Lange, Friederike Fröbel, Antonia Katthaen, Jannes Ulbrich, Philipp Gschwendtner
+- **Further Contributers**: Séti AFANOU, Nihade ASSOUMANOU, Abiré BÉRÉ, Ousia FOLI-BEBE, Lutz Reiter, Eric Tiedt, Victoire TSAMEDI
+
+---
 
 ### Funding
-This project is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) as part of the Minodu project (FKZ 01LL2202A) within the funding line 'Sustainable land management in sub-Saharan Africa: improving livelihoods through local research'.
+This project is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) as part of the Minodu project (FKZ 01LL2202A), within the funding line *"Sustainable land management in sub-Saharan Africa: improving livelihoods through local research"*.
 
 ---
 
@@ -57,4 +62,4 @@ Please read `CONTRIBUTING.md` *(create this file when ready)* for the full guide
 
 ## License
 
-Minodu source code is released under the [GNU License]((https://github.com/MinoduLCN/minodu/blob/main/LICENCSE.md)).
+Minodu source code is released under the [GNU License](https://github.com/MinoduLCN/minodu/blob/main/LICENCSE.md).
