@@ -1,44 +1,14 @@
+<div class="footer-col footer-col-3">
+  <div style="display: flex; flex-direction: column; justify-content: center; height: 100%; gap: 0.5em;">
+    
+    <img src="{{ '/assets/images/BMFTR_en_DTP_CMYK_gef_durch.jpg' | relative_url }}"
+         alt="BMFTR Logo"
+         style="max-width: 180px; height: auto;">
 
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-
-      <!-- Column 1: Description -->
-      <div class="footer-col footer-col-1">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-
-      <!-- Column 2: Social -->
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <!-- Column 3: Funding -->
-      <div class="footer-col footer-col-3">
-        <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 0.5em;">
-          
-          <img 
-            src="{{ '/assets/images/BMFTR_en_DTP_CMYK_gef_durch.jpg' | relative_url }}" 
-            alt="BMFTR Logo" 
-            style="max-width: 180px; height: auto;"
-          />
-
-          <p style="font-size: 0.9em; margin: 0;">
-            Funded by the German Federal Ministry of Research, Technology and Space (BMFTR)<br>
-            Minodu Project (FKZ 01LL2202A)
-          </p>
-
-        </div>
-      </div>
-
-    </div>
+    <p style="font-size: 0.9em; margin: 0;">
+      Funded by the German Federal Ministry of Research, Technology and Space (BMFTR)<br>
+      Minodu Project (FKZ 01LL2202A)
+    </p>
 
   </div>
-
-</footer>
-
+</div>
