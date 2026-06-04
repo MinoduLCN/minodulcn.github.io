@@ -1,0 +1,66 @@
+<svg width="1000" height="520" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1000" height="520" fill="white"/>
+
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" font-size="20" font-family="Helvetica, Arial">
+    Local Community Network (LCN) - System Architecture
+  </text>
+
+  <!-- USERS -->
+  <rect x="50" y="180" width="180" height="100" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="140" y="205" text-anchor="middle" font-size="14">Users</text>
+  <text x="140" y="225" text-anchor="middle" font-size="12">(Android Phones)</text>
+  <text x="140" y="250" text-anchor="middle" font-size="11">Access via Browser</text>
+
+  <!-- WIFI -->
+  <rect x="260" y="200" width="120" height="60" fill="none" stroke="black"/>
+  <text x="320" y="230" text-anchor="middle" font-size="12">Local Wi-Fi</text>
+  <text x="320" y="245" text-anchor="middle" font-size="11">(offline)</text>
+
+  <!-- RASPBERRY PI -->
+  <rect x="430" y="140" width="240" height="180" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="550" y="165" text-anchor="middle" font-size="14">Raspberry Pi</text>
+  <text x="550" y="185" text-anchor="middle" font-size="12">(Local Server)</text>
+
+  <!-- INNER COMPONENTS -->
+  <text x="550" y="220" text-anchor="middle" font-size="12">Local Web Application</text>
+  <text x="550" y="240" text-anchor="middle" font-size="11">(Agriculture · Market · Forum · Weather)</text>
+
+  <text x="550" y="270" text-anchor="middle" font-size="12">Database (local storage)</text>
+
+  <text x="550" y="300" text-anchor="middle" font-size="12">Backoffice (Admin Interface)</text>
+
+  <!-- SENSORS -->
+  <rect x="750" y="180" width="200" height="100" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="850" y="205" text-anchor="middle" font-size="14">Sensors</text>
+  <text x="850" y="225" text-anchor="middle" font-size="12">(BME280, Gas, etc.)</text>
+  <text x="850" y="250" text-anchor="middle" font-size="11">Weather Data</text>
+
+  <!-- ARROWS -->
+  <!-- Users -> WiFi -->
+  <line x1="230" y1="230" x2="260" y2="230" stroke="black" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- WiFi -> Pi -->
+  <line x1="380" y1="230" x2="430" y2="230" stroke="black" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Sensors -> Pi -->
+  <line x1="750" y1="230" x2="670" y2="230" stroke="black" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Pi -> Users (response) -->
+  <line x1="430" y1="260" x2="260" y2="260" stroke="black" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- Arrow Definition -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="black"/>
+    </marker>
+  </defs>
+
+  <!-- Offline Note -->
+  <text x="500" y="460" text-anchor="middle" font-size="12">
+    Offline-first system: No continuous Internet connection required
+  </text>
+
+</svg>
