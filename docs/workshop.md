@@ -1,10 +1,14 @@
 ---
 layout: page
 title: Workshop materials
+toc: true
 ---
 
 The development and evaluation of the Local Community Network (LCN) followed an iterative, participatory process combining co-design, prototyping, and multi-layered evaluation methods.
 The workshops form an iterative process from exploration and co-design to prototyping, testing, and multi-layered evaluation.
+
+* TOC
+{:toc}
 
 ### Atelier pratique 07/23
 This first workshop was conducted on July 27 and 28, 2023, as a hands-on, station-based learning experience at the University of Kara, introducing participants to topics such as electronics, programming, environmental sensing, and climate adaptation.  
