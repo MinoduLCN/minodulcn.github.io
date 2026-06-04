@@ -17,12 +17,6 @@ This manual is aimed at the agricultural producers of the communities we deploye
 * TOC
 {:toc}
 
-## Introduction
-___
-<br>
-This guide was made for the agricultural producer communities of Tchitchao, Lama-Saoudé and Soumdina-Haut in Togo.  
-It accompanies the usage of the **Local Community Network (LCN) without Internet connection**.  
-A network **made by you**, **for you**, based on your knowledge and experience.
 
 ## Local Network / Réseau Local
 ___
