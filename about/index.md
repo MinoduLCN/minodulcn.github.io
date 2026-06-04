@@ -18,8 +18,6 @@ Students from the [**Kara University**](https://univ-kara.org/) co-designed with
 
 **DIY** stands for **«Do It Yourself»** and means making things using simple materials, without the need to hire expensive professionals. DIY helps to build a **robust**, **local community network** that is **inexpensive** and can be **maintained locally**.
 
----
-
 ### Partners
 This project is the result of a collaboration between the following parties:
 - **Local communities**: Tchitchao, Lama-Saoudé, Soumdina-Haut
@@ -27,27 +25,11 @@ This project is the result of a collaboration between the following parties:
 - **DFKI (German Center for Artificial Intelligence)**: Carina Lange, Friederike Fröbel, Antonia Katthaen, Jannes Ulbrich, Philipp Gschwendtner
 - **Further Contributers**: Séti AFANOU, Nihade ASSOUMANOU, Abiré BÉRÉ, Ousia FOLI-BEBE, Lutz Reiter, Eric Tiedt, Victoire TSAMEDI
 
----
-
 ### Funding
 This project is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) as part of the Minodu project (FKZ 01LL2202A), within the funding line *"Sustainable land management in sub-Saharan Africa: improving livelihoods through local research"*.
 
 ---
-
-## The Tech-Team
-
-| Name | GitHub |
-|------|--------|
-| Victoire TSAMEDI | [abayi6](https://github.com/abayi6) |
-| Friederike Fröbel | [frfr01](https://github.com/frfr01) |
-| Jannes Ulbrich | [jannesulbrich](https://github.com/jannesulbrich) |
-| Lutz Reiter | [lutzer](https://github.com/lutzer) |
-| Ouisa A. FOLI-BEBE | [ousiafb](https://github.com/ousiafb) |
-| Séti AFANOU | [setico](https://github.com/setico) |
-
----
-
-## Contributing
+### Contributing
 
 Contributions are welcome! Here's how:
 
@@ -58,8 +40,19 @@ Contributions are welcome! Here's how:
 
 Please read `CONTRIBUTING.md` *(create this file when ready)* for the full guidelines.
 
----
-
-## License
+### License
 
 Minodu source code is released under the [GNU License](https://github.com/MinoduLCN/minodu/blob/main/LICENCSE.md).
+
+## Tech-Team
+
+| Name | GitHub |
+|------|--------|
+| Victoire TSAMEDI | [abayi6](https://github.com/abayi6) |
+| Friederike Fröbel | [frfr01](https://github.com/frfr01) |
+| Jannes Ulbrich | [jannesulbrich](https://github.com/jannesulbrich) |
+| Lutz Reiter | [lutzer](https://github.com/lutzer) |
+| Ouisa A. FOLI-BEBE | [ousiafb](https://github.com/ousiafb) |
+| Séti AFANOU | [setico](https://github.com/setico) |
+
+
