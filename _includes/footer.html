@@ -1,14 +1,64 @@
-<div class="footer-col footer-col-3">
-  <div style="display: flex; flex-direction: column; justify-content: center; height: 100%; gap: 0.5em;">
-    
-    <img src="{{ '/assets/images/BMFTR_en_DTP_CMYK_gef_durch.jpg' | relative_url }}"
-         alt="BMFTR Logo"
-         style="max-width: 180px; height: auto;">
+<footer class="site-footer h-card">
+   '/' | relative_url }}"></data>
 
-    <p style="font-size: 0.9em; margin: 0;">
-      Funded by the German Federal Ministry of Research, Technology and Space (BMFTR)<br>
-      Minodu Project (FKZ 01LL2202A)
-    </p>
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper" style="
+      display: flex;
+      gap: 2rem;
+      align-items: stretch;
+      flex-wrap: wrap;
+    ">
+
+      <!-- Column 1 -->
+      <div class="footer-col footer-col-1" style="
+        flex: 1;
+        display: flex;
+        align-items: center;
+      ">
+        <p style="margin: 0;">
+          {{- site.description | escape -}}
+        </p>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="footer-col footer-col-2" style="
+        flex: 1;
+        display: flex;
+        align-items: center;
+      ">
+        {%- include social.html -%}
+      </div>
+
+      <!-- Column 3 -->
+      <div class="footer-col footer-col-3" style="
+        flex: 1;
+        display: flex;
+        align-items: center;
+      ">
+        <div style="
+          display: flex;
+          flex-direction: column;
+          gap: 0.5em;
+        ">
+          
+          <img 
+            src="{{ '/assets/images/BMFTR_en_DTP_CMYK_gef_durch.jpg' | relative_url }}" 
+            alt="BMFTR Logo" 
+            style="max-width: 180px; height: auto;"
+          >
+
+          <p style="font-size: 0.9em; margin: 0;">
+            Funded by the German Federal Ministry of Research, Technology and Space (BMFTR)<br>
+            Minodu Project (FKZ 01LL2202A)
+          </p>
+
+        </div>
+      </div>
+
+    </div>
 
   </div>
-</div>
+</footer>
