@@ -1,50 +1,31 @@
 ---
 layout: page
-title: Setup
+title: Setup guide
 ---
+ 
+Welcome to the **MinoduLCN** setup guide. A step-by-step reference for assembling and configuring a Raspberry Pi–based local network weather station with the DIY Teleagriculture board. Follow the sections below in order for a smooth setup experience.
+ 
+## What You'll Be Building
+ 
+MinoduLCN (Local Climate Network) is a self-hosted, hardware weather station that runs entirely offline and offgrid and spans a local wifi network. It combines a Raspberry Pi with the Teleagriculture DIY sensor board to collect, process, and serve real-time environmental data.
+ 
+## Setup Sections
+ 
+1. [Material List](materials):
+   This section lists all required hardware components, tools, and optional accessories, including the Raspberry Pi model, sensors, cables, and power supply.
 
-## Prerequisites
+2. [Hardware Assembly](hardware): 
+   Step-by-step instructions for physically assembling the weather     station. Covers mounting the Teleagriculture board, connecting sensors, and wiring the components together safely.
 
-Before you begin, make sure you have the following installed:
+3. [Raspberry Pi Installation](pi): 
+   How to flash the OS, configure networking, enable SSH, and prepare your Raspberry Pi to run the MinoduLCN software stack.
 
-- **Requirement A** — version X or higher
-- **Requirement B** — version Y or higher
-- *(add your actual prerequisites here)*
-
----
-
-## Installation
-
-```bash
-# Example installation command — replace with the real one
-npm install minodu
-# or
-pip install minodu
-```
-
----
-
-## Quick Start
-
-1. **Step one** — describe what the user does first.
-
-   ```bash
-   minodu init my-project
-   ```
-
-2. **Step two** — describe the next action.
-
-   ```bash
-   cd my-project
-   minodu run
-   ```
-
-3. **Step three** — confirm it works (expected output, URL to visit, etc.).
-
----
-
-## Next Steps
-
-- Explore all available [Features](../features)
-- Read the full [Documentation](../docs)
-- Learn [About](../about) the project and how to contribute
+4. [Teleagriculture Installation](teleagriculture): 
+   Software setup for the Teleagriculture DIY weather kit. Covers driver installation, sensor calibration, and verifying that readings are coming through correctly.
+ 
+## Before You Begin
+ 
+- Make sure you have completed each section **in order** — later steps depend on earlier ones.
+- A basic familiarity with the Linux command line is helpful for the Pi and Teleagriculture sections.
+ 
+**Need help?** Open an issue on the [GitHub repository](https://github.com/MinoduLCN/minodu/issues).
