@@ -38,12 +38,10 @@ Contributions are welcome! Here's how:
 3. Commit your changes: `git commit -m "Add my feature"`
 4. Open a Pull Request.
 
-Please read `CONTRIBUTING.md` *(create this file when ready)* for the full guidelines.
-
 ### Support
-Are you having problems with your local network?
+Are you having problems with your Minodu LCN?
 Or do you have ideas you’d like to implement or share with others?
-We are still in the process of developing this part of the local network. Please note any issues you encounter here and send us a message.
+We are still in the process of developing this part of the local network. Please note any issues you encounter here and send us a message or post into our [Discussion Baord](https://github.com/MinoduLCN/minodu/discussions).
 
 ### License
 
