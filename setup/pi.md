@@ -26,7 +26,7 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
 
 ![](../assets/images/rpi-imager-2.png)
 ![](../assets/images/rpi-imager-3.png)
-* Set the hostname to minodupi.local, the username to pi and enable ssh in the custom settings of the image
+* Set the hostname to minodupi.local, the username to pi and enable ssh in the custom settings of the image. remember the password you choose and write it down.
 ![](../assets/images/rpi-imager-4.png)
 ![](../assets/images/rpi-imager-5.png)
 ![](../assets/images/rpi-imager-6.png)
@@ -45,12 +45,14 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
   ```
   cd minodu-installer-main
   pip install pyinfra
-  # run install script (adapt password if you used another one) 
+  # run full install script
   pyinfra @ssh/minodupi.local deploy.py -v --ssh-user="pi" --ssh-password="<pi-user-password>"
-  # or
-  pyinfra @ssh/<ip-adress> deploy.py -v --ssh-user="pi" --ssh-password="<pi-user-password>"
+  # or using an ip address
+  pyinfra @ssh/<ip-address> deploy.py -v --ssh-user="pi" --ssh-password="<pi-user-password>"
+  # or run a single step 
+  pyinfra @ssh/minodupi.local 01_system_packages.py -v --ssh-user="pi" --ssh-password="<pi-user-password>"
   ```
-* It will ask you the following options. in [brackets] is the default value if you leave it empty. Installing the llm is only recommended on a raspberry pi 5 with at least 8gb of ram and a good cooling fan.
+* It will ask you the following options. In [brackets] is the default value if you leave it empty. Installing the llm is only recommended on a raspberry pi 5 with at least 8gb of ram and a good cooling fan.
   ```
   WiFi SSID [Minodu]:
   WLAN country code [DE]:
