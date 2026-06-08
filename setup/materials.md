@@ -51,7 +51,7 @@ This setup adds wind sensing capabilities to the Local Community Network, enabli
 | Wind Direction & Speed Kit    | 105.50   | ~69,100     | https://botland.de/wetterstationen/16258-wetterstation-mit-windrichtungs-und-geschwindigkeitsmessung-sparkfun-sen-15901-845156010141.html |
 | Additional connectors         | ~5       | ~3,300      | — 
 
-**Estimated Add-on Cost:** ~110 € (~72,000 FCFA
+**Estimated Add-on Cost:** ~110 € (~72,000 FCFA)
 
 
 ## Lightweight Setup (Raspberry Pi 4 – No LLM)
