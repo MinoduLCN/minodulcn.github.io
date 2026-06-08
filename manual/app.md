@@ -122,10 +122,37 @@ Your Local Community Network is powered by a solar panel connected to a battery 
 ![solar-panel](../assets/images/manual_materials_solar-panel.webp)
 
 ### Core of the LCN: Raspberry Pi 5
+The Raspberry Pi 5 is a small embedded module about the size of a credit card. It serves as the heart of your entire local network.
+
+The Raspberry Pi is perfect for a local network because...
+- it uses very little power,
+- it is very compact: fits in a pocket or a small box,
+- it has multiple ports for connecting all your devices: USB, HDMI for a display, SD card slot, and GPIO ports for sensors.
+
+![raspberry](../assets/images/manual_raspberry1.webp)
+
+**Additional information:**
+The Raspberry Pi is designed to make computers, digital transformation, and innovation accessible to everyone. It can be described as a mini-computer because, once you have one, all you need to do is connect a monitor, keyboard, and mouse, and you can use it just like a regular computer.
 
 ### Weather station: TeleAgriCulture Board & sensors
+The TeleAgriculture board is a module to capture weather data, it has several ports to connect sensors to. The weather station's sensors provide information on current local conditions.
+
+| Sensor                     | Measures                     |
+| ---                        | ---                          |
+| BME 680                    | Temperature in °C, Humidity in %, Atmospheric pressure in hPa |
+| LTR390                     | Light in lux, UV radiation |
+| Multichannel Gas Sensor V2 | Nitrpgen dioxide (NO₂), Carbon monoxide (CO), Ethanol (C₂H₅OH) (overall air quality) |
+| DS15901                    | Wind speed in m/s, wind direction in degrees |
+
+![teleagriculture_board](../assets/images/tac_board_V2_1_03.jpg)
+
+**Additional information:**
+The station is based on the TeleAgriCulture kit. TeleAgriCulture aims to make environmental sensing technologies and data visualization tools more accessible to anyone interested in exploring the interactions between plants, animals, humans, and their environment.  
+*Developed by Daniel Fischer and Julian Stadon, and adapted for the local network by Lutz Reiter, Ousia FOLI-BEBE, and Friederike Fröbel.*
 
 ### Admin panel & content management system
+This admin panel is used to manage the content on the local network.  
+Only the administrator has access to it. Please ask your community administrator for access.
 
 ## Support
 ___
