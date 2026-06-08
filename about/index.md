@@ -33,7 +33,7 @@ This project is funded by the German Federal Ministry of Research, Technology an
 
 Contributions are welcome! Here's how:
 
-1. Fork the repository on [GitHub](https://github.com/minodulcn/minodulcn.github.io).
+1. Fork the repository on [GitHub](https://github.com/minodulcn/minodu).
 2. Create a feature branch: `git checkout -b feature/my-feature`
 3. Commit your changes: `git commit -m "Add my feature"`
 4. Open a Pull Request.
