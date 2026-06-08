@@ -6,10 +6,10 @@ title: Documentation
 This section provides technical and methodological documentation of the Minodu project and the Local Community Network (LCN).
 The documentation covers system architecture, implementation details, and the participatory processes used throughout the project.
 
-### Backoffice
-The backoffice documentation provides a detailed explanation for managing content, data, and system configuration within the Local Community Network. It supports local administration and enables communities to adapt the system to their needs.
+### System Architecture
+This Section describes how the minodu system is organized and explains the technical structure.
 
-→ [Go to Backoffice documentation](./backoffice)
+→ [Go to system architecture](./system-architecture)
 
 ### Minodu API
 The Minodu API documents the interfaces used for data exchange between system components, including sensor data, application services, and local network communication.

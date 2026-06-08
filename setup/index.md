@@ -11,18 +11,26 @@ MinoduLCN (Local Climate Network) is a self-hosted, hardware weather station tha
  
 ## Setup Sections
  
-1. [Material List](materials):
-   This section lists all required hardware components, tools, and optional accessories, including the Raspberry Pi model, sensors, cables, and power supply.
+### Material List
+This section lists all required hardware components, tools, and optional accessories, including the Raspberry Pi model, sensors, cables, and power supply.
 
-2. [Hardware Assembly](hardware): 
-   Step-by-step instructions for physically assembling the weather     station. Covers mounting the Teleagriculture board, connecting sensors, and wiring the components together safely.
+→ [Go to material list](./materials)
 
-3. [Raspberry Pi Installation](pi): 
-   How to flash the OS, configure networking, enable SSH, and prepare your Raspberry Pi to run the MinoduLCN software stack.
+### Hardware Assembly 
+Step-by-step instructions for physically assembling the weather     station. Covers mounting the Teleagriculture board, connecting sensors, and wiring the components together safely.
 
-4. [Teleagriculture Installation](teleagriculture): 
-   Software setup for the Teleagriculture DIY weather kit. Covers driver installation, sensor calibration, and verifying that readings are coming through correctly.
+→ [Go to hardware assembly](./hardware)
+
+### Raspberry Pi Installation 
+How to flash the OS, configure networking, enable SSH, and prepare your Raspberry Pi to run the MinoduLCN software stack.
+
+→ [Go to Raspberry Pi Installation](./pi)
+
+### Teleagriculture Installation
+Software setup for the Teleagriculture DIY weather kit. Covers driver installation, sensor calibration, and verifying that readings are coming through correctly.
  
+→ [Go to Teleagriculture Installation](./teleagriculture)
+
 ## Before You Begin
  
 - Make sure you have completed each section **in order** — later steps depend on earlier ones.
