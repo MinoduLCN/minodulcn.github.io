@@ -81,3 +81,18 @@ code {
   list-style: decimal;
   // margin-left: 0;
 }
+
+.footer-links {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: var(--space-small) 0;
+}
+
+.footer-heading {
+  text-align: center;
+}
+
+.footer-col-wrapper {
+  margin: 80px 0;
+}
