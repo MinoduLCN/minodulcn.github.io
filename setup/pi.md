@@ -20,11 +20,23 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
 
 ## Setup Raspberry Pi Image
 
+### Create Base Image
+
 * Install Raspberry Pi OS Lite (64 bit) on Raspberry Pi. *Tested with this [version](https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2026-04-21/)*. You can use [Raspberry PI Imager](https://www.raspberrypi.com/software/) to crate the Image
+
+![](../assets/images/rpi-imager-2.png)
+![](../assets/images/rpi-imager-3.png)
 * Set the hostname to minodupi.local, the username to pi and enable ssh in the custom settings of the image
+![](../assets/images/rpi-imager-4.png)
+![](../assets/images/rpi-imager-5.png)
+![](../assets/images/rpi-imager-6.png)
 * Once the image is written, insert the sd card into the pi
+
+### Connect to RPI
+
 * Connect via ethernet cable to raspberry pi and enable internet Sharing on mac, alternativly, you can plug the raspberry pi into your dhcp router via ethernet
-* * Make sure `ping minodupi.local` returns an answer, meaning your machine can discover the raspberry pi in the network
+* Make sure `ping minodupi.local` returns an answer, meaning your machine can discover the raspberry pi in the network
+* Alternative: Connect Monitor do RPI and type in `ifconfig` to find out the RPIs ip address and use that one instead of *minodupi.local*
 
 ## Install MinoduLCN
 
@@ -39,7 +51,7 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
   pyinfra @ssh/<ip-adress> deploy.py -v --ssh-user="pi" --ssh-password="<pi-user-password>"
   ```
 * Follow the instructions and wait until the installer is done
-* If the installer fails at any time because of a connection error, reboot raspberry pi and retry
+* If the installer fails at any time because of a connection error, restart the installation script. it should skip already completed steps.
 
 ## Manual installation
 If the installation script fails, you can check this repo to guide you through the manual installation process: [https://github.com/MinoduLCN/minodu-installer](https://github.com/MinoduLCN/minodu-installer).
