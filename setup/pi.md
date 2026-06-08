@@ -50,12 +50,12 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
   # or
   pyinfra @ssh/<ip-adress> deploy.py -v --ssh-user="pi" --ssh-password="<pi-user-password>"
   ```
-* It will ask you the following options. in [brackets] is the default value if you leave it empty
+* It will ask you the following options. in [brackets] is the default value if you leave it empty. Installing the llm is only recommended on a raspberry pi 5 with at least 8gb of ram and a good cooling fan.
   ```
   WiFi SSID [Minodu]:
   WLAN country code [DE]:
   RaspAP admin password [secret]:
-  Install Minodu LLM for Chatbot (y/n) [y]:
+  Install Minodu LLM for Chatbot (y/n) [n]:
   Admin phone number [90000000]:
   Admin password [secret]:
   ```
