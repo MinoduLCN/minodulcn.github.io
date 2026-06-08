@@ -9,7 +9,7 @@ The manuals are structured to support two main user groups:
 - **Administrators** → managing content, data, and system configuration  
 Together, these manuals ensure that the Local Community Network can be **used, maintained, and adapted locally**.
 
-## The UserManual
+## The User Manual
 This manual explains how to use the Local Community Network from a user perspective. It covers how to access the system, navigate the interface, and use the different application features such as agriculture, market, forum, and weather.  
 → [App manual](app)
 

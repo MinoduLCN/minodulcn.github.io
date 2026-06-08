@@ -129,7 +129,7 @@ The Raspberry Pi is perfect for a local network because...
 - it is very compact: fits in a pocket or a small box,
 - it has multiple ports for connecting all your devices: USB, HDMI for a display, SD card slot, and GPIO ports for sensors.
 
-![raspberry](../assets/images/manual_raspberry1.webp)
+![raspberry](../assets/images/manual_raspberry.webp)
 
 **Additional information:**
 The Raspberry Pi is designed to make computers, digital transformation, and innovation accessible to everyone. It can be described as a mini-computer because, once you have one, all you need to do is connect a monitor, keyboard, and mouse, and you can use it just like a regular computer.
@@ -154,6 +154,19 @@ The station is based on the TeleAgriCulture kit. TeleAgriCulture aims to make en
 This admin panel is used to manage the content on the local network.  
 Only the administrator has access to it. Please ask your community administrator for access.
 
-## Support
-___
+![backend](../assets/images/manual_backend.webp)
+
+1. **Accueil:** This page is displayed here as a preview.
+2. **Publications:** Management of audio content for the Agriculture section.
+3. **Products:** Management of products for your village’s market.
+4. **Market:** Management of products requested by wholesalers.
+5. **Users:** A list of people who have access to the CMS.
+6. **Partners:** Wholesalers are registered here.
+7. **Weather:** Weather data is available here, along with historical data.
+8. **Forum:** Manage forum discussions and posts.
+9. **Server Logs:** Access to view and manage server logs.
+10. **Configuration:** Enter the name, location, and other information about your community.
+
+---  
 <br>
+This is the user manual. For guidance for administrators and management of the system please take a look at the [backoffice manual](backoffice.md).

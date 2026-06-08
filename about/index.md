@@ -40,6 +40,11 @@ Contributions are welcome! Here's how:
 
 Please read `CONTRIBUTING.md` *(create this file when ready)* for the full guidelines.
 
+### Support
+Are you having problems with your local network?
+Or do you have ideas you’d like to implement or share with others?
+We are still in the process of developing this part of the local network. Please note any issues you encounter here and send us a message.
+
 ### License
 
 Minodu source code is released under the [GNU License](https://github.com/MinoduLCN/minodu/blob/main/LICENCSE.md).
