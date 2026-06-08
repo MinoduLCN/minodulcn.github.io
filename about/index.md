@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Minodu Project
+title: Minodu Project
 ---
 
 Minodu explores how decentralised, locally maintained digital infrastructures can support climate resilience in low-resource settings. Its aim is to bridge local knowledge with scientific knowledge to better address the effects of climate change. The project follows a **co-design** approach: we design, test, and build together.
@@ -33,17 +33,15 @@ This project is funded by the German Federal Ministry of Research, Technology an
 
 Contributions are welcome! Here's how:
 
-1. Fork the repository on [GitHub](https://github.com/minodulcn/minodulcn.github.io).
+1. Fork the repository on [GitHub](https://github.com/minodulcn/minodu).
 2. Create a feature branch: `git checkout -b feature/my-feature`
 3. Commit your changes: `git commit -m "Add my feature"`
 4. Open a Pull Request.
 
-Please read `CONTRIBUTING.md` *(create this file when ready)* for the full guidelines.
-
 ### Support
-Are you having problems with your local network?
+Are you having problems with your Minodu LCN?
 Or do you have ideas you’d like to implement or share with others?
-We are still in the process of developing this part of the local network. Please note any issues you encounter here and send us a message.
+We are still in the process of developing this part of the local network. Please note any issues you encounter here and send us a message or post into our [Discussion Baord](https://github.com/MinoduLCN/minodu/discussions).
 
 ### License
 
