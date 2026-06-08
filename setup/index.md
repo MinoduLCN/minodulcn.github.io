@@ -28,4 +28,4 @@ MinoduLCN (Local Climate Network) is a self-hosted, hardware weather station tha
 - Make sure you have completed each section **in order** — later steps depend on earlier ones.
 - A basic familiarity with the Linux command line is helpful for the Pi and Teleagriculture sections.
  
-**Need help?** Open an issue on the [GitHub repository](https://github.com/MinoduLCN/minodu/issues).
+**Need help?** Open an issue on the [Minodu issue tracker](https://github.com/MinoduLCN/minodu/issues) or make a post on our [Discussion Board](https://github.com/MinoduLCN/minodu/discussions).
