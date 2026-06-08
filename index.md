@@ -33,7 +33,6 @@ Choose what you want to do:
     * [Backoffice](manual/backoffice)
 * [Documentation](docs)
      * [System Architecture](docs/system-architecture)
-     * [Backoffice](docs/backoffice)
      * [Minodu API](docs/api)
      * [Workshop materials](docs/workshop)
 
