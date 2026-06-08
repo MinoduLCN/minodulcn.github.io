@@ -10,13 +10,12 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
 * TOC
 {:toc}
 
-
 ## Requirements
 
-* Raspberry pi 4 or 5
-* Ethernet adapter and a cable
-* SD card reader and an sd card with a minimum size if 64gb.
-* Python to be installed on your computer
+* A Raspberry pi 4 or 5, preferebly with 8gb of ram.
+* An ethernet adapter and a cable
+* An SD card reader and an sd card with a minimum size if 64gb.
+* Python has to be installed on your computer
 
 ## Setup Raspberry Pi Image
 
@@ -62,7 +61,7 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
   Admin password [secret]:
   ```
 * Follow the instructions and wait until the installer is done, if you select to install the llm the install procedure will take much longer, since it needs to build the vector database on the raspberry pi.
-* If the installer fails at any time because of a connection error, restart the installation script. it should skip already completed steps.
+* **The installer might drop the ssh connection after installing the wlan driver and throws an error. If that happens, just wait until it is rebooted and start the script again. It will skip the completed steps**
 
 ## Manual installation
 If the installation script fails, you can check this repo to guide you through the manual installation process: [https://github.com/MinoduLCN/minodu-installer](https://github.com/MinoduLCN/minodu-installer).
