@@ -7,20 +7,26 @@ title: Hardware Assembly
 
 https://a360.co/4q3GGlT
 
-Assembling
+
 
 Design 0B - Fixation With screw and Bracket
 
 Pictures:
 
-![BoxView0](assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29.png){: .BoxView0}
+![BoxView0](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29.png){: .BoxView0}
 
-![BoxView1](assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29Inside.jpg){: .BoxView1}
+![BoxView1](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29Inside.jpg){: .BoxView1}
 
-![BoxView2](assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29open.jpg){: .BoxView2}
+![BoxView2](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29open.jpg){: .BoxView2}
 
-![BoxView3](assets/images/!0B_Parametric_Box_AxialFan_AirFlowVent_v29_2.jpg){: .BoxView3}
+![BoxView3](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29_2.jpg){: .BoxView3}
 
+Assembling
+
+<iframe
+  src="https://YoutubePlaceHolder"
+  style="width:100%; height:480px;"
+></iframe>
 
 # Requirements
 
@@ -55,7 +61,12 @@ Other Boxes
 
 # Images - Development Process
 
-## Link to Design (Autodesk Fusion 360): https://a360.co/4mMZlPN and https://a360.co/4q3GGlT
+## [Link to Design (Autodesk Fusion 360)](https://a360.co/4q3GGlT): https://a360.co/4q3GGlT
+
+<iframe
+  src="https://a360.co/4q3GGlT"
+  style="width:100%; height:720px;"
+></iframe>
 
 # 3D printing & Assembly Instruction
 
@@ -73,10 +84,14 @@ Version 1
 
 ### How to 3D print the STL files above ? (I you already know how to slice the STL files skip to XX)
 
-3D printers only understand G CODE language (**geometric code)**; So what we need to do is to convert the STL) files into G CODE. for that we need a type of Software call slicer. I personally use OrcaSlicer https://www.orcaslicer.com/ but they all work the same.
+3D printers only understand G CODE language (**geometric code)**; So what we need to do is to convert the STL) files into G CODE. for that we need a type of Software call slicer. I personally use [OrcaSlicer](https://www.orcaslicer.com/) but they all work the same.
 
 What this quick video to get you started if you are new to 3D printing with OrcaSlicer :
 
+<iframe
+  src="https://www.youtube.com/watch?v=KWfKkeOSpmw"
+  style="width:100%; height:480px;"
+></iframe>
 https://www.youtube.com/watch?v=KWfKkeOSpmw
 
 ##
