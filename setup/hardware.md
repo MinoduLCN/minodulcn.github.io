@@ -19,7 +19,7 @@ Pictures:
 
 ![BoxView2](assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29open.jpg){: .BoxView2}
 
-![BoxView2](assets/images/!0B_Parametric_Box_AxialFan_AirFlowVent_v29_2.jpg){: .BoxView2}
+![BoxView3](assets/images/!0B_Parametric_Box_AxialFan_AirFlowVent_v29_2.jpg){: .BoxView3}
 
 
 # Requirements
