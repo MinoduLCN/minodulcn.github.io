@@ -13,13 +13,13 @@ Design 0B - Fixation With screw and Bracket
 
 Pictures:
 
-![BoxView0](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29.png){: .BoxView0}
+![BoxView0](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29.png)
 
-![BoxView1](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29Inside.jpg){: .BoxView1}
+![BoxView1](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29Inside.jpg)
 
-![BoxView2](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29open.jpg){: .BoxView2}
+![BoxView2](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29open.jpg)
 
-![BoxView3](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29_2.jpg){: .BoxView3}
+![BoxView3](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29_2.jpg)
 
 Assembling
 
@@ -51,11 +51,6 @@ Battery-Solar-Power pour le LCN
 
 - Technical Summary – Solar Power System for Raspberry Pi 5 (For 24/7 Operation)
 
-## **RPi 5 Mechancal Specs:**
-
- 
-
-https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-mechanical-drawing.pdf
 
 Other Boxes
 
@@ -74,17 +69,16 @@ Other Boxes
 
 ### What do we need to print and How
 
-3D Files
+*3D Files*
 
-Version 1
 
-0B_Parametric_Box_AxialFan_AirFlowVent v50.avi
+
 
 **What do**
 
 ### How to 3D print the STL files above ? (I you already know how to slice the STL files skip to XX)
 
-3D printers only understand G CODE language (**geometric code)**; So what we need to do is to convert the STL) files into G CODE. for that we need a type of Software call slicer. I personally use [OrcaSlicer](https://www.orcaslicer.com/) but they all work the same.
+3D printers only understand G CODE language (**geometric code)**; So what we need to do is to convert the *STL* files into G CODE. for that we need a type of Software call slicer. I personally use [OrcaSlicer](https://www.orcaslicer.com/) but they all work the same.
 
 What this quick video to get you started if you are new to 3D printing with OrcaSlicer :
 
@@ -92,6 +86,21 @@ What this quick video to get you started if you are new to 3D printing with Orca
   src="https://www.youtube.com/watch?v=KWfKkeOSpmw"
   style="width:100%; height:480px;"
 ></iframe>
-https://www.youtube.com/watch?v=KWfKkeOSpmw
 
+
+Here is The Orca slicer projectfile withh all the parts
+    - [Minodu_Box.3mf](../assets/3dFiles/Minodu_Box.3mf)
+here is the list and number of files to print:
+*3D Files*
+*ABS or at least PETG for outdoor setup*
+ - [01x Base](../assets/3dFiles/Base_x01.stl)
+ - [01x Top](../assets/3dFiles/Top_x01.stl) if you can Print Mulitcolor use This         [Top_x01-MultiColor.stl](../assets/3dFiles/Top_x01-MultiColor.stl)
+ - [02x Hinge](../assets/3dFiles/Hinge_x02.stl)
+ - [02x Latch](../assets/3dFiles/Latch_x02.stl)
+ - [02x Latch clip](../assets/3dFiles/Clip_x02.stl)
+
+ *TPU parts*
+ - [02x TPU Cable outlet cap](../assets/3dFiles/TPU_CableOutletCap_x02.stl)
+ - [01x TPU RPi5 ports dust cap](../assets/3dFiles/TPU_RPi5PortDustCaps_x01.stl)
+ - 
 ##
