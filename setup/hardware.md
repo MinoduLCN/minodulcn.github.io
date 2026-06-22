@@ -3,30 +3,26 @@ layout: page
 title: Hardware Assembly
 ---
 
-
-# The Hardware to Build
-
 <iframe
   src="https://a360.co/4q3GGlT"
   style="width:100%; height:720px;"
 ></iframe>
+[Link to Design (Autodesk Fusion 360)](https://a360.co/4q3GGlT): https://a360.co/4q3GGlT
 
 * TOC
 {:toc}
 
-Design 0B - Fixation With screw and Bracket
+<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
 
-Pictures:
+  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29.png" style="width: 23%;" />
+  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29Inside.jpg" style="width: 23%;" />
+  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29open.jpg" style="width: 23%;" />
+  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29_2.jpg" style="width: 23%;" />
 
-![BoxView0](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29.png)
+</div>
 
-![BoxView1](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29Inside.jpg)
 
-![BoxView2](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29open.jpg)
-
-![BoxView3](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29_2.jpg)
-
-Assembly
+## Assembly
 
 <iframe
   src="https://YoutubePlaceHolder"
@@ -34,39 +30,18 @@ Assembly
 ></iframe>
 
 # Requirements
-
-- weatherproof: rain-, dust- and windproof
-- openable for maintenance
+- Weatherproof: rain-, dust- and windproof
+- Openable for maintenance
 - Contain RPi 5+ SolarPower Manager board(Type to be confirmed) with The TelaAgriculture board stacked on Top
-
-## Sensors
-
 - Output for the sensors
-- Possibility of measuring UV light
+- Input for the solar panel cables
+
+## Stevenson Screen : Sensors
 - Stevenson Screen for environmental sensors that need to be protected but still measure temperature, humidity, etc.
 - Weather Meter connection
 
-Minodu Sensors
 
-## Solar Power
-
-- Input for the solar panel cables
-
-Battery-Solar-Power pour le LCN
-
-- Technical Summary – Solar Power System for Raspberry Pi 5 (For 24/7 Operation)
-
-
-Other Boxes
-
-# Images - Development Process
-
-## [Link to Design (Autodesk Fusion 360)](https://a360.co/4q3GGlT): https://a360.co/4q3GGlT
-
-<iframe
-  src="https://a360.co/4q3GGlT"
-  style="width:100%; height:720px;"
-></iframe>
+## Images - Development Process
 
 ## 3D Printing 
 
@@ -75,7 +50,6 @@ Other Boxes
 - TPU for flexible and sealing components
 
 ### Files
-
 *ABS or at least PETG for outdoor setup*
  - [01x Base](../assets/3dFiles/Base_x01.stl)
  - [01x Top](../assets/3dFiles/Top_x01.stl) if you can Print Mulitcolor use This [Top_x01-MultiColor.stl](../assets/3dFiles/Top_x01-MultiColor.stl)
