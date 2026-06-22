@@ -82,10 +82,7 @@ Other Boxes
 
 What this quick video to get you started if you are new to 3D printing with OrcaSlicer :
 
-<iframe
-  src="https://www.youtube.com/watch?v=KWfKkeOSpmw"
-  style="width:100%; height:480px;"
-></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KWfKkeOSpmw?si=F57jzQ7q-ktbowFn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 Here is The Orca slicer projectfile withh all the parts
