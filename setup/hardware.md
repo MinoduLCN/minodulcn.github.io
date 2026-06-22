@@ -3,11 +3,16 @@ layout: page
 title: Hardware Assembly
 ---
 
-# The Hardware To build
 
-https://a360.co/4q3GGlT
+# The Hardware to Build
 
+<iframe
+  src="https://a360.co/4q3GGlT"
+  style="width:100%; height:720px;"
+></iframe>
 
+* TOC
+{:toc}
 
 Design 0B - Fixation With screw and Bracket
 
@@ -21,7 +26,7 @@ Pictures:
 
 ![BoxView3](../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29_2.jpg)
 
-Assembling
+Assembly
 
 <iframe
   src="https://YoutubePlaceHolder"
@@ -63,39 +68,32 @@ Other Boxes
   style="width:100%; height:720px;"
 ></iframe>
 
-# 3D printing & Assembly Instruction
+## 3D Printing 
 
-## 3D printing
+### Materials
+- ABS or PETG filament
+- TPU for flexible and sealing components
 
-### What do we need to print and How
+### Files
 
-*3D Files*
-
-
-
-
-**What do**
-
-### How to 3D print the STL files above ? (I you already know how to slice the STL files skip to XX)
-
-3D printers only understand G CODE language (**geometric code)**; So what we need to do is to convert the *STL* files into G CODE. for that we need a type of Software call slicer. I personally use [OrcaSlicer](https://www.orcaslicer.com/) but they all work the same.
-
-What this quick video to get you started if you are new to 3D printing with OrcaSlicer :
-[https://img.youtube.com/vi/KWfKkeOSpmw/0.jpg](https://www.youtube.com/watch?v=KWfKkeOSpmw)
-
-Here is The Orca slicer projectfile withh all the parts
-    - [Minodu_Box.3mf](../assets/3dFiles/Minodu_Box.3mf)
-here is the list and number of files to print:
-*3D Files*
 *ABS or at least PETG for outdoor setup*
  - [01x Base](../assets/3dFiles/Base_x01.stl)
- - [01x Top](../assets/3dFiles/Top_x01.stl) if you can Print Mulitcolor use This         [Top_x01-MultiColor.stl](../assets/3dFiles/Top_x01-MultiColor.stl)
+ - [01x Top](../assets/3dFiles/Top_x01.stl) if you can Print Mulitcolor use This [Top_x01-MultiColor.stl](../assets/3dFiles/Top_x01-MultiColor.stl)
  - [02x Hinge](../assets/3dFiles/Hinge_x02.stl)
  - [02x Latch](../assets/3dFiles/Latch_x02.stl)
  - [02x Latch clip](../assets/3dFiles/Clip_x02.stl)
 
- *TPU parts*
+ *Flexible parts (TPU)*
  - [02x TPU Cable outlet cap](../assets/3dFiles/TPU_CableOutletCap_x02.stl)
  - [01x TPU RPi5 ports dust cap](../assets/3dFiles/TPU_RPi5PortDustCaps_x01.stl)
- - 
+
+### Slicer Setup
+3D printers only understand G-code language (**geometric code)**; So what we need to do is to convert the *STL* files into G CODE. 
+
+Recommended tool: I personally use [OrcaSlicer](https://www.orcaslicer.com/) but they all work the same.
+Tool tutorial: Watch [this quick video](https://www.youtube.com/watch?v=KWfKkeOSpmw) to get you started if you are new to 3D printing with OrcaSlicer.
+
+Here is The Orca slicer projectfile withh all the parts
+    - [Minodu_Box.3mf](../assets/3dFiles/Minodu_Box.3mf)
+
 ##
