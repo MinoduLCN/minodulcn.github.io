@@ -81,9 +81,7 @@ Other Boxes
 3D printers only understand G CODE language (**geometric code)**; So what we need to do is to convert the *STL* files into G CODE. for that we need a type of Software call slicer. I personally use [OrcaSlicer](https://www.orcaslicer.com/) but they all work the same.
 
 What this quick video to get you started if you are new to 3D printing with OrcaSlicer :
-
-https://img.youtube.com/vi/KWfKkeOSpmw/0.jpg](https://www.youtube.com/watch?v=KWfKkeOSpmw)
-
+[https://img.youtube.com/vi/KWfKkeOSpmw/0.jpg](https://www.youtube.com/watch?v=KWfKkeOSpmw)
 
 Here is The Orca slicer projectfile withh all the parts
     - [Minodu_Box.3mf](../assets/3dFiles/Minodu_Box.3mf)
