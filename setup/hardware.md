@@ -12,12 +12,12 @@ title: Hardware Assembly
 * TOC
 {:toc}
 
-<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; flex-wrap: wrap;">
 
-  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29.png" style="width: 23%;" />
-  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29Inside.jpg" style="width: 23%;" />
-  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29open.jpg" style="width: 23%;" />
-  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29_2.jpg" style="width: 23%;" />
+  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29.png"/>
+  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29Inside.jpg"/>
+  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29open.jpg"/>
+  <img src="../assets/images/0B_Parametric_Box_AxialFan_AirFlowVent_v29_2.jpg"/>
 
 </div>
 
