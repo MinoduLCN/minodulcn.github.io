@@ -240,7 +240,7 @@ Get information for a specific role.
 
 ###### Products
 
-####### GET `/v1/products`
+GET `/v1/products`
 List all products.
 
 **Authentication:** Required (Bearer Token)
@@ -249,7 +249,7 @@ List all products.
 
 ---
 
-####### POST `/v1/products`
+POST `/v1/products`
 Create a new product.
 
 **Authentication:** Required (Bearer Token)
@@ -270,7 +270,7 @@ Create a new product.
 
 ---
 
-####### GET `/v1/products/{id}`
+GET `/v1/products/{id}`
 Get information for a specific product.
 
 **Authentication:** Required (Bearer Token)
@@ -282,7 +282,7 @@ Get information for a specific product.
 
 ---
 
-####### PATCH `/v1/products/{id}`
+PATCH `/v1/products/{id}`
 Update a specific product.
 
 **Authentication:** Required (Bearer Token)
@@ -306,7 +306,7 @@ Update a specific product.
 
 ---
 
-####### DELETE `/v1/products/{id}`
+DELETE `/v1/products/{id}`
 Delete a specific product.
 
 **Authentication:** Required (Bearer Token)
@@ -320,7 +320,7 @@ Delete a specific product.
 
 ###### Product Categories
 
-####### GET `/v1/product-categories`
+GET `/v1/product-categories`
 List all product categories.
 
 **Authentication:** Required (Bearer Token)
@@ -329,7 +329,7 @@ List all product categories.
 
 ---
 
-####### POST `/v1/product-categories`
+POST `/v1/product-categories`
 Create a new product category.
 
 **Authentication:** Required (Bearer Token)
@@ -346,7 +346,7 @@ Create a new product category.
 
 ---
 
-####### GET `/v1/product-categories/{id}`
+GET `/v1/product-categories/{id}`
 Get information for a specific category.
 
 **Authentication:** Required (Bearer Token)
@@ -358,7 +358,7 @@ Get information for a specific category.
 
 ---
 
-####### PATCH `/v1/product-categories/{id}`
+PATCH `/v1/product-categories/{id}`
 Update a specific category.
 
 **Authentication:** Required (Bearer Token)
@@ -378,7 +378,7 @@ Update a specific category.
 
 ---
 
-####### DELETE `/v1/product-categories/{id}`
+DELETE `/v1/product-categories/{id}`
 Delete a specific category.
 
 **Authentication:** Required (Bearer Token)
@@ -394,7 +394,7 @@ Delete a specific category.
 
 ###### Product Offers
 
-####### GET `/v1/product-offers`
+GET `/v1/product-offers`
 List all product offers.
 
 **Authentication:** Required (Bearer Token)
@@ -403,7 +403,7 @@ List all product offers.
 
 ---
 
-####### POST `/v1/product-offers`
+POST `/v1/product-offers`
 Create a new product offer.
 
 **Authentication:** Required (Bearer Token)
@@ -421,7 +421,7 @@ Create a new product offer.
 
 ---
 
-####### GET `/v1/product-offers/archived`
+GET `/v1/product-offers/archived`
 List all archived product offers.
 
 **Authentication:** Required (Bearer Token)
@@ -430,7 +430,7 @@ List all archived product offers.
 
 ---
 
-####### GET `/v1/product-offers/farmer/{id}`
+GET `/v1/product-offers/farmer/{id}`
 List product offers filtered by farmer.
 
 **Authentication:** Required (Bearer Token)
@@ -442,7 +442,7 @@ List product offers filtered by farmer.
 
 ---
 
-####### GET `/v1/product-offers/product/{id}`
+GET `/v1/product-offers/product/{id}`
 List product offers filtered by product.
 
 **Authentication:** Required (Bearer Token)
@@ -454,7 +454,7 @@ List product offers filtered by product.
 
 ---
 
-####### GET `/v1/product-offers/{id}`
+GET `/v1/product-offers/{id}`
 Get information for a specific offer.
 
 **Authentication:** Required (Bearer Token)
@@ -466,7 +466,7 @@ Get information for a specific offer.
 
 ---
 
-####### PATCH `/v1/product-offers/{id}`
+PATCH `/v1/product-offers/{id}`
 Update a specific product offer.
 
 **Authentication:** Required (Bearer Token)
@@ -487,7 +487,7 @@ Update a specific product offer.
 
 ---
 
-####### DELETE `/v1/product-offers/{id}`
+DELETE `/v1/product-offers/{id}`
 Delete a specific product offer.
 
 **Authentication:** Required (Bearer Token)
@@ -499,7 +499,7 @@ Delete a specific product offer.
 
 ---
 
-####### PUT `/v1/product-offers/archive/{id}`
+PUT `/v1/product-offers/archive/{id}`
 Archive a specific product offer.
 
 **Authentication:** Required (Bearer Token)
@@ -511,7 +511,7 @@ Archive a specific product offer.
 
 ---
 
-####### PUT `/v1/product-offers/unarchive/{id}`
+PUT `/v1/product-offers/unarchive/{id}`
 Unarchive a specific product offer.
 
 **Authentication:** Required (Bearer Token)
@@ -525,7 +525,7 @@ Unarchive a specific product offer.
 
 ###### Product Demands
 
-####### GET `/v1/product-demands`
+GET `/v1/product-demands`
 List all product demands.
 
 **Authentication:** Required (Bearer Token)
@@ -534,7 +534,7 @@ List all product demands.
 
 ---
 
-####### POST `/v1/product-demands`
+POST `/v1/product-demands`
 Create a new product demand.
 
 **Authentication:** Required (Bearer Token)
@@ -553,7 +553,7 @@ Create a new product demand.
 
 ---
 
-####### GET `/v1/product-demands/archived`
+GET `/v1/product-demands/archived`
 List all archived product demands.
 
 **Authentication:** Required (Bearer Token)
@@ -562,7 +562,7 @@ List all archived product demands.
 
 ---
 
-####### GET `/v1/product-demands/partner/{id}`
+GET `/v1/product-demands/partner/{id}`
 List demands filtered by partner.
 
 **Authentication:** Required (Bearer Token)
@@ -574,7 +574,7 @@ List demands filtered by partner.
 
 ---
 
-####### GET `/v1/product-demands/product/{id}`
+GET `/v1/product-demands/product/{id}`
 List demands filtered by product.
 
 **Authentication:** Required (Bearer Token)
@@ -586,7 +586,7 @@ List demands filtered by product.
 
 ---
 
-####### GET `/v1/product-demands/{id}`
+GET `/v1/product-demands/{id}`
 Get information for a specific demand.
 
 **Authentication:** Required (Bearer Token)
@@ -598,7 +598,7 @@ Get information for a specific demand.
 
 ---
 
-####### PATCH `/v1/product-demands/{id}`
+PATCH `/v1/product-demands/{id}`
 Update a specific product demand.
 
 **Authentication:** Required (Bearer Token)
@@ -620,7 +620,7 @@ Update a specific product demand.
 
 ---
 
-####### DELETE `/v1/product-demands/{id}`
+DELETE `/v1/product-demands/{id}`
 Delete a specific product demand.
 
 **Authentication:** Required (Bearer Token)
@@ -632,7 +632,7 @@ Delete a specific product demand.
 
 ---
 
-####### PUT `/v1/product-demands/{id}/archive`
+PUT `/v1/product-demands/{id}/archive`
 Archive a specific product demand.
 
 **Authentication:** Required (Bearer Token)
@@ -644,7 +644,7 @@ Archive a specific product demand.
 
 ---
 
-####### PUT `/v1/product-demands/{id}/unarchive`
+PUT `/v1/product-demands/{id}/unarchive`
 Unarchive a specific product demand.
 
 **Authentication:** Required (Bearer Token)
@@ -660,7 +660,7 @@ Unarchive a specific product demand.
 
 ###### Posts
 
-####### GET `/v1/posts`
+GET `/v1/posts`
 List all posts.
 
 **Authentication:** Required (Bearer Token)
@@ -669,7 +669,7 @@ List all posts.
 
 ---
 
-####### POST `/v1/posts`
+POST `/v1/posts`
 Create a new post.
 
 **Authentication:** Required (Bearer Token)
@@ -694,7 +694,7 @@ Create a new post.
 
 ---
 
-####### GET `/v1/posts/resource/{id}`
+GET `/v1/posts/resource/{id}`
 List posts filtered by a specific resource.
 
 **Authentication:** Required (Bearer Token)
@@ -706,7 +706,7 @@ List posts filtered by a specific resource.
 
 ---
 
-####### GET `/v1/posts/tag/{id}`
+GET `/v1/posts/tag/{id}`
 List posts filtered by a specific tag.
 
 **Authentication:** Required (Bearer Token)
@@ -718,7 +718,7 @@ List posts filtered by a specific tag.
 
 ---
 
-####### GET `/v1/posts/{id}`
+GET `/v1/posts/{id}`
 Get information for a specific post.
 
 **Authentication:** Required (Bearer Token)
@@ -730,7 +730,7 @@ Get information for a specific post.
 
 ---
 
-####### PATCH `/v1/posts/{id}`
+PATCH `/v1/posts/{id}`
 Update a specific post.
 
 **Authentication:** Required (Bearer Token)
@@ -758,7 +758,7 @@ Update a specific post.
 
 ---
 
-####### DELETE `/v1/posts/{id}`
+DELETE `/v1/posts/{id}`
 Delete a specific post.
 
 **Authentication:** Required (Bearer Token)
@@ -772,7 +772,7 @@ Delete a specific post.
 
 ###### Post Categories
 
-####### GET `/v1/post-categories`
+GET `/v1/post-categories`
 List all post categories.
 
 **Authentication:** Required (Bearer Token)
@@ -781,7 +781,7 @@ List all post categories.
 
 ---
 
-####### POST `/v1/post-categories`
+POST `/v1/post-categories`
 Create a new post category.
 
 **Authentication:** Required (Bearer Token)
@@ -799,7 +799,7 @@ Create a new post category.
 
 ---
 
-####### GET `/v1/post-categories/{id}`
+GET `/v1/post-categories/{id}`
 Get information for a specific category.
 
 **Authentication:** Required (Bearer Token)
@@ -811,7 +811,7 @@ Get information for a specific category.
 
 ---
 
-####### PATCH `/v1/post-categories/{id}`
+PATCH `/v1/post-categories/{id}`
 Update a specific category.
 
 **Authentication:** Required (Bearer Token)
@@ -832,7 +832,7 @@ Update a specific category.
 
 ---
 
-####### DELETE `/v1/post-categories/{id}`
+DELETE `/v1/post-categories/{id}`
 Delete a specific category.
 
 **Authentication:** Required (Bearer Token)
@@ -846,7 +846,7 @@ Delete a specific category.
 
 ###### Post Tags
 
-####### GET `/v1/tags`
+GET `/v1/tags`
 List all tags.
 
 **Authentication:** Required (Bearer Token)
@@ -855,7 +855,7 @@ List all tags.
 
 ---
 
-####### POST `/v1/tags`
+POST `/v1/tags`
 Create a new tag.
 
 **Authentication:** Required (Bearer Token)
@@ -872,7 +872,7 @@ Create a new tag.
 
 ---
 
-####### GET `/v1/tags/{id}`
+GET `/v1/tags/{id}`
 Get information for a specific tag.
 
 **Authentication:** Required (Bearer Token)
@@ -884,7 +884,7 @@ Get information for a specific tag.
 
 ---
 
-####### PATCH `/v1/tags/{id}`
+PATCH `/v1/tags/{id}`
 Update a specific tag.
 
 **Authentication:** Required (Bearer Token)
@@ -904,7 +904,7 @@ Update a specific tag.
 
 ---
 
-####### DELETE `/v1/tags/{id}`
+DELETE `/v1/tags/{id}`
 Delete a specific tag.
 
 **Authentication:** Required (Bearer Token)
@@ -918,7 +918,7 @@ Delete a specific tag.
 
 ###### Post Resources
 
-####### GET `/v1/resource`
+GET `/v1/resource`
 List all resources.
 
 **Authentication:** Required (Bearer Token)
@@ -927,7 +927,7 @@ List all resources.
 
 ---
 
-####### POST `/v1/resource`
+POST `/v1/resource`
 Create a new resource.
 
 **Authentication:** Required (Bearer Token)
@@ -944,7 +944,7 @@ Create a new resource.
 
 ---
 
-####### GET `/v1/resource/{id}`
+GET `/v1/resource/{id}`
 Get information for a specific resource.
 
 **Authentication:** Required (Bearer Token)
@@ -956,7 +956,7 @@ Get information for a specific resource.
 
 ---
 
-####### PATCH `/v1/resource/{id}`
+PATCH `/v1/resource/{id}`
 Update a specific resource.
 
 **Authentication:** Required (Bearer Token)
@@ -976,7 +976,7 @@ Update a specific resource.
 
 ---
 
-####### DELETE `/v1/resource/{id}`
+DELETE `/v1/resource/{id}`
 Delete a specific resource.
 
 **Authentication:** Required (Bearer Token)
@@ -1159,7 +1159,7 @@ Delete a specific partner.
 
 ###### Backup
 
-####### GET `/backup/create`
+GET `/backup/create`
 Create a system backup (files & database dump).
 
 **Authentication:** Not required
@@ -1170,7 +1170,7 @@ Create a system backup (files & database dump).
 
 ###### Nginx Logs
 
-####### GET `/v1/nginx-logs`
+GET `/v1/nginx-logs`
 Read raw Nginx log files.
 
 **Authentication:** Required (Bearer Token)
@@ -1185,7 +1185,7 @@ Read raw Nginx log files.
 
 ---
 
-####### DELETE `/v1/nginx-logs`
+DELETE `/v1/nginx-logs`
 Empty all log files.
 
 **Authentication:** Required (Bearer Token)
@@ -1196,7 +1196,7 @@ Empty all log files.
 
 ###### Forum
 
-####### GET `/v1/forum`
+GET `/v1/forum`
 List all forum entries.
 
 **Authentication:** Required (Bearer Token)
@@ -1205,7 +1205,7 @@ List all forum entries.
 
 ---
 
-####### DELETE `/v1/forum/{id}`
+DELETE `/v1/forum/{id}`
 Remove a specific forum entry.
 
 **Authentication:** Required (Bearer Token)
