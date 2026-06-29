@@ -1,6 +1,7 @@
 ---
-layout: page
-title: Minodu Project
+layout: page_custom_title
+title: About
+custom_title: About the project
 ---
 
 Minodu explores how decentralised, locally maintained digital infrastructures can support climate resilience in low-resource settings. Its aim is to bridge local knowledge with scientific knowledge to better address the effects of climate change. The project follows a **co-design** approach: we design, test, and build together.

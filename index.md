@@ -22,7 +22,7 @@ Choose what you want to do:
 
 ## Explore
 
-* [The Minodu project](about)
+* [About the Minodu project](about)
 * [Setup guide](setup)
     * [Material list](setup/materials)
     * [Hardware assembly](setup/hardware)

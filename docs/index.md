@@ -1,6 +1,7 @@
 ---
-layout: page
-title: Documentation
+layout: page_custom_title
+title: Docs
+custom_title: Documentation
 ---
 
 This section provides technical and methodological documentation of the Minodu project and the Local Community Network (LCN).

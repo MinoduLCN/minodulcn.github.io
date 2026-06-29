@@ -1,6 +1,7 @@
 ---
-layout: page
-title: Setup guide
+layout: page_custom_title
+title: Setup
+custom_title: Setup Guide
 ---
  
 Welcome to the **MinoduLCN** setup guide. A step-by-step reference for assembling and configuring a Raspberry Pi–based local network weather station with the DIY Teleagriculture board. Follow the sections below in order for a smooth setup experience.

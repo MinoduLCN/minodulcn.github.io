@@ -51,6 +51,8 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
   pyinfra @ssh/<ip-address> deploy.py -v --ssh-user="pi" --ssh-password="<pi-user-password>"
   # or run a single step 
   pyinfra @ssh/minodupi.local 01_system_packages.py -v --ssh-user="pi" --ssh-password="<pi-user-password>"
+  # alternativly you can run the install script on the raspberry pi itself by logging in via ssh and running:
+  pyinfra @local deploy.py
   ```
 * It will ask you the following options. In [brackets] is the default value if you leave it empty. Installing the llm is only recommended on a raspberry pi 5 with at least 8gb of ram and a good cooling fan.
   ```
