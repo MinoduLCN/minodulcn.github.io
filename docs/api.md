@@ -1,4 +1,7 @@
-# Backend API documentation
+---
+layout: page
+title: Minodu API
+---
 
 In this document the api of the MinoduLCN system is described. It shows all available endpoints to interact with the system and retrieve data.
 
@@ -1822,16 +1825,6 @@ Status Code **200**
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |Response Get Authors Authors  Get|[[AuthorResponse](#schemaauthorresponse)]|false|none|none|
-
-*anyOf*
-
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-
-*or*
-
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
 
 <aside class="success">
 This operation does not require authentication
