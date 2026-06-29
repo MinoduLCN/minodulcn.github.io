@@ -27,7 +27,7 @@ title: Hardware Assembly
 ## 3D Printing Guide
 
 ### Materials
-- ABS or PETG filament
+- Idealy PETG, ASA, ABS ( Unprotected ABS should almost never be used outdoors. To make ABS suitable for the sun, it must be coated in a UV-resistant paint or clear coat)
 - TPU for flexible and sealing components
 
 ### 3D Files
