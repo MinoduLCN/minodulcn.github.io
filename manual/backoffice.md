@@ -30,6 +30,20 @@ The login page is the single entry point to the MINODU backoffice. Only users wi
 - Custom error messages depending on the failure type
 - Protection against unauthorized access
 
+### 1.2 Access Instructions
+To log in to the MINODU backoffice dashboard:
+
+1. Open your web browser and navigate to: **http://minodu.local:8080**
+2. You will be presented with the MINODU login screen.
+3. Enter your credentials in the designated fields:
+
+| Field | Value |
+|-------|-------|
+| **Username** | `admin` |
+| **Password** | `secret` |
+
+4. Click the **"Login"** or **"Connexion"** button to authenticate.
+
 ### 1.2 Screenshots
 {:.no_toc}
 
