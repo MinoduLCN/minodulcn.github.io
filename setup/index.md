@@ -7,7 +7,7 @@ Welcome to the **MinoduLCN** setup guide. A step-by-step reference for assemblin
  
 ## What You'll Be Building
  
-MinoduLCN (Local Climate Network) is a self-hosted, hardware weather station that runs entirely offline and offgrid and spans a local wifi network. It combines a Raspberry Pi with the Teleagriculture DIY sensor board to collect, process, and serve real-time environmental data.
+MinoduLCN (Local community Network) is a self-hosted, hardware weather station that runs entirely offline and offgrid and spans a local wifi network. It combines a Raspberry Pi with the Teleagriculture DIY sensor board to collect, process, and serve real-time environmental data.
  
 ## Setup Sections
  

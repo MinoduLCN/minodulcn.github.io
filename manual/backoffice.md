@@ -23,6 +23,7 @@ title: Backoffice
 The login page is the single entry point to the MINODU backoffice. Only users with the **ADMIN** role and an **ACTIVATED** account can access the platform.
 
 ### 1.1 Features
+{:.no_toc}
 - Authentication using phone/username and password
 - Show/hide password using the eye icon
 - Session management via tokens (JWT)
@@ -30,8 +31,11 @@ The login page is the single entry point to the MINODU backoffice. Only users wi
 - Protection against unauthorized access
 
 ### 1.2 Screenshots
-![Login_page](../assets/images/backoffice_loginpage.png)
-Login page – full form
+{:.no_toc}
+
+| Description | Screenshot |
+|---|---|
+| Login page – full form | ![Login_page](../assets/images/backoffice_loginpage.png) |
 
 ---
 
@@ -40,6 +44,7 @@ Login page – full form
 The first page displayed after login. It provides a statistical overview of the MINODU community with key indicators updated dynamically in real time.
 
 ### 2.1 Features
+{:.no_toc}
 - Display of the community name
 - Publications counter
 - Products counter
@@ -49,6 +54,7 @@ The first page displayed after login. It provides a statistical overview of the 
 - Real-time data updates
 
 ### 2.2 Sections
+{:.no_toc}
 #### Section 1 – Header with logout
 {:.no_toc}
 
@@ -80,6 +86,7 @@ Confirmation popup before logout. Buttons: **Confirm / Cancel**.
 Displays recent publications from the community.
 
 ### 2.3 Screenshots
+{:.no_toc}
 
 | Description | Screenshot |
 | ---- | ---- |
@@ -144,7 +151,8 @@ Displays and manages all community publications. The administrator has access to
 | **Upload 4** | PDF file |
 | **Actions** | Save \| Cancel |
 
-**Section 5 – Delete modal**  
+**Section 5 – Delete modal**
+
 Confirmation before permanent deletion. Buttons: **Confirm / Cancel**.
 
 #### Feedback messages
@@ -163,6 +171,7 @@ Confirmation before permanent deletion. Buttons: **Confirm / Cancel**.
 | Publications – delete confirmation modal | ![publicatons_delete](../assets/images/backoffice_publications_delete.png) |
 
 ### 3.2 Publication Categories
+
 **CRUD – bilingual French/Kabyè support**  
 Management of categories that organize publications. Each category has a name in two languages (French and Kabyè) and can be illustrated with an image.
 
@@ -213,6 +222,7 @@ Management of categories that organize publications. Each category has a name in
 | Publication Categories – Add/Edit | ![categories_add-edit](../assets/images/backoffice_categories_add-edit.png) |
 
 ### 3.3 Publication Tags
+
 **CRUD – labels with avatars**  
 Tags are labels associated with publications to improve organization and search. Each tag can have an illustrative image/avatar.
 
@@ -263,6 +273,7 @@ Tags are labels associated with publications to improve organization and search.
 | Publication Tags – Add/Edit modal | ![tags_add-edit](../assets/images/backoffice_tags_add-edit.png) |
 
 ### 3.4 Publication Details
+
 **Detailed view – full consultation and editing**  
 Page for in-depth consultation and editing of a single publication, accessible from the list through the “View” button. All properties and media are displayed and editable.
 
@@ -317,6 +328,7 @@ Page for in-depth consultation and editing of a single publication, accessible f
 Module for managing the MINODU platform’s product catalog. It includes management of products themselves and their categories.
 
 ### 4.1 Product List
+
 **Full CRUD – product catalog with images**  
 Displays and manages the complete product catalog. The administrator can add, edit, and delete products, manage their properties (name, description, category, price, sales unit), and manage their images.
 
@@ -428,6 +440,7 @@ Management of categories that organize products (e.g., vegetables, fruits, grain
 Module for managing the MINODU marketplace. It brings together product offers published by producers/companies and product requests submitted by customers.
 
 ### 5.1 Product Offers
+
 **Supply marketplace – published availability**  
 Management of product offers: the availability that producers and companies highlight on the platform.
 
@@ -472,6 +485,7 @@ Management of product offers: the availability that producers and companies high
 | Product Offers – Add/Edit modal | ![product_offers_add-edit](../assets/images/backoffice_product_offers_add-edit.png) |
 
 ### 5.2 Product Requests
+
 **Demand marketplace – customer needs**  
 Management of product requests: needs expressed by customers looking for products on the MINODU platform.
 
@@ -547,3 +561,327 @@ Management of all users registered on the MINODU platform. Allows administrators
 ---
 
 ## Partners
+Management of MINODU platform partners: companies, producers, and partner organizations. This section helps maintain business relationships and display partners to users.
+
+### 7.1 Features
+{:.no_toc}
+- **Read:** list of all partners
+- **Create:** add a new partner
+- **Update:** edit information
+- **Delete:** remove a partner
+- **Contacts:** management of complete contact information
+- **Categorization:** partner classification
+
+### 7.2 Sections
+{:.no_toc}
+#### Section 1 – Header and actions
+{:.no_toc}
+
+|---|---|
+| **Title** | “Partners” |
+| **Action** | “Add a partner” button |
+
+#### Section 2 – Partners table
+{:.no_toc}
+
+| **Column 1** | Name |
+| **Column 2** | Address |
+| **Column 3** | Phone |
+| **Column 5** | Actions: Edit \| Delete |
+
+#### Section 3 – Add/Edit modal
+{:.no_toc}
+
+|---|---|
+| **Field 1** | Name |
+| **Field 2** | Address |
+| **Field 3** | Phone |
+| **Actions** | Save \| Cancel |
+
+### Screenshots
+{:.no_toc}
+
+| Description | Screenshot |
+| --- | --- |
+| Partners – full table | ![partners_table](../assets/images/backoffice_partners_table.png) |
+| Partners – Add/Edit moral | ![partners_add-edit](../assets/images/backoffice_partners_add-edit.png) |
+
+---
+
+## Weather
+Module for displaying weather data for the region covered by MINODU. Data is retrieved from an external service or a local weather station configured in the settings.
+
+### 8.1 Features
+{:.no_toc}
+- Current weather conditions
+- Short-term forecasts (following days)
+- Data: temperature, humidity, wind speed, UV
+- Historical weather data
+- Weather station configuration via the Configuration page
+
+### 8.2 Weather data backup
+{:.no_toc}
+The MINODU system provides a manual download process for weather data in XLSX format to ensure preservation and traceability of historical climate data.
+
+| **Access** | “Download” button |
+| **Format** | XLSX file with standardized structure |
+| **Content** | Historical weather data |
+
+### 8.3 Sections
+{:.no_toc}
+
+#### Section 1 – Header
+{:.no_toc}
+
+|---|---|
+| **Title** | “Weather” |
+| **Location** | Displayed region/locality |
+
+#### Section 2 – Current conditions
+{:.no_toc}
+
+|---|---|
+| **Data 1** | Current temperature (°C) |
+| **Data 2** | Conditions (Sunny / Cloudy / Rain, etc.) |
+| **Data 3** | Illustrative weather icon |
+
+**Section 3 – Weather details**
+
+| **Data 1** | Humidity (%) |
+| **Data 2** | Wind speed (km/h) |
+| **Data 3** | Atmospheric pressure (hPa) |
+| **Data 4** | UV index |
+
+**Section 4 – Forecasts**
+
+| **Content 1** | Forecasts for the coming days |
+| **Content 2** | Temperature charts |
+
+### 8.4 Screenshots
+{:.no_toc}
+
+| Description | Screenshot |
+| --- | --- |
+| Weather – full dashboard | ![weather_dashboard](../assets/images/backoffice_weather_dashboard.png) |
+
+---
+
+## Forum
+Community discussion space for MINODU members. It enables exchanges between members, information sharing, and creation of discussion topics. The administrator has moderation rights.
+
+### 9.1 Features
+{:.no_toc}
+- **Read:** display active discussions
+- **Moderation:** delete
+
+### 9.2 Sections
+{:.no_toc}
+
+#### Section 1 – Header
+{:.no_toc}
+
+|---|---|
+| **Title** | “Forum” |
+
+#### Section 2 – Discussion List
+{:.no_toc}
+
+|---|---|
+| **Column 1** | Discussion title |
+| **Column 2** | Author |
+| **Column 3** | Actions: Detail \| Delete |
+
+### 9.3 Screenshots
+{:.no_toc}
+
+| --- | --- |
+| Forum – discussion list | ![discussion_list](../assets/images/backoffice_forum_discussion-list.png) |
+| Forum – detailed discussion | ![discussion_details](../assets/images/backoffice_forum_discussion-details.png) |
+| Forum – delete confirmation modal | ![confirmation_modal](../assets/images/backoffice_forum_confirmation.png) |
+
+---
+
+## Server Logs
+Display and management of system event logs. This makes it possible to track all actions, errors, connections, and overall backoffice activity. Navigation is organized around two axes: log source and event type.
+
+### 10.1 Features
+{:.no_toc}
+- **Filter by source:** Backend \| Frontend \| RAG (dropdown)
+- **Filter by type:** All \| Errors only \| Access only (tabs)
+- **Deletion:** log cleanup (with confirmation)
+
+### 10.2 Log navigation
+{:.no_toc}
+
+#### Axis 1 – Source selector (Dropdown)
+{:.no_toc}
+Dropdown at the top of the page for selecting the source.
+
+| Source | Description |
+|---|---|
+| **Backend** | Server logs – transactions, HTTP requests, database, server errors |
+| **Frontend** | Client logs – clicks, loads, JavaScript errors, console errors |
+| **RAG** | AI engine logs – requests, vector transformations, recommendations |
+
+⚠️ The “Frontend” source is selected by default.
+
+#### Axis 2 – Filtering tabs
+{:.no_toc}
+Three tabs below the dropdown for filtering by event type.
+
+| Tab | Description |
+|---|---|
+| **All logs** | All events: errors + warnings + information + access |
+| **Errors only** | HTTP 400–599, exceptions, critical warnings – red/orange color |
+| **Access only** | Authentications, login attempts, role changes – green/orange |
+
+⚠️ The “All logs” tab is active by default.
+
+### 10.3 Sections
+{:.no_toc}
+
+#### Section 1 – Header
+{:.no_toc}
+
+|---|---|
+| **Title** | “Server logs” |
+| **Subtitle** | “Display and management of server logs” |
+
+#### Section 2 – Source selector (Dropdown)
+{:.no_toc}
+
+Dropdown selection: **Frontend** (default) \| **Backend** \| **RAG**.
+
+#### Section 3 – Filtering tabs
+{:.no_toc}
+
+Three tabs: **All logs** (default) \| **Errors only** \| **Access only**.
+
+#### ### Section 4 – Log file management
+{:.no_toc}
+
+Optional deletion: “Delete logs” button with mandatory confirmation before execution.
+
+⚠️ Delete logs every 3 months.
+
+### 10.4 Usage scenarios
+{:.no_toc}
+
+| Scenario | Steps |
+|---|---|
+| **Scenario 1 – View all backend logs** | 1. Menu → Server logs<br>2. Dropdown (Source) → Select “Backend”<br>3. Tab (Filtering) → “All logs”<br>4. All server events are displayed |
+| **Scenario 2 – Find a frontend error** | 1. Menu → Server logs<br>2. Dropdown (Source) → Select “Frontend”<br>3. Tab (Filtering) → “Errors only”<br>4. Only matching frontend errors are displayed |
+| **Scenario 3 – Check access and authentication** | 1. Menu → Server logs<br>2. Dropdown (Source) → Select “Backend”<br>3. Tab (Filtering) → “Access only”<br>4. Login attempts, successful and failed authentications are displayed |
+| **Scenario 4 – Delete logs** | 1. View logs using any source/filter<br>2. Click “Clear logs”<br>3. Confirm in the confirmation modal<br>4. Logs are cleared from the server (disk space freed) |
+
+### 10.5 Common use-case guide
+{:.no_toc}
+
+| Use case | Recommended view |
+|---|---|
+| **Daily monitoring** | Backend → All logs (hourly) |
+| **User debugging** | Frontend → Errors only (when bugs are reported) |
+| **Security audit** | Backend → Access only (check suspicious authentications) |
+| **Monthly maintenance** | Delete to free space |
+
+### 10.6 Screenshots
+{:.no_toc}
+
+| Description | Screenshot |
+|---|---|
+| Logs – Source dropdown open (Frontend / Backend / RAG) | ![logs_sources](../assets/images/backoffice_logs_source.png) |
+| Backend logs – all logs | ![logs_backend](../assets/images/backoffice_logs_backend-logs.png) |
+| Frontend logs – all logs | ![logs_frontend](../assets/images/backoffice_logs_frontend-logs.png) |
+| RAG logs – all logs | ![logs_rag](../assets/images/backoffice_logs_rag-logs.png) |
+| Logs – delete confirmation modal | ![logs_delete-modal](../assets/images/backoffice_logs_delete-modal.png) |
+
+---
+
+## Configuration
+System administration page for configuring global MINODU settings. It allows customization of the community name, contact links, weather station, and administrator account security.
+
+### 11.1 Features
+{:.no_toc}
+- **Community information:** name, location, address
+- **Contact links:** WhatsApp, weather station
+- **Description:** community presentation and introduction
+- **Security:** change administrator password
+
+### 11.2 Sections
+{:.no_toc}
+
+#### Section 1 – Header
+{:.no_toc}
+
+|---|---|
+| **Title** | “Configuration” |
+
+#### Section 2 – General information
+{:.no_toc}
+
+|---|---|
+| **Field 1** | Community name |
+| **Field 2** | Location |
+| **Field 3** | Full address |
+| **Field 4** | WhatsApp link |
+| **Field 5** | Weather station link |
+| **Field 6** | Community presentation |
+
+#### Section 3 – Security
+{:.no_toc}
+
+|---|---|
+| **Action 1** | “Change password” button → opens modal |
+| **Action 2** | Save changes |
+
+#### Section 4 – Change password modal
+{:.no_toc}
+
+|---|---|
+| **Field 1** | New password |
+| **Field 2** | Confirm new password |
+| **Actions** | Validate \| Cancel |
+
+### 11.3 Feedback messages
+{:.no_toc}
+
+- “Your community information has been updated successfully!”
+- “Password changed successfully!”
+
+### 11.4 Screenshots
+{:.no_toc}
+
+| Description | Screenshot |
+|---|---|
+| Configuration – general form (information + links) | ![configuration_form](../assets/images/backoffice_configuration_form.png) |
+| Configuration – password change | ![configuration_pw](../assets/images/backoffice_configuration_password.png) |
+
+---
+
+## Module Summary
+
+| # | Module | Key features | Access |
+|---:|---|---|---|
+| **1** | **Authentication** | Login, sessions, security | Entry page |
+| **2** | **Dashboard** | Statistics, logout | After login |
+| **3.1** | **Publications** | CRUD + media uploads | Publications menu |
+| **3.2** | **Publication categories** | Bilingual FR/Kabyè CRUD | Publications menu |
+| **3.3** | **Publication tags** | CRUD with avatars | Publications menu |
+| **3.4** | **Publication details** | Consultation + editing | Via publication list |
+| **4.1** | **Products** | CRUD + price + unit | Products menu |
+| **4.2** | **Product categories** | CRUD with images | Products menu |
+| **5.1** | **Marketplace offers** | CRUD + availability status | Marketplace menu |
+| **5.2** | **Marketplace requests** | Consultation + status tracking | Marketplace menu |
+| **6** | **Users** | Consultation + blocking | Users menu |
+| **7** | **Partners** | CRUD + contacts | Partners menu |
+| **8** | **Weather** | Real-time display | Weather menu |
+| **9** | **Forum** | Discussions + moderation | Forum menu |
+| **10** | **Server logs** | Backend / Frontend / RAG | Logs menu |
+| **11** | **Configuration** | Settings + password | Config menu |
+
+<br>
+
+---
+
+© 2026 MINODU – Confidential  
+MINODU Backoffice – Administrator Documentation
