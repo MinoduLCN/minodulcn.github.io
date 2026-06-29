@@ -67,10 +67,9 @@ Here is The Orca slicer projectfile withh all the parts
 This guide explains how to assemble the 3D-printed protection box for the Minodu Local Network. The enclosure is designed to house a Raspberry Pi 5, the Tele-Agriculture Board, a 12V-to-5V DC-DC power converter, sensor cables, and can be mounted on a pole for outdoor installations with a Stevenson screen.
 
 Assembly video
-<iframe
-  src="https://youtu.be/kqEWPuSYfUo"
-  style="width:100%; height:480px;"
-></iframe>
+
+<iframe width="1905" height="742" src="https://www.youtube.com/embed/kqEWPuSYfUo" title="Minodu Protection Box Assembly steps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
 
 ### Required Components
 
