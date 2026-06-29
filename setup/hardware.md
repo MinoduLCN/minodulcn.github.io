@@ -68,7 +68,7 @@ This guide explains how to assemble the 3D-printed protection box for the Minodu
 
 Assembly video
 <iframe
-  src="https://YoutubePlaceHolder"
+  src="https://youtu.be/kqEWPuSYfUo"
   style="width:100%; height:480px;"
 ></iframe>
 
