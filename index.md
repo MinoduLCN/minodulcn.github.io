@@ -9,10 +9,7 @@ title: Home
 
 ![cover](assets/images/minodu_cover.webp){: .cover-image}
 
-Climate change and population growth in sub-Saharan Africa make it difficult to manage land sustainably while conserving natural resources. There is often a gap between existing, scientific concepts on sustainable land management and concrete solutions on the ground.
-Welcome to Minodu! 
-
-Together with rural communities in the Kara region of northern Togo, students, researchers, and technical partners, the project co-designed a Local Community Network that works without continuous internet access or electricity. It provides local weather data, agricultural audio content in French and Kabiyè, a community forum, and a market interface. The system combines low-cost hardware, environmental sensing, local knowledge, and community-based maintenance. 
+Together with rural communities in the Kara region of northern Togo, students, researchers, and technical partners, the Minodu project co-designed a Local Community Network that works without continuous internet access or electricity. It provides local weather data, agricultural audio content in French and Kabiyè, a community forum, and a market interface. The system combines low-cost hardware, environmental sensing, local knowledge, and community-based maintenance. 
 
 ## Getting started
 
