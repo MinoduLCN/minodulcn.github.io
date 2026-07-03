@@ -1,11 +1,10 @@
-
 ---
 layout: page
-title: Maintenance
+title: Backoffice
 ---
 
-
-### Maintenance
+## Maintenance
+{:.no_toc}
 
 Suggestion ou proposition sur lequel travailler 
 Linked to the last point: some maintenance/governance content to give orientation/set up some kind of workflows? In the sense of the following: 
