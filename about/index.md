@@ -9,15 +9,23 @@ At the core of Minodu is the Local Community Network (LCN), a decentralised, off
 The system enables access to environmental data, agricultural advice, and community knowledge through local networks that operate without continuous Internet connectivity.
 
 ### Objectives
-Launched in 2023 in the Kara region, Togo, Minodu aims to:
-- facilitate access to useful knowledge without reliance on the Internet
-- promote local knowledge and on-the-ground experience, particularly from the communities of Tchitchao, Lama-Saoudé and Soumdina-Haut
-- co-create and develop practical solutions with the communities
-- strengthen self-reliance and mutual aid among villages
+Launched in 2023 in the Kara region of northern Togo, Minodu aims to: 
 
-Students from the [**Kara University**](https://univ-kara.org/) co-designed with the communities **simple and practical** approaches that are **adapted to their specific needs**.
+- facilitate access to useful knowledge without depending on continuous Internet access; 
 
-**DIY** stands for **«Do It Yourself»** and means making things using simple materials, without the need to hire expensive professionals. DIY helps to build a **robust**, **local community network** that is **inexpensive** and can be **maintained locally**.
+- value local knowledge and field-based experience, particularly from the communities of Tchitchao, Lama-Saoudé, and Soumdina-Haut; 
+
+- co-create practical solutions with communities, based on locally identified needs; 
+
+- strengthen self-reliance, local maintenance capacities, and mutual aid between villages. 
+
+Students from the [**Kara University**](https://univ-kara.org/) worked with the communities to co-design **simple, practical and context-based** solutions.
+
+### What does DIY mean? 
+
+**DIY** stands for **«Do It Yourself»**. It means building, repairing, or adapting things with simple and accessible materials, without relying on expensive external experts.
+
+In Minodu, the DIY approach helps create a robust local community network that is affordable, locally understandable, and easier to maintain over time. 
 
 ### Partners
 This project is the result of a collaboration between the following parties:
@@ -32,17 +40,29 @@ This project is funded by the German Federal Ministry of Research, Technology an
 ---
 ### Contributing
 
-Contributions are welcome! Here's how:
+Contributions are welcome! 
+*Minodu is an open and evolving project. We welcome contributions from students, developers, researchers, makers, community members, and partner organisations who want to help improve the Local Community Network and adapt it to real needs on the ground.* 
 
+You can contribute in different ways, for example by:
+- reporting problems or bugs you encounter while using the system; 
+- suggesting new features, content, or interface improvements; 
+- improving the documentation, setup guide, or user manual; 
+- translating or adapting content into local languages; 
+- sharing ideas for using the LCN in schools, villages, farms, associations, or training contexts; 
+- contributing code, hardware improvements, or maintenance solutions. 
+
+If you would like to contribute directly to the code or documentation, you can: 
 1. Fork the repository on [GitHub](https://github.com/minodulcn/minodu).
 2. Create a feature branch: `git checkout -b feature/my-feature`
 3. Commit your changes: `git commit -m "Add my feature"`
-4. Open a Pull Request.
+4. Open a Pull Request with a brief description of what you changed and why. 
 
 ### Support
-Are you having problems with your Minodu LCN?
+Are you having problems with your Local Community Network (LCN)?
 Or do you have ideas you’d like to implement or share with others?
-We are still in the process of developing this part of the local network. Please note any issues you encounter here and send us a message or post into our [Discussion Baord](https://github.com/MinoduLCN/minodu/discussions).
+If you are not familiar with GitHub, you can still contribute. Please send us your feedback, questions, ideas, or post them in the [Discussion Baord](https://github.com/MinoduLCN/minodu/discussions). 
+Minodu is built through shared testing, local experience, and practical improvements over time. 
+
 
 ### License
 
