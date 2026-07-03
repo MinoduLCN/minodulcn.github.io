@@ -8,7 +8,7 @@ Welcome to the **Local Community Network (LCN)** setup guide. A step-by-step ref
  
 ## What You'll Be Building
  
-**The Minodu Local Community Network (LCN)** is a self-hosted, hardware weather station that runs entirely offline and offgrid and spans a local WIFI network. It combines a Raspberry Pi with the Teleagriculture DIY sensor board to collect, process, and serve real-time environmental data.
+**The Minodu Local Community Network (LCN)** is a self-hosted, hardware weather station that runs entirely offline and offgrid and spans a local WI-FI network. It combines a Raspberry Pi with the Teleagriculture DIY sensor board to collect, process, and serve real-time environmental data.
  
 ## Setup Sections
  
