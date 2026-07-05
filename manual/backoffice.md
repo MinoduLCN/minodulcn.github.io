@@ -10,7 +10,7 @@ title: Backoffice
 | **Version** | 1.0 |
 | **Date** | May 2026 |
 | **Language** | English |
-| **Audience** | MINODU system administrators |
+| **Audience** | Minodu system administrators |
 
 ## Content
 {:.no_toc}
@@ -20,7 +20,7 @@ title: Backoffice
 ---
 
 ## Authentification – Login
-The login page is the single entry point to the MINODU backoffice. Only users with the **ADMIN** role and an **ACTIVATED** account can access the platform.
+The login page is the single entry point to the Minodu backoffice. Only users with the **ADMIN** role and an **ACTIVATED** account can access the platform.
 
 ### 1.1 Features
 {:.no_toc}
@@ -31,10 +31,10 @@ The login page is the single entry point to the MINODU backoffice. Only users wi
 - Protection against unauthorized access
 
 ### 1.2 Access Instructions
-To log in to the MINODU backoffice dashboard:
+To log in to the Minodu backoffice dashboard:
 
 1. Open your web browser and navigate to: **http://minodu.local:8080**
-2. You will be presented with the MINODU login screen.
+2. You will be presented with the Minodu login screen.
 3. Enter your credentials in the designated fields:
 
 | Field | Value |
@@ -55,7 +55,7 @@ To log in to the MINODU backoffice dashboard:
 
 ## Home – Dashboard
 
-The first page displayed after login. It provides a statistical overview of the MINODU community with key indicators updated dynamically in real time.
+The first page displayed after login. It provides a statistical overview of the Minodu community with key indicators updated dynamically in real time.
 
 ### 2.1 Features
 {:.no_toc}
@@ -88,7 +88,7 @@ The first page displayed after login. It provides a statistical overview of the 
 
 #### Section 3 – Marketplace presentation
 {:.no_toc}
-Descriptive section of the platform with a general description and information about the MINODU marketplace.
+Descriptive section of the platform with a general description and information about the Minodu marketplace.
 
 #### Section 4 – Logout confirmation modal
 {:.no_toc}
@@ -110,7 +110,7 @@ Displays recent publications from the community.
 ---
 
 ## Publications
-Module for managing the MINODU community’s editorial content. This module is divided into four subsections: publication list, categories, tags, and the detailed view of a publication.
+Module for managing the Minodu community’s editorial content. This module is divided into four subsections: publication list, categories, tags, and the detailed view of a publication.
 
 ### 3.1 Publication List
 
@@ -126,7 +126,7 @@ Displays and manages all community publications. The administrator has access to
 - **Update:** edit all properties
 - **Delete:** with confirmation modal
 - **Search:** filter by title, author, category, and tags
-- **Uploads:** images, French/Kabyè audio, PDF, resources
+- **Uploads:** images, French/Kabiyè audio, PDF, resources
 
 #### Sections
 {:.no_toc}
@@ -151,6 +151,10 @@ Displays and manages all community publications. The administrator has access to
 | **Column 4** | Actions: Edit \| Delete |
 | **Navigation** | Pagination between pages |
 
+#### How do I add a new audio file/podcast? 
+{:.no_toc}
+
+
 **Section 4 – Add/Edit modal**
 
 |---|---|
@@ -161,9 +165,13 @@ Displays and manages all community publications. The administrator has access to
 | **Upload 1** | Main image (PNG/JPEG) |
 | **Field 5** | Tags (multiple selection) |
 | **Upload 2** | French audio |
-| **Upload 3** | Kabyè audio |
+| **Upload 3** | Kabiyè audio |
 | **Upload 4** | PDF file |
 | **Actions** | Save \| Cancel |
+
+#### How do I remove wrong content? 
+{:.no_toc}
+
 
 **Section 5 – Delete modal**
 
@@ -184,19 +192,24 @@ Confirmation before permanent deletion. Buttons: **Confirm / Cancel**.
 | Publications – Add/Edit modal | ![publications_modal](../assets/images/backoffice_publications_modal.png) |
 | Publications – delete confirmation modal | ![publicatons_delete](../assets/images/backoffice_publications_delete.png) |
 
+
+#### What should I never delete? 
+{:.no_toc}
+
+
 ### 3.2 Publication Categories
 
-**CRUD – bilingual French/Kabyè support**  
-Management of categories that organize publications. Each category has a name in two languages (French and Kabyè) and can be illustrated with an image.
+**CRUD – bilingual French/Kabiyè support**  
+Management of categories that organize publications. Each category has a name in two languages (French and Kabiyè) and can be illustrated with an image.
 
 #### Features
 {:.no_toc}
 
 - **Read:** list of all categories
 - **Create:** new category with image
-- **Update:** edit name (FR/Kabyè) and image
+- **Update:** edit name (FR/Kabiyè) and image
 - **Delete:** with confirmation
-- **Bilingual support:** French and Kabyè fields required
+- **Bilingual support:** French and Kabiyè fields required
 
 #### Sections
 {:.no_toc}
@@ -211,13 +224,13 @@ Management of categories that organize publications. Each category has a name in
 
 |---|---|
 | **Column 1** | Name in French |
-| **Column 2** | Name in Kabyè |
+| **Column 2** | Name in Kabiyè |
 | **Column 3** | Actions: Edit \| Delete |
 
 **Section 3 – Add/Edit modal**
 
 | **Field 1** | Name in French (required) |
-| **Field 2** | Name in Kabyè (required) |
+| **Field 2** | Name in Kabiyè (required) |
 | **Upload** | PNG/JPEG image + preview |
 | **Actions** | Save \| Cancel |
 
@@ -320,7 +333,7 @@ Page for in-depth consultation and editing of a single publication, accessible f
 |---|---|
 | **Image** | Main publication image |
 | **Tags** | List of associated tags |
-| **Audio** | Audio files (FR and Kabyè) |
+| **Audio** | Audio files (FR and Kabiyè) |
 | **PDF** | Attached PDF documents |
 
 **Section 4 – Action buttons**
@@ -339,7 +352,7 @@ Page for in-depth consultation and editing of a single publication, accessible f
 ---
 
 ## Products
-Module for managing the MINODU platform’s product catalog. It includes management of products themselves and their categories.
+Module for managing the Minodu platform’s product catalog. It includes management of products themselves and their categories.
 
 ### 4.1 Product List
 
@@ -451,7 +464,7 @@ Management of categories that organize products (e.g., vegetables, fruits, grain
 ---
 
 ## Marketplace
-Module for managing the MINODU marketplace. It brings together product offers published by producers/companies and product requests submitted by customers.
+Module for managing the Minodu marketplace. It brings together product offers published by producers/companies and product requests submitted by customers.
 
 ### 5.1 Product Offers
 
@@ -501,7 +514,7 @@ Management of product offers: the availability that producers and companies high
 ### 5.2 Product Requests
 
 **Demand marketplace – customer needs**  
-Management of product requests: needs expressed by customers looking for products on the MINODU platform.
+Management of product requests: needs expressed by customers looking for products on the Minodu platform.
 
 #### Features
 {:.no_toc}
@@ -539,7 +552,7 @@ Management of product requests: needs expressed by customers looking for product
 ---
 
 ## Users
-Management of all users registered on the MINODU platform. Allows administrators to consult profiles and manage roles, statuses, and permissions.
+Management of all users registered on the Minodu platform. Allows administrators to consult profiles and manage roles, statuses, and permissions.
 
 #### Features
 {:.no_toc}
@@ -575,7 +588,7 @@ Management of all users registered on the MINODU platform. Allows administrators
 ---
 
 ## Partners
-Management of MINODU platform partners: companies, producers, and partner organizations. This section helps maintain business relationships and display partners to users.
+Management of Minodu platform partners: companies, producers, and partner organizations. This section helps maintain business relationships and display partners to users.
 
 ### 7.1 Features
 {:.no_toc}
@@ -623,7 +636,13 @@ Management of MINODU platform partners: companies, producers, and partner organi
 ---
 
 ## Weather
-Module for displaying weather data for the region covered by MINODU. Data is retrieved from an external service or a local weather station configured in the settings.
+Module for displaying weather data for the region covered by Minodu. Data is retrieved from an external service or a local weather station configured in the settings.
+
+#### How do I export weather data? 
+{:.no_toc}
+
+
+
 
 ### 8.1 Features
 {:.no_toc}
@@ -635,11 +654,14 @@ Module for displaying weather data for the region covered by MINODU. Data is ret
 
 ### 8.2 Weather data backup
 {:.no_toc}
-The MINODU system provides a manual download process for weather data in XLSX format to ensure preservation and traceability of historical climate data.
+The Minodu system provides a manual download process for weather data in XLSX format to ensure preservation and traceability of historical climate data.
 
 | **Access** | “Download” button |
 | **Format** | XLSX file with standardized structure |
 | **Content** | Historical weather data |
+
+#### How do I back up the system? 
+{:.no_toc}
 
 ### 8.3 Sections
 {:.no_toc}
@@ -681,7 +703,7 @@ The MINODU system provides a manual download process for weather data in XLSX fo
 ---
 
 ## Forum
-Community discussion space for MINODU members. It enables exchanges between members, information sharing, and creation of discussion topics. The administrator has moderation rights.
+Community discussion space for Minodu members. It enables exchanges between members, information sharing, and creation of discussion topics. The administrator has moderation rights.
 
 ### 9.1 Features
 {:.no_toc}
@@ -812,7 +834,7 @@ Optional deletion: “Delete logs” button with mandatory confirmation before e
 ---
 
 ## Configuration
-System administration page for configuring global MINODU settings. It allows customization of the community name, contact links, weather station, and administrator account security.
+System administration page for configuring global Minodu settings. It allows customization of the community name, contact links, weather station, and administrator account security.
 
 ### 11.1 Features
 {:.no_toc}
@@ -870,6 +892,10 @@ System administration page for configuring global MINODU settings. It allows cus
 | Configuration – general form (information + links) | ![configuration_form](../assets/images/backoffice_configuration_form.png) |
 | Configuration – password change | ![configuration_pw](../assets/images/backoffice_configuration_password.png) |
 
+#### What do I do when the system is offline? 
+{:.no_toc}
+
+
 ---
 
 ## Module Summary
@@ -879,7 +905,7 @@ System administration page for configuring global MINODU settings. It allows cus
 | **1** | **Authentication** | Login, sessions, security | Entry page |
 | **2** | **Dashboard** | Statistics, logout | After login |
 | **3.1** | **Publications** | CRUD + media uploads | Publications menu |
-| **3.2** | **Publication categories** | Bilingual FR/Kabyè CRUD | Publications menu |
+| **3.2** | **Publication categories** | Bilingual FR/Kabiyè CRUD | Publications menu |
 | **3.3** | **Publication tags** | CRUD with avatars | Publications menu |
 | **3.4** | **Publication details** | Consultation + editing | Via publication list |
 | **4.1** | **Products** | CRUD + price + unit | Products menu |
@@ -897,5 +923,5 @@ System administration page for configuring global MINODU settings. It allows cus
 
 ---
 
-© 2026 MINODU – Confidential  
-MINODU Backoffice – Administrator Documentation
+© 2026 Minodu – Confidential  
+Minodu Backoffice – Administrator Documentation
