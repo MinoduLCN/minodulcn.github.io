@@ -151,10 +151,6 @@ Displays and manages all community publications. The administrator has access to
 | **Column 4** | Actions: Edit \| Delete |
 | **Navigation** | Pagination between pages |
 
-#### How do I add a new audio file/podcast? 
-{:.no_toc}
-
-
 **Section 4 – Add/Edit modal**
 
 |---|---|
@@ -169,13 +165,31 @@ Displays and manages all community publications. The administrator has access to
 | **Upload 4** | PDF file |
 | **Actions** | Save \| Cancel |
 
-#### How do I remove wrong content? 
+#### How do you add a new audio file/podcast? 
 {:.no_toc}
 
+To add a new audio file or podcast, open the **Add** form and complete the required information.
+
+1. Enter the **Author** and **Title** (required fields).
+2. Optionally, add a **Description**.
+3. Select the appropriate **Category**.
+4. Upload a **Main image** (PNG or JPEG).
+5. Select one or more **Tags**.
+6. Upload the audio files:
+   - French audio 
+   - Kabiyè audio 
+7. If applicable, upload a **PDF** file.(a document that content further informations about the work resumed in the audio files)
+8. Click **Save** to publish the audio, or **Cancel** to discard your changes.
 
 **Section 5 – Delete modal**
-
 Confirmation before permanent deletion. Buttons: **Confirm / Cancel**.
+
+#### How do you remove wrong content? 
+{:.no_toc}
+
+To remove content that is no longer needed or was added by mistake, click the **Delete** action. 
+A confirmation dialog will appear to prevent accidental deletion. 
+Click **Confirm** to permanently delete the content, or **Cancel** to keep it.
 
 #### Feedback messages
 {:.no_toc}
