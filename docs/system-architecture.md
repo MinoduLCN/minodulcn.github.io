@@ -22,7 +22,6 @@ The Local Community Network (LCN) is a decentralised, offline-first system combi
 
 ## Offline-first design
 
-
 ---
 
 ## Components
