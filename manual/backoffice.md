@@ -167,31 +167,8 @@ Displays and manages all community publications. The administrator has access to
 | **Upload 4** | PDF file |
 | **Actions** | Save \| Cancel |
 
-#### How do you add a new audio file/podcast? 
-{:.no_toc}
-
-To add a new audio file or podcast, open the **Add** form and complete the required information.
-
-1. Enter the **Author** and **Title** (required fields).
-2. Optionally, add a **Description**.
-3. Select the appropriate **Category**.
-4. Upload a **Main image** (PNG or JPEG).
-5. Select one or more **Tags**.
-6. Upload the audio files:
-   - French audio 
-   - Kabiyè audio 
-7. If applicable, upload a **PDF** file.(a document that content further informations about the work resumed in the audio files)
-8. Click **Save** to publish the audio, or **Cancel** to discard your changes.
-
 **Section 5 – Delete modal**
 Confirmation before permanent deletion. Buttons: **Confirm / Cancel**.
-
-#### How do you remove wrong content? 
-{:.no_toc}
-
-To remove content that is no longer needed or was added by mistake, click the **Delete** action. 
-A confirmation dialog will appear to prevent accidental deletion. 
-Click **Confirm** to permanently delete the content, or **Cancel** to keep it.
 
 #### Feedback messages
 {:.no_toc}
@@ -207,11 +184,6 @@ Click **Confirm** to permanently delete the content, or **Cancel** to keep it.
 | Publications – full table with pagination | ![publications](../assets/images/backoffice_publications.png) |
 | Publications – Add/Edit modal | ![publications_modal](../assets/images/backoffice_publications_modal.png) |
 | Publications – delete confirmation modal | ![publicatons_delete](../assets/images/backoffice_publications_delete.png) |
-
-
-#### What should I never delete? 
-{:.no_toc}
-
 
 ### 3.2 Publication Categories
 
@@ -654,12 +626,6 @@ Management of Minodu platform partners: companies, producers, and partner organi
 ## Weather
 Module for displaying weather data for the region covered by Minodu. Data is retrieved from an external service or a local weather station configured in the settings.
 
-#### How do I export weather data? 
-{:.no_toc}
-
-
-
-
 ### 8.1 Features
 {:.no_toc}
 - Current weather conditions
@@ -675,9 +641,6 @@ The Minodu system provides a manual download process for weather data in XLSX fo
 | **Access** | “Download” button |
 | **Format** | XLSX file with standardized structure |
 | **Content** | Historical weather data |
-
-#### How do I back up the system? 
-{:.no_toc}
 
 ### 8.3 Sections
 {:.no_toc}
@@ -907,6 +870,63 @@ System administration page for configuring global Minodu settings. It allows cus
 |---|---|
 | Configuration – general form (information + links) | ![configuration_form](../assets/images/backoffice_configuration_form.png) |
 | Configuration – password change | ![configuration_pw](../assets/images/backoffice_configuration_password.png) |
+
+### Important user flows
+Here are some common procedures
+
+#### How do you add a new audio file/podcast? 
+{:.no_toc}
+
+To add a new audio file or podcast, open the **Add** form and complete the required information.
+
+1. Enter the **Author** and **Title** (required fields).
+2. Optionally, add a **Description**.
+3. Select the appropriate **Category**.
+4. Upload a **Main image** (PNG or JPEG).
+5. Select one or more **Tags**.
+6. Upload the audio files:
+   - French audio 
+   - Kabiyè audio 
+7. If applicable, upload a **PDF** file.(a document that content further informations about the work resumed in the audio files)
+8. Click **Save** to publish the audio, or **Cancel** to discard your changes.
+
+#### How do you remove the wrong content? 
+{:.no_toc}
+1. Identify the incorrect content ( Title, Author name , audio, pdf file, etc.).
+2. Log in to the back office 
+3. Go to the list of content (publications, categories, products, tags, ect.).
+4. Search for the content by title, date, or author.
+5. Open the details page for the relevant content.
+To do a simple correction:
+- Edit the text or metadata.
+- Save the changes.
+To remove content that is no longer needed:
+- click the **Delete** action. 
+A confirmation dialog will appear to prevent accidental deletion. 
+- Click **Confirm** to permanently delete the content, or **Cancel** to keep it.
+
+#### How do I moderate forum posts? 
+{:.no_toc}
+
+The administrator can review active discussions and remove inappropriate topics or replies if necessary.
+Select the **Delete** action for the content to be removed, then confirm the deletion.
+Deleted content is permanently removed from the forum.
+
+#### How do I export weather data? 
+{:.no_toc}
+
+To collect historical weather data:
+1. Log in to the backoffice using an administrator account.
+2. Navigate to the **Weather Data** section.
+3. Click the **Download** button.
+4. The system generates an **XLSX** file containing the available historical weather data.
+5. Save the downloaded file to your computer for reporting or further analysis.
+
+#### How do I back up the system? 
+{:.no_toc}
+
+#### What should I never delete? 
+{:.no_toc}
 
 #### What do I do when the system is offline? 
 {:.no_toc}
