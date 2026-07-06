@@ -913,6 +913,13 @@ Deleted content is permanently removed from the forum.
 #### How do I export weather data? 
 {:.no_toc}
 
+To collect historical weather data:
+1. Log in to the backoffice using an administrator account.
+2. Navigate to the **Weather Data** section.
+3. Click the **Download** button.
+4. The system generates an **XLSX** file containing the available historical weather data.
+5. Save the downloaded file to your computer for reporting or further analysis.
+
 #### How do I back up the system? 
 {:.no_toc}
 
