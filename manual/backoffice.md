@@ -12,10 +12,12 @@ title: Backoffice
 | **Language** | English |
 | **Audience** | Minodu system administrators |
 
+<!-- <div id="content"> -->
 ## Content
 {:.no_toc}
 * TOC
 {:toc}
+<!-- </div> -->
 
 ---
 

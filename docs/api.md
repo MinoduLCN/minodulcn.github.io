@@ -38,9 +38,11 @@ Most API endpoints are protected and require a Bearer token for authentication. 
 ### API Reference
 
 #### Auth
+{:.no_toc}
 Endpoints for user authentication and account management.
 
 ###### POST `/v1/auth/signin`
+{:.no_toc}
 Login to your account.
 
 **Request Body:**
@@ -56,6 +58,7 @@ Login to your account.
 ---
 
 ###### POST `/v1/auth/signup`
+{:.no_toc}
 Create a new account.
 
 **Request Body:**
@@ -73,6 +76,7 @@ Create a new account.
 ---
 
 ###### GET `/v1/auth/logout`
+{:.no_toc}
 Logout from the current session.
 
 **Authentication:** Required (Bearer Token)
@@ -82,9 +86,11 @@ Logout from the current session.
 ---
 
 #### User
+{:.no_toc}
 Endpoints for managing users and retrieving user information.
 
 ###### GET `/v1/users`
+{:.no_toc}
 List all users.
 
 **Authentication:** Required (Bearer Token)
@@ -94,6 +100,7 @@ List all users.
 ---
 
 ###### POST `/v1/users`
+{:.no_toc}
 Create a new user.
 
 **Authentication:** Required (Bearer Token)
@@ -114,6 +121,7 @@ Create a new user.
 ---
 
 ###### PATCH `/v1/users`
+{:.no_toc}
 Update the current user's data.
 
 **Authentication:** Required (Bearer Token)
@@ -133,6 +141,7 @@ Update the current user's data.
 ---
 
 ###### GET `/v1/users/dashboard`
+{:.no_toc}
 Get the admin dashboard data.
 
 **Authentication:** Required (Bearer Token)
@@ -142,6 +151,7 @@ Get the admin dashboard data.
 ---
 
 ###### GET `/v1/users/current`
+{:.no_toc}
 Get details of the current authenticated user.
 
 **Authentication:** Required (Bearer Token)
@@ -151,6 +161,7 @@ Get details of the current authenticated user.
 ---
 
 ###### GET `/v1/users/{id}`
+{:.no_toc}
 Get information for a specific user.
 
 **Authentication:** Required (Bearer Token)
@@ -163,6 +174,7 @@ Get information for a specific user.
 ---
 
 ###### PATCH `/v1/users/{id}`
+{:.no_toc}
 Update data for a specific user.
 
 **Authentication:** Required (Bearer Token)
@@ -185,6 +197,7 @@ Update data for a specific user.
 ---
 
 ###### GET `/v1/users/contact-person`
+{:.no_toc}
 Get contact person information.
 
 **Authentication:** Required (Bearer Token)
@@ -197,6 +210,7 @@ Get contact person information.
 ---
 
 ###### PUT `/v1/users/password`
+{:.no_toc}
 Modify the current user's password.
 
 **Authentication:** Required (Bearer Token)
@@ -213,9 +227,11 @@ Modify the current user's password.
 ---
 
 #### Role
+{:.no_toc}
 Endpoints for managing roles.
 
 ###### GET `/v1/roles`
+{:.no_toc}
 List all roles.
 
 **Authentication:** Required (Bearer Token)
@@ -225,6 +241,7 @@ List all roles.
 ---
 
 ###### GET `/v1/roles/{id}`
+{:.no_toc}
 Get information for a specific role.
 
 **Authentication:** Required (Bearer Token)
@@ -237,8 +254,10 @@ Get information for a specific role.
 ---
 
 #### Product Management
+{:.no_toc}
 
 ###### Products
+{:.no_toc}
 
 GET `/v1/products`
 List all products.
@@ -319,6 +338,7 @@ Delete a specific product.
 ---
 
 ###### Product Categories
+{:.no_toc}
 
 GET `/v1/product-categories`
 List all product categories.
@@ -391,8 +411,10 @@ Delete a specific category.
 ---
 
 #### Product Offers & Demands
+{:.no_toc}
 
 ###### Product Offers
+{:.no_toc}
 
 GET `/v1/product-offers`
 List all product offers.
@@ -524,6 +546,7 @@ Unarchive a specific product offer.
 ---
 
 ###### Product Demands
+{:.no_toc}
 
 GET `/v1/product-demands`
 List all product demands.
@@ -657,8 +680,10 @@ Unarchive a specific product demand.
 ---
 
 #### Post Management
+{:.no_toc}
 
 ###### Posts
+{:.no_toc}
 
 GET `/v1/posts`
 List all posts.
@@ -771,6 +796,7 @@ Delete a specific post.
 ---
 
 ###### Post Categories
+{:.no_toc}
 
 GET `/v1/post-categories`
 List all post categories.
@@ -845,6 +871,7 @@ Delete a specific category.
 ---
 
 ###### Post Tags
+{:.no_toc}
 
 GET `/v1/tags`
 List all tags.
@@ -917,6 +944,7 @@ Delete a specific tag.
 ---
 
 ###### Post Resources
+{:.no_toc}
 
 GET `/v1/resource`
 List all resources.
@@ -989,8 +1017,10 @@ Delete a specific resource.
 ---
 
 #### Configuration
+{:.no_toc}
 
 ###### GET `/v1/config`
+{:.no_toc}
 Get the current configuration.
 
 **Authentication:** Required (Bearer Token)
@@ -1000,6 +1030,7 @@ Get the current configuration.
 ---
 
 ###### PATCH `/v1/config`
+{:.no_toc}
 Update the default configuration.
 
 **Authentication:** Required (Bearer Token)
@@ -1021,8 +1052,10 @@ Update the default configuration.
 ---
 
 #### Weather
+{:.no_toc}
 
 ###### GET `/v1/weather`
+{:.no_toc}
 List weather data.
 
 **Query Parameters:**
@@ -1035,6 +1068,7 @@ List weather data.
 ---
 
 ###### POST `/v1/weather`
+{:.no_toc}
 Sync weather from the teleagriculture station.
 
 **Authentication:** Not required
@@ -1064,6 +1098,7 @@ Sync weather from the teleagriculture station.
 ---
 
 ###### GET `/v1/weather/current`
+{:.no_toc}
 Get the current weather details.
 
 **Authentication:** Not required
@@ -1073,6 +1108,7 @@ Get the current weather details.
 ---
 
 ###### GET `/v1/weather/download`
+{:.no_toc}
 Download weather data as a spreadsheet.
 
 **Authentication:** Not required
@@ -1082,8 +1118,10 @@ Download weather data as a spreadsheet.
 ---
 
 #### Partners
+{:.no_toc}
 
 ###### GET `/v1/partners`
+{:.no_toc}
 List all partners.
 
 **Authentication:** Required (Bearer Token)
@@ -1093,6 +1131,7 @@ List all partners.
 ---
 
 ###### POST `/v1/partners`
+{:.no_toc}
 Create a new partner.
 
 **Authentication:** Required (Bearer Token)
@@ -1111,6 +1150,7 @@ Create a new partner.
 ---
 
 ###### GET `/v1/partners/{id}`
+{:.no_toc}
 Get information for a specific partner.
 
 **Authentication:** Required (Bearer Token)
@@ -1123,6 +1163,7 @@ Get information for a specific partner.
 ---
 
 ###### PATCH `/v1/partners/{id}`
+{:.no_toc}
 Update a specific partner.
 
 **Authentication:** Required (Bearer Token)
@@ -1144,6 +1185,7 @@ Update a specific partner.
 ---
 
 ###### DELETE `/v1/partners/{id}`
+{:.no_toc}
 Delete a specific partner.
 
 **Authentication:** Required (Bearer Token)
@@ -1156,8 +1198,10 @@ Delete a specific partner.
 ---
 
 #### Utilities
+{:.no_toc}
 
 ###### Backup
+{:.no_toc}
 
 GET `/backup/create`
 Create a system backup (files & database dump).
@@ -1169,6 +1213,7 @@ Create a system backup (files & database dump).
 ---
 
 ###### Nginx Logs
+{:.no_toc}
 
 GET `/v1/nginx-logs`
 Read raw Nginx log files.
@@ -1195,6 +1240,7 @@ Empty all log files.
 ---
 
 ###### Forum
+{:.no_toc}
 
 GET `/v1/forum`
 List all forum entries.
@@ -1237,6 +1283,7 @@ Base URLs:
 
 
 #### Root
+{:.no_toc}
 
 <a id="opIdroot__get"></a>
 
@@ -1265,6 +1312,7 @@ This operation does not require authentication
 
 
 #### Get Posts
+{:.no_toc}
 
 <a id="opIdget_posts_posts__get"></a>
 
@@ -1360,6 +1408,7 @@ This operation does not require authentication
 </aside>
 
 #### Create Post
+{:.no_toc}
 
 <a id="opIdcreate_post_posts__post"></a>
 
@@ -1430,6 +1479,7 @@ HTTPBearer
 </aside>
 
 #### Get Posts Paginated
+{:.no_toc}
 
 <a id="opIdget_posts_paginated_posts_paginated__get"></a>
 
@@ -1495,6 +1545,7 @@ This operation does not require authentication
 </aside>
 
 #### Get Threads
+{:.no_toc}
 
 <a id="opIdget_threads_posts_threads_get"></a>
 
@@ -1621,6 +1672,7 @@ This operation does not require authentication
 </aside>
 
 #### Get Post
+{:.no_toc}
 
 <a id="opIdget_post_posts__post_id__get"></a>
 
@@ -1680,6 +1732,7 @@ This operation does not require authentication
 </aside>
 
 #### Edit Post
+{:.no_toc}
 
 <a id="opIdedit_post_posts__post_id__put"></a>
 
@@ -1750,6 +1803,7 @@ HTTPBearer
 </aside>
 
 #### Delete File
+{:.no_toc}
 
 <a id="opIddelete_file_posts__post_id__delete"></a>
 
@@ -1786,6 +1840,7 @@ HTTPBearer
 
 
 #### Get Authors
+{:.no_toc}
 
 <a id="opIdget_authors_authors__get"></a>
 
@@ -1831,6 +1886,7 @@ This operation does not require authentication
 </aside>
 
 #### Get Post
+{:.no_toc}
 
 <a id="opIdget_post_authors__author_id__get"></a>
 
@@ -1871,6 +1927,7 @@ This operation does not require authentication
 </aside>
 
 #### Edit Author
+{:.no_toc}
 
 <a id="opIdedit_author_authors__author_id__put"></a>
 
@@ -1922,6 +1979,7 @@ HTTPBearer
 </aside>
 
 #### Create Author
+{:.no_toc}
 
 <a id="opIdcreate_author_authors_create_post"></a>
 
@@ -1967,6 +2025,7 @@ This operation does not require authentication
 
 
 #### Get Files
+{:.no_toc}
 
 <a id="opIdget_files_files__get"></a>
 
@@ -2011,6 +2070,7 @@ This operation does not require authentication
 </aside>
 
 #### Get File
+{:.no_toc}
 
 <a id="opIdget_file_files__file_id__get"></a>
 
@@ -2050,6 +2110,7 @@ This operation does not require authentication
 </aside>
 
 #### Delete File
+{:.no_toc}
 
 <a id="opIddelete_file_files__file_id__delete"></a>
 
@@ -2084,6 +2145,7 @@ HTTPBearer
 </aside>
 
 #### Upload File
+{:.no_toc}
 
 <a id="opIdupload_file_files_upload_post"></a>
 
@@ -2135,6 +2197,7 @@ HTTPBearer
 
 
 #### Get Avatars
+{:.no_toc}
 
 <a id="opIdget_avatars_avatars__get"></a>
 
@@ -2178,6 +2241,7 @@ This operation does not require authentication
 
 
 #### Check Login
+{:.no_toc}
 
 <a id="opIdcheck_login_login__get"></a>
 
@@ -2214,6 +2278,7 @@ HTTPBearer
 
 
 #### Stream Events
+{:.no_toc}
 
 <a id="opIdstream_events_events__get"></a>
 
@@ -2242,6 +2307,7 @@ This operation does not require authentication
 
 
 #### Delete File
+{:.no_toc}
 
 <a id="opIddelete_file_admin_posts__post_id__delete"></a>
 
@@ -2293,6 +2359,7 @@ This operation does not require authentication
 ```
 
 #### AuthorCreate
+{:.no_toc}
 
 
 
@@ -2329,7 +2396,7 @@ or
 ```
 
 #### AuthorCreateResponse
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2353,7 +2420,7 @@ or
 ```
 
 #### AuthorEdit
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2412,7 +2479,7 @@ or
 ```
 
 #### AuthorResponse
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2443,7 +2510,7 @@ or
 ```
 
 #### AvatarResponse
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2470,7 +2537,7 @@ or
 ```
 
 #### Body_upload_file_files_upload_post
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2492,7 +2559,7 @@ or
 ```
 
 #### FileProcessingStatus
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2500,6 +2567,7 @@ or
 |FileProcessingStatus|string|false|none|none|
 
 ###### Enumerated Values
+{:.no_toc}
 
 |Property|Value|
 |---|---|
@@ -2528,7 +2596,7 @@ or
 ```
 
 #### FileResponse
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2563,7 +2631,7 @@ or
 ```
 
 #### HTTPValidationError
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2616,7 +2684,7 @@ or
 ```
 
 #### PaginatedPostsResponse
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2640,7 +2708,7 @@ or
 ```
 
 #### PostCreate
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2677,7 +2745,7 @@ or
 ```
 
 #### PostEdit
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2755,7 +2823,7 @@ or
 ```
 
 #### PostResponse
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2852,7 +2920,7 @@ continued
 ```
 
 #### ThreadResponse
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
@@ -2882,7 +2950,7 @@ continued
 ```
 
 #### ValidationError
-
+{:.no_toc}
 
 
 |Name|Type|Required|Restrictions|Description|
