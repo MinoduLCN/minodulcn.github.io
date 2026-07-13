@@ -20,11 +20,7 @@ The Local Community Network (LCN) is a decentralised, offline-first system combi
 3. The application provides access to data through a local network  
 4. Administrators manage content via the backoffice 
 
-## Offline-first design
-
----
-
-## Components
+## Hardware Architecture
 
 The system consists of three hardware components:
 
