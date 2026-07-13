@@ -51,3 +51,4 @@ The software stack runs in several seperate docker containers. They are all buil
 * **Minodu Backoffice** serves the backoffice for the admin to edit the system data
 
 ![Software Architecture Diagram](../assets/images/software_architecture.svg)
+
