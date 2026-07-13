@@ -1,7 +1,7 @@
 ---
 ---
 
-$on-palm: 850px !default;
+$on-palm: 750px !default;
 
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
 
@@ -112,14 +112,14 @@ code {
   @media (min-width: $on-palm) {
     position: fixed;
     top: 90px;
-    left: max(var(--space-small) ,calc(50% - 750px + 200px));
-    width: 230px;
+    left: max(var(--space-small) ,calc(50% - 800px + 260px));
+    width: 210px;
   }
 }
 
 .wrapper.page {
   @media (min-width: $on-palm) {
-    padding-left: 250px
+    padding-left: 260px
   }
 }
 
