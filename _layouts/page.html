@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="wrapper page">
+  <article class="post">
+
+    <header class="post-header">
+      <h1 class="post-title">{{ page.heading_title | default: page.title | escape }}</h1>
+    </header>
+
+
+    <nav class="toc">
+      <h2>Contents</h2>
+      {% include toc.html html=content %}
+    </nav>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+  </article>
+</div>

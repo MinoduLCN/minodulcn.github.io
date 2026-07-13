@@ -3,20 +3,13 @@ layout: page
 title: Le Manuel
 ---
 
-![baobab](../assets/images/baobab.svg)
-
 ## Toolkit for Setting Up a Local Network and a DIY Weather Station
 {:.no_toc}
 
 
 This manual is aimed at the agricultural producers of the communities we deployed the Local Community Network (LCN) in. The original french version was printed and handed out to the communities as a guide to accompany the usage of the LCN. It can be viewed and downloaded here: [french version of the manual (print)](../assets/pdf/minodu_manuel_v2.pdf).
 
-
-## Content
-{:.no_toc}
-* TOC
-{:toc}
-
+![baobab](../assets/images/baobab.svg)
 
 ## Local Network / Réseau Local
 ___

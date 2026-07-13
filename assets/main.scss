@@ -1,7 +1,7 @@
 ---
 ---
 
-$on-palm:          600px !default;
+$on-palm: 850px !default;
 
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
 
@@ -100,4 +100,34 @@ code {
 
 .footer-col-wrapper {
   margin: 80px 0;
+}
+
+.toc {
+  background: #efefef;
+  padding: var(--space-small);
+  border-radius: var(--space-small);
+  margin: var(--space-small) 0;
+  // border-left: 1px solid rgb(210, 210, 210);
+
+  @media (min-width: $on-palm) {
+    position: fixed;
+    top: 90px;
+    left: max(var(--space-small) ,calc(50% - 750px + 200px));
+    width: 230px;
+  }
+}
+
+.wrapper.page {
+  @media (min-width: $on-palm) {
+    padding-left: 250px
+  }
+}
+
+.toc h2 {
+  margin: 0 0 10px 0;
+}
+
+.toc ul {
+  margin-bottom: 0;
+  margin-left: 15px;
 }

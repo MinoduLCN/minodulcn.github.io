@@ -1383,12 +1383,14 @@ This operation does not require authentication
 ```
 
 <h3 id="get-posts-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Successful Response|Inline|
 
 <h3 id="get-posts-responseschema">Response Schema</h3>
+{:.no_toc}
 
 Status Code **200**
 
@@ -1456,6 +1458,7 @@ This operation does not require authentication
 ```
 
 <h3 id="create-post-parameters">Parameters</h3>
+{:.no_toc}
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -1498,6 +1501,7 @@ This operation does not require authentication
 ```
 
 <h3 id="create-post-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -1517,6 +1521,7 @@ HTTPBearer
 `GET /posts/paginated/`
 
 <h3 id="get-posts-paginated-parameters">Parameters</h3>
+{:.no_toc}
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -1565,6 +1570,7 @@ HTTPBearer
 ```
 
 <h3 id="get-posts-paginated-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -1651,12 +1657,14 @@ This operation does not require authentication
 ```
 
 <h3 id="get-threads-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Successful Response|Inline|
 
 <h3 id="get-threads-responseschema">Response Schema</h3>
+{:.no_toc}
 
 Status Code **200**
 
@@ -1757,6 +1765,7 @@ This operation does not require authentication
 ```
 
 <h3 id="get-post-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -1784,6 +1793,7 @@ This operation does not require authentication
 ```
 
 <h3 id="edit-post-parameters">Parameters</h3>
+{:.no_toc}
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -1827,6 +1837,7 @@ This operation does not require authentication
 ```
 
 <h3 id="edit-post-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -1846,6 +1857,7 @@ HTTPBearer
 `DELETE /posts/{post_id}`
 
 <h3 id="delete-file-parameters">Parameters</h3>
+{:.no_toc}
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -1860,6 +1872,7 @@ null
 ```
 
 <h3 id="delete-file-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -1867,6 +1880,7 @@ null
 |422|[Unprocessable Entity](https://tools.ietf.org/html/rfc2518#section-10.3)|Validation Error|[HTTPValidationError](#schemahttpvalidationerror)|
 
 <h3 id="delete-file-responseschema">Response Schema</h3>
+{:.no_toc}
 
 <aside class="warning">
 To perform this operation, you must be authenticated by means of one of the following methods:
@@ -1902,12 +1916,14 @@ HTTPBearer
 ```
 
 <h3 id="get-authors-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Successful Response|Inline|
 
 <h3 id="get-authors-responseschema">Response Schema</h3>
+{:.no_toc}
 
 Status Code **200**
 
@@ -1929,6 +1945,7 @@ This operation does not require authentication
 `GET /authors/{author_id}`
 
 <h3 id="get-post-parameters">Parameters</h3>
+{:.no_toc}
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -1952,6 +1969,7 @@ This operation does not require authentication
 ```
 
 <h3 id="get-post-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -1979,6 +1997,7 @@ This operation does not require authentication
 ```
 
 <h3 id="edit-author-parameters">Parameters</h3>
+{:.no_toc}
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -2003,6 +2022,7 @@ This operation does not require authentication
 ```
 
 <h3 id="edit-author-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2031,6 +2051,7 @@ HTTPBearer
 ```
 
 <h3 id="create-author-parameters">Parameters</h3>
+{:.no_toc}
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -2048,6 +2069,7 @@ HTTPBearer
 ```
 
 <h3 id="create-author-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2086,12 +2108,14 @@ This operation does not require authentication
 ```
 
 <h3 id="get-files-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Successful Response|Inline|
 
 <h3 id="get-files-responseschema">Response Schema</h3>
+{:.no_toc}
 
 Status Code **200**
 
@@ -2113,6 +2137,7 @@ This operation does not require authentication
 `GET /files/{file_id}`
 
 <h3 id="get-file-parameters">Parameters</h3>
+{:.no_toc}
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -2135,6 +2160,7 @@ This operation does not require authentication
 ```
 
 <h3 id="get-file-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2153,6 +2179,7 @@ This operation does not require authentication
 `DELETE /files/{file_id}`
 
 <h3 id="delete-file-parameters">Parameters</h3>
+{:.no_toc}
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -2167,6 +2194,7 @@ null
 ```
 
 <h3 id="delete-file-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2174,6 +2202,7 @@ null
 |422|[Unprocessable Entity](https://tools.ietf.org/html/rfc2518#section-10.3)|Validation Error|[HTTPValidationError](#schemahttpvalidationerror)|
 
 <h3 id="delete-file-responseschema">Response Schema</h3>
+{:.no_toc}
 
 <aside class="warning">
 To perform this operation, you must be authenticated by means of one of the following methods:
@@ -2197,6 +2226,7 @@ language: string
 ```
 
 <h3 id="upload-file-parameters">Parameters</h3>
+{:.no_toc}
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -2219,6 +2249,7 @@ language: string
 ```
 
 <h3 id="upload-file-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2255,12 +2286,14 @@ HTTPBearer
 ```
 
 <h3 id="get-avatars-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Successful Response|Inline|
 
 <h3 id="get-avatars-responseschema">Response Schema</h3>
+{:.no_toc}
 
 Status Code **200**
 
@@ -2301,6 +2334,7 @@ This operation does not require authentication
 ```
 
 <h3 id="check-login-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2329,12 +2363,14 @@ null
 ```
 
 <h3 id="stream-events-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Successful Response|Inline|
 
 <h3 id="stream-events-responseschema">Response Schema</h3>
+{:.no_toc}
 
 <aside class="success">
 This operation does not require authentication
@@ -2350,6 +2386,7 @@ This operation does not require authentication
 `DELETE /admin/posts/{post_id}`
 
 <h3 id="delete-file-parameters">Parameters</h3>
+{:.no_toc}
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -2365,6 +2402,7 @@ null
 ```
 
 <h3 id="delete-file-responses">Responses</h3>
+{:.no_toc}
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2372,6 +2410,7 @@ null
 |422|[Unprocessable Entity](https://tools.ietf.org/html/rfc2518#section-10.3)|Validation Error|[HTTPValidationError](#schemahttpvalidationerror)|
 
 <h3 id="delete-file-responseschema">Response Schema</h3>
+{:.no_toc}
 
 <aside class="success">
 This operation does not require authentication

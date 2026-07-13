@@ -5,11 +5,6 @@ title: RPI Setup
 
 This will guide you through the setup process of the Minodu LCN on the Raspberry Pi.
 
-## Content
-{:.no_toc}
-* TOC
-{:toc}
-
 ## Requirements
 
 * A Raspberry pi 4 or 5, preferebly with 8gb of ram.

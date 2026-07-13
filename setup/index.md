@@ -1,7 +1,7 @@
 ---
-layout: page_custom_title
+layout: page
 title: Setup
-custom_title: Setup Guide
+heading_title: Setup Guide
 ---
  
 Welcome to the **Local Community Network (LCN)** setup guide. A step-by-step reference for assembling and configuring a Raspberry Pi–based local network weather station with the DIY Teleagriculture board. Follow the sections below in order for a smooth setup experience.
@@ -31,10 +31,5 @@ How to flash the OS, configure networking, enable SSH, and prepare your Raspberr
 Software setup for the Teleagriculture DIY weather kit. Covers driver installation, sensor calibration, and verifying that readings are coming through correctly.
  
 → [Go to Teleagriculture Installation](./teleagriculture)
-
-## Before You Begin
- 
-- Make sure you have completed each section **in order** because later steps depend on earlier ones.
-- A basic familiarity with the Linux command line is helpful for the Pi and Teleagriculture sections.
  
 **Need help?** Open an issue on the [Minodu issue tracker](https://github.com/MinoduLCN/minodu/issues) or make a post on our [Discussion Board](https://github.com/MinoduLCN/minodu/discussions).

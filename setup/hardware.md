@@ -108,6 +108,7 @@ Assembly video
 
 ### Step by step assembly
 #### Step 1 – Install Raspberry Pi Inserts
+{:.no_toc}
 
 Turn the top cover upside down.
 Insert the M2.5 heat-set inserts into the designated mounting holes using a soldering iron or heat-set insert tool.
@@ -119,6 +120,8 @@ Ensure every insert sits perfectly flush with the plastic surface.
 ![Step 02](../assets/images/MinoduBox_01.jpg "Step 02")
 
 #### Step 2 – Mount the Raspberry Pi
+{:.no_toc}
+
 Position the Raspberry Pi 5 (with its cooling fan already installed) over the inserts.
 ![Step 03](../assets/images/MinoduBox_02.jpg "Step 03")
 
@@ -132,6 +135,7 @@ Verify that the board is firmly mounted.
 
 
 #### Step 3 – Install the Tele-Agriculture Board
+{:.no_toc}
 
 Place the Tele-Agriculture Board on top of the standoffs.
 ![Step 0X](../assets/images/MinoduBox_06.jpg "Step 0X")
@@ -145,6 +149,7 @@ Install the fourth screw located beneath the display.
 ![Step 04](../assets/images/MinoduBox_08.jpg "Step 0X")
 
 #### Step 4 – Assemble the Latches
+{:.no_toc}
 
 For each latch:
 
@@ -162,6 +167,7 @@ Repeat for the second latch.
 
 
 #### Step 5 – Assemble the Hinges
+{:.no_toc}
 
 Using the same hardware:
 
@@ -178,6 +184,7 @@ Ensure both hinges rotate freely.
 ![Step 0X](../assets/images/MinoduBox_13.jpg "Step 0X")
 
 #### Step 6 – Install the DC Converter Insert
+{:.no_toc}
 
 Install the M6 heat-set insert for the DC-DC converter into the bottom enclosure.
 ![Step 0X](../assets/images/MinoduBox_14.jpg "Step 0X")
@@ -187,6 +194,7 @@ Make sure it is completely flush with the plastic.
 ![Step 0X](../assets/images/MinoduBox_15.jpg "Step 0X")
 
 #### Step 7 – Install the Cooling Fan
+{:.no_toc}
 
 ![Step 0X](../assets/images/MinoduBox_16.jpg "Step 0X")
 
@@ -205,6 +213,7 @@ If necessary, secure it with a very small amount of glue.
 >Ensure the fan blades rotate freely. If the blades touch the >enclosure, If they rub against the enclosure, it can be jammed, overheat and be fried.
 
 #### Step 8 – Install the DC-DC Converter
+{:.no_toc}
 
 Position the 12V-to-5V converter inside the enclosure.
 
@@ -223,6 +232,7 @@ Ensure the wiring faces the cable exit.
 ![Step 0X](../assets/images/MinoduBox_21.jpg "Step 0X")
 
 #### Step 9 – Join Both Halves
+{:.no_toc}
 
 Align the hinge side first.
 
@@ -239,6 +249,7 @@ Verify that:
 - The enclosure closes correctly.
 
 #### Step 10 – Install the Latch Clips
+{:.no_toc}
 
 Insert the two printed latch clips into the lower enclosure.
 Push them fully into place until flush.
@@ -248,6 +259,7 @@ Close the enclosure and verify that the latches lock securely.
 ![Step 0X](../assets/images/MinoduBox_25.jpg "Step 0X")
 
 #### Step 11 – Final Assembly
+{:.no_toc}
 
 Install:
 - TPU dust cap
