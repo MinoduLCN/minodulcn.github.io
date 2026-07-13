@@ -46,6 +46,7 @@ Endpoints for user authentication and account management.
 Login to your account.
 
 **Request Body:**
+
 ```json
 {
   "phone": "string (required) - User phone number",
@@ -62,6 +63,7 @@ Login to your account.
 Create a new account.
 
 **Request Body:**
+
 ```json
 {
   "fullName": "string (required) - User full name",
@@ -106,6 +108,7 @@ Create a new user.
 **Authentication:** Required (Bearer Token)
 
 **Request Body:**
+
 ```json
 {
   "fullName": "string (required) - User full name",
@@ -127,6 +130,7 @@ Update the current user's data.
 **Authentication:** Required (Bearer Token)
 
 **Request Body:**
+
 ```json
 {
   "fullName": "string (required) - User full name",
@@ -183,6 +187,7 @@ Update data for a specific user.
 - `id` (number, required) - User ID
 
 **Request Body:**
+
 ```json
 {
   "fullName": "string (required) - User full name",
@@ -216,6 +221,7 @@ Modify the current user's password.
 **Authentication:** Required (Bearer Token)
 
 **Request Body:**
+
 ```json
 {
   "password": "string (required) - New user password"
@@ -276,6 +282,7 @@ Create a new product.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `name` | string | Yes | Name of the product |
@@ -312,6 +319,7 @@ Update a specific product.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `name` | string | Yes | Name of the product |
@@ -357,6 +365,7 @@ Create a new product category.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `name` | string | Yes | Name of the category |
@@ -389,6 +398,7 @@ Update a specific category.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `name` | string | Yes | Name of the product category |
@@ -431,6 +441,7 @@ Create a new product offer.
 **Authentication:** Required (Bearer Token)
 
 **Request Body:**
+
 ```json
 {
   "productId": "number (required) - Product ID",
@@ -497,6 +508,7 @@ Update a specific product offer.
 - `id` (string, required) - Offer ID
 
 **Request Body:**
+
 ```json
 {
   "productId": "number (optional) - Product ID",
@@ -563,6 +575,7 @@ Create a new product demand.
 **Authentication:** Required (Bearer Token)
 
 **Request Body:**
+
 ```json
 {
   "productId": "number (required) - Product ID",
@@ -630,6 +643,7 @@ Update a specific product demand.
 - `id` (string, required) - Demand ID
 
 **Request Body:**
+
 ```json
 {
   "productId": "number (optional) - Product ID",
@@ -702,6 +716,7 @@ Create a new post.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `idCategory` | number | Yes | Post category ID |
@@ -766,6 +781,7 @@ Update a specific post.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `idCategory` | number | Yes | Post category ID |
@@ -815,6 +831,7 @@ Create a new post category.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `name` | string | Yes | Name of the category |
@@ -848,6 +865,7 @@ Update a specific category.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `name` | string | Yes | Name of the category |
@@ -890,6 +908,7 @@ Create a new tag.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `name` | string | No | Name of the tag |
@@ -922,6 +941,7 @@ Update a specific tag.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `name` | string | Yes | Name of the tag |
@@ -963,6 +983,7 @@ Create a new resource.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `name` | string | Yes | Name of the resource |
@@ -995,6 +1016,7 @@ Update a specific resource.
 **Content-Type:** `multipart/form-data`
 
 **Request Body:**
+
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `name` | string | Yes | Name of the resource |
@@ -1036,6 +1058,7 @@ Update the default configuration.
 **Authentication:** Required (Bearer Token)
 
 **Request Body:**
+
 ```json
 {
   "name": "string (optional) - Community name",
@@ -1074,6 +1097,7 @@ Sync weather from the teleagriculture station.
 **Authentication:** Not required
 
 **Request Body:**
+
 ```json
 {
   "temp": "number (optional) - Main temperature in °C (example: 22)",
@@ -1137,6 +1161,7 @@ Create a new partner.
 **Authentication:** Required (Bearer Token)
 
 **Request Body:**
+
 ```json
 {
   "name": "string (required) - Partner's name",
@@ -1172,6 +1197,7 @@ Update a specific partner.
 - `id` (string, required) - Partner ID
 
 **Request Body:**
+
 ```json
 {
   "name": "string (optional) - Partner's name",
@@ -1376,26 +1402,31 @@ Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
+| |
 
 *or*
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
+| |
 
 *continued*
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
+| |
 
 *anyOf*
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
+| |
 
 *or*
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
+| |
 
 *continued*
 
@@ -1639,11 +1670,13 @@ Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
+| |
 
 *or*
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
+| |
 
 *continued*
 
@@ -1656,16 +1689,19 @@ Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
+| |
 
 *or*
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
+| |
 
 *continued*
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
+| |
 
 <aside class="success">
 This operation does not require authentication
