@@ -5,10 +5,6 @@ title: Minodu API
 
 In this document the api of the MinoduLCN system is described. It shows all available endpoints to interact with the system and retrieve data.
 
-## Content
-{:.no_toc}
-* TOC
-{:toc}
 
 ## Backend API
 
