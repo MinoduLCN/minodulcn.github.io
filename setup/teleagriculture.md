@@ -29,9 +29,10 @@ Connect the sensors to the following ports on the Teleagriculture Board:
 
 | Sensor                     | Connection | Description |
 | -------------------------- | ---------- | ----------- |
-| Multichannel Gas Sensor V2 | I2C (5V)   |             |
-| BME 280                    | I2C (3V)   |             |
-| LTR 390                    | I2C (3V)   |             |
+| Multichannel Gas Sensor V2 | I2C (5V)   | NO2, CO, C2H5OH |
+| BME 280                    | I2C (3V)   | Temperature, Humidity, Pressure |
+| LTR 390                    | I2C (3V)   | ambient light, UVA (UV light) |
+| DHT22                      | 1-W_1      | Temperature & Humidity (placed inside the protection box) |
 
 ## Setup Board
 
