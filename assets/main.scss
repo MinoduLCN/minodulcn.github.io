@@ -114,6 +114,26 @@ code {
     top: 90px;
     left: max(var(--space-small) ,calc(50% - 800px + 260px));
     width: 210px;
+    transition: opacity 0.3s linear;
+  }
+}
+
+#bottom-sentinel {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  bottom:150px;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+.toc.hidden {
+  @media (min-width: $on-palm) {
+    opacity: 0;
   }
 }
 
