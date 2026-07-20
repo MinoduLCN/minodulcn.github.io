@@ -131,3 +131,21 @@ code {
   margin-bottom: 0;
   margin-left: 15px;
 }
+
+em > a {
+  background-color: #577b6b;
+  padding: var(--space-small);
+  border-radius: 5px;
+  color: white;
+  font-style: normal;
+}
+
+em > a:visited {
+  color: white;
+}
+
+em > a:hover {
+  text-decoration: none;
+  background-color: #9be0c1;
+  color: black;
+}

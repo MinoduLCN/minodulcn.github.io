@@ -10,14 +10,14 @@ The documentation covers system architecture, implementation details, and the pa
 ### System Architecture
 This Section describes how the minodu system is organized and explains the technical structure.
 
-→ [Go to system architecture](./system-architecture)
+*[→ Go to system architecture](./system-architecture)*
 
 ### Minodu API
 The Minodu API documents the interfaces used for data exchange between system components, including sensor data, application services, and local network communication.
 
-→ [Go to Minodu API](./api)
+*[→ Go to Minodu API](./api)*
 
 ### Workshop materials
 This section documents the participatory design and evaluation process of the project, including co-design workshops, prototyping activities, and user feedback methods.
 
-→ [Explore Workshop materials](./workshop)
+*[→ Explore Workshop materials](./workshop)*
