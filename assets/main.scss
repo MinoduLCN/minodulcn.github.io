@@ -153,9 +153,9 @@ code {
 }
 
 em > a {
-  background-color: #577b6b;
+  background-color: #016c50;
   padding: var(--space-small);
-  border-radius: 5px;
+  border-radius: 3px;
   color: white;
   font-style: normal;
 }
@@ -166,6 +166,6 @@ em > a:visited {
 
 em > a:hover {
   text-decoration: none;
-  background-color: #9be0c1;
-  color: black;
+  background-color: #57b680;
+  // color: black;
 }
