@@ -3,12 +3,16 @@ layout: page
 title: Hardware Assembly
 ---
 
+The Minodu Local Community Network mainly consists of two parts: the [Local Community Network](#assembly-guide-minodu-local-community-network): a Raspberry Pi, the TeleAgriculture Board and a power converter, housed in a custom 3D-printed protection box; and the 3D-printed [Stevenson Screen](#stevenson-screen--sensors) in which the weather sensors are fixed and protected.
+
 <iframe
   src="https://a360.co/4q3GGlT"
   style="width:100%; height:720px;"
 ></iframe>
 [Link to Design (Autodesk Fusion 360)](https://a360.co/4q3GGlT): https://a360.co/4q3GGlT
 
+
+# Assembly guide: Minodu Local Community Network
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; flex-wrap: wrap;">
 
@@ -19,8 +23,6 @@ title: Hardware Assembly
 
 </div>
 
-
-# Assembly guide – Minodu Local Network
 
 ## 3D Printing Guide
 
