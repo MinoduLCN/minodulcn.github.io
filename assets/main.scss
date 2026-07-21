@@ -143,6 +143,13 @@ code {
   }
 }
 
+.header-wrapper {
+  padding-left: 250px;
+  @media (max-width: $on-palm) {
+    padding-left: var(--space-small);
+  }
+}
+
 .toc h2 {
   margin: 0 0 10px 0;
 }
