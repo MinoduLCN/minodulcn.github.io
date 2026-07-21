@@ -919,12 +919,47 @@ To collect historical weather data:
 #### How do I back up the system? 
 {:.no_toc}
 
+We recommend to do the backup, before any software update, maintenance operation, or configuration change.
+
+
 #### What should I never delete? 
 {:.no_toc}
+ 
+ Do not delete the following items without prior validation:
+- System folders required for the back office to operate (e.g., `/system`, `/core`, `/config`).
+- Application and database configuration files (e.g., `config.php`, `.env`, `settings.json`).
+- Files or folders required for the proper operation of the application, even if they appear unused.
+- Backup files that are still important or covered by the backup retention policy.
+- Administrator or technical accounts without first confirming their purpose and dependencies.
+  
+The default content delivered with the application must not be deleted:
+   Any default data provided with the application, including but not limited to:
+  - Default categories
+  - Default tags
+  - Initial publications
+  - Default products
+  - Preconfigured user accounts
+  - Default partners
+  - Forum categories or topics
+  - Any other data installed by default during deployment
+  - Any file, folder, database record, or configuration item whose purpose is not clearly understood.
+Golden Rule: If you are unsure whether an item is safe to remove, **do not delete it**.
+
+---
 
 #### What do I do when the system is offline? 
 {:.no_toc}
 
+Here are some steps to follow if the system goes offline
+Basic Checks: - Check the power supply to the raspbery pi/the server.
+- Check the switch.
+Restart: - If the system appears to have frozen, perform a hard reset (using the power switch).
+- Wait a few minutes and check if the services are accessible again.
+If the outage persists, contact the maintenance team and inform the community through the designated channels (WhatsApp group).
+Provide the following information to the maintenance team:
+- Time of the outage
+- Observed symptoms (inaccessible pages, error messages, etc.)
+- Actions already taken (restart, checking the switch, etc.)
 
 ---
 

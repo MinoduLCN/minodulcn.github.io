@@ -114,6 +114,26 @@ code {
     top: 90px;
     left: max(var(--space-small) ,calc(50% - 800px + 260px));
     width: 210px;
+    transition: opacity 0.3s linear;
+  }
+}
+
+#bottom-sentinel {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  bottom:150px;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+.toc.hidden {
+  @media (min-width: $on-palm) {
+    opacity: 0;
   }
 }
 
@@ -130,4 +150,22 @@ code {
 .toc ul {
   margin-bottom: 0;
   margin-left: 15px;
+}
+
+em > a {
+  background-color: #577b6b;
+  padding: var(--space-small);
+  border-radius: 5px;
+  color: white;
+  font-style: normal;
+}
+
+em > a:visited {
+  color: white;
+}
+
+em > a:hover {
+  text-decoration: none;
+  background-color: #9be0c1;
+  color: black;
 }

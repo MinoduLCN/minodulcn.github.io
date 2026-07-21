@@ -15,21 +15,23 @@ Welcome to the **Local Community Network (LCN)** setup guide. A step-by-step ref
 ### Material List
 This section lists all required hardware components, tools, and optional accessories, including the Raspberry Pi model, sensors, cables, and power supply.
 
-→ [Go to material list](./materials)
+*[→ Go to material list](./materials)*
 
 ### Hardware Assembly 
 Step-by-step instructions for physically assembling the weather station. Covers mounting the Teleagriculture board, connecting sensors, and wiring the components together safely.
 
-→ [Go to hardware assembly](./hardware)
+*[→ Go to hardware assembly](./hardware)*
 
 ### Raspberry Pi Installation 
 How to flash the OS, configure networking, enable SSH, and prepare your Raspberry Pi to run the Local Community Network (LCN) software stack.
 
-→ [Go to Raspberry Pi Installation](./pi)
+*[→ Go to Raspberry Pi Installation](./pi)*
 
 ### Teleagriculture Installation
 Software setup for the Teleagriculture DIY weather kit. Covers driver installation, sensor calibration, and verifying that readings are coming through correctly.
  
-→ [Go to Teleagriculture Installation](./teleagriculture)
+*[→ Go to Teleagriculture Installation](./teleagriculture)*
  
+
+## Help
 **Need help?** Open an issue on the [Minodu issue tracker](https://github.com/MinoduLCN/minodu/issues) or make a post on our [Discussion Board](https://github.com/MinoduLCN/minodu/discussions).

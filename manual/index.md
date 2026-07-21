@@ -11,17 +11,10 @@ Together, these manuals ensure that the Local Community Network can be **used, m
 
 ## The User Manual
 This manual explains how to use the Local Community Network from a user perspective. It covers how to access the system, navigate the interface, and use the different application features such as agriculture, market, forum, and weather.  
-→ [App manual](app)
+
+*[→ App manual](app)*
 
 ## The Admin Manual
 The backoffice manual provides guidance for administrators managing the system. It covers content creation, user management, market administration, and system configuration.
-Key modules include:
-- authentication and dashboard  
-- publications (with media and translations)  
-- products and market management  
-- users and partners  
-- weather data and backups  
-- forum moderation  
-- system logs and configuration  
 
-→ [Backoffice manual](backoffice)
+*[→ Backoffice manual](backoffice)*

@@ -13,6 +13,19 @@ layout: default
       <h2>Contents</h2>
       {% include toc.html html=content %}
     </nav>
+    <script>
+      window.addEventListener("load", () => {
+        const target = document.querySelector('.toc');
+        const sentinel = document.querySelector('#bottom-sentinel');
+
+        const observer = new IntersectionObserver(([entry]) => {
+          target.classList.toggle('hidden', entry.isIntersecting);
+        });
+
+        observer.observe(sentinel);
+      })
+      
+    </script>
 
     <div class="post-content">
       {{ content }}
