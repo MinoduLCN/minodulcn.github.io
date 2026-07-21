@@ -55,7 +55,7 @@ If you would like to contribute directly to the code or documentation, you can:
 1. Fork the repository on [GitHub](https://github.com/minodulcn/minodu).
 2. Create a feature branch: `git checkout -b feature/my-feature`
 3. Commit your changes: `git commit -m "Add my feature"`
-4. Open a Pull Request with a brief description of what you changed and why. 
+4. Open a Pull Request with a brief description of what you changed and why.
 
 ### Support
 Are you having problems with your Local Community Network (LCN)?
@@ -68,7 +68,7 @@ Minodu is built through shared testing, local experience, and practical improvem
 
 Minodu source code is released under the [GNU License](https://github.com/MinoduLCN/minodu/blob/main/LICENCSE.md).
 
-## Tech-Team
+### Tech-Team
 
 | Name | GitHub |
 |------|--------|

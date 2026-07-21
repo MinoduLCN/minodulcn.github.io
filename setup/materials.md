@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Materials
+title: Bill of Materials
 ---
-
-# Bill of Materials
 
 This document provides an overview of the hardware components and approximate costs for different configurations of the Local Community Network (LCN), based on actual project implementation.
 
@@ -26,7 +24,7 @@ This setup includes no solar power and no wind sensors.
 | 3D Filament (Enclosure)   | ~17      | ~11,200     | https://www.reichelt.de/de/de/shop/produkt/filament_abs_natural_weiss_1_75_mm_750_g-420023 |
 | Mounting hardware         | ~25      | ~16,400     | — |
 
-**Estimated Cost:** ~350–380 € (~230,000 – 250,000 FCFA)
+**Estimated Cost:** ~350–380 € / ~230,000 – 250,000 FCFA  
 *Prices in FCFA are approximate (1 € ≈ 655 FCFA). Local sourcing may differ.*
 
 ## Solar Power Add-on
@@ -41,7 +39,8 @@ This setup enables off-grid operation of the Local Community Network using solar
 | Solar Cables                  | ~12.31   | ~8,060      | — |
 | Mounting / installation       | ~20      | ~13,100     | — |
 
-**Estimated Add-on Cost:** ~110–120 € (~73,000 – 80,000 FCFA)
+**Estimated Add-on Cost:** ~110–120 € / ~73,000 – 80,000 FCFA  
+*Prices in FCFA are approximate (1 € ≈ 655 FCFA). Local sourcing may differ.*
 
 ## Wind Measurement Add-on
 This setup adds wind sensing capabilities to the Local Community Network, enabling the measurement of wind speed and direction as part of environmental monitoring
@@ -51,7 +50,8 @@ This setup adds wind sensing capabilities to the Local Community Network, enabli
 | Wind Direction & Speed Kit    | 105.50   | ~69,100     | https://botland.de/wetterstationen/16258-wetterstation-mit-windrichtungs-und-geschwindigkeitsmessung-sparkfun-sen-15901-845156010141.html |
 | Additional connectors         | ~5       | ~3,300      | — 
 
-**Estimated Add-on Cost:** ~110 € (~72,000 FCFA)
+**Estimated Add-on Cost:** ~110 € / ~72,000 FCFA  
+*Prices in FCFA are approximate (1 € ≈ 655 FCFA). Local sourcing may differ.*
 
 
 ## Lightweight Setup (Raspberry Pi 4 – No LLM)
@@ -73,7 +73,8 @@ This setup uses a Raspberry Pi 4 and does not support local LLM functionality. I
 | 3D Filament (ABS)         | ~17.00   | ~11,130     | https://www.reichelt.de/de/de/shop/produkt/filament_abs_natural_weiss_1_75_mm_750_g-420023 |
 | Mounting hardware         | ~25.00   | ~16,380     | — |
 
-**Estimated Cost:** ~247 € (~162,000 FCFA)
+**Estimated Cost:** ~247 € / ~162,000 FCFA  
+*Prices in FCFA are approximate (1 € ≈ 655 FCFA). Local sourcing may differ.*
 
 
 

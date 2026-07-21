@@ -27,6 +27,7 @@ The login page is the single entry point to the Minodu backoffice. Only users wi
 - Protection against unauthorized access
 
 ### 1.2 Access Instructions
+{:.no_toc}
 To log in to the Minodu backoffice dashboard:
 
 1. Open your web browser and navigate to: **http://minodu.local:8080**
@@ -40,7 +41,7 @@ To log in to the Minodu backoffice dashboard:
 
 4. Click the **"Login"** or **"Connexion"** button to authenticate.
 
-### 1.2 Screenshots
+### 1.3 Screenshots
 {:.no_toc}
 
 | Description | Screenshot |
@@ -536,12 +537,12 @@ Management of product requests: needs expressed by customers looking for product
 ## Users
 Management of all users registered on the Minodu platform. Allows administrators to consult profiles and manage roles, statuses, and permissions.
 
-#### Features
+### 6.1 Features
 {:.no_toc}
 - **Read:** paginated list
 - **Actions:** edit
 
-#### Sections
+### 6.2 Sections
 {:.no_toc}
 
 **Section 1 – Header**
@@ -559,7 +560,7 @@ Management of all users registered on the Minodu platform. Allows administrators
 | **Column 5** | Actions: Edit |
 | **Navigation** | Pagination |
 
-#### Screenshots
+### 6.3 Screenshots
 {:.no_toc}
 
 | Description | Screenshot |
@@ -607,7 +608,7 @@ Management of Minodu platform partners: companies, producers, and partner organi
 | **Field 3** | Phone |
 | **Actions** | Save \| Cancel |
 
-### Screenshots
+### 7.3 Screenshots
 {:.no_toc}
 
 | Description | Screenshot |
@@ -621,7 +622,7 @@ Management of Minodu platform partners: companies, producers, and partner organi
 Module for displaying weather data for the region covered by Minodu. Data is retrieved from an external service or a local weather station configured in the settings.
 
 ### 8.1 Features
-{:.no_toc}
+
 - Current weather conditions
 - Short-term forecasts (following days)
 - Data: temperature, humidity, wind speed, UV
@@ -629,7 +630,7 @@ Module for displaying weather data for the region covered by Minodu. Data is ret
 - Weather station configuration via the Configuration page
 
 ### 8.2 Weather data backup
-{:.no_toc}
+
 The Minodu system provides a manual download process for weather data in XLSX format to ensure preservation and traceability of historical climate data.
 
 | **Access** | “Download” button |
@@ -637,7 +638,7 @@ The Minodu system provides a manual download process for weather data in XLSX fo
 | **Content** | Historical weather data |
 
 ### 8.3 Sections
-{:.no_toc}
+
 
 #### Section 1 – Header
 {:.no_toc}
@@ -714,13 +715,13 @@ Community discussion space for Minodu members. It enables exchanges between memb
 Display and management of system event logs. This makes it possible to track all actions, errors, connections, and overall backoffice activity. Navigation is organized around two axes: log source and event type.
 
 ### 10.1 Features
-{:.no_toc}
+
 - **Filter by source:** Backend \| Frontend \| RAG (dropdown)
 - **Filter by type:** All \| Errors only \| Access only (tabs)
 - **Deletion:** log cleanup (with confirmation)
 
 ### 10.2 Log navigation
-{:.no_toc}
+
 
 #### Axis 1 – Source selector (Dropdown)
 {:.no_toc}
@@ -747,7 +748,7 @@ Three tabs below the dropdown for filtering by event type.
 ⚠️ The “All logs” tab is active by default.
 
 ### 10.3 Sections
-{:.no_toc}
+
 
 #### Section 1 – Header
 {:.no_toc}
@@ -774,7 +775,7 @@ Optional deletion: “Delete logs” button with mandatory confirmation before e
 ⚠️ Delete logs every 3 months.
 
 ### 10.4 Usage scenarios
-{:.no_toc}
+
 
 | Scenario | Steps |
 |---|---|
@@ -784,7 +785,7 @@ Optional deletion: “Delete logs” button with mandatory confirmation before e
 | **Scenario 4 – Delete logs** | 1. View logs using any source/filter<br>2. Click “Clear logs”<br>3. Confirm in the confirmation modal<br>4. Logs are cleared from the server (disk space freed) |
 
 ### 10.5 Common use-case guide
-{:.no_toc}
+
 
 | Use case | Recommended view |
 |---|---|

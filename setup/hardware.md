@@ -3,7 +3,7 @@ layout: page
 title: Hardware Assembly
 ---
 
-The Minodu Local Community Network mainly consists of two parts: the [Local Community Network](#assembly-guide-minodu-local-community-network): a Raspberry Pi, the TeleAgriculture Board and a power converter, housed in a custom 3D-printed protection box; and the 3D-printed [Stevenson Screen](#stevenson-screen--sensors) in which the weather sensors are fixed and protected.
+The Minodu Local Community Network mainly consists of two parts: the [Local Community Network](#assembly-guide-minodu-local-community-network): a Raspberry Pi, the TeleAgriculture Board and a power converter, housed in a custom 3D-printed protection box; and the 3D-printed [Stevenson Screen](#stevenson-screen--sensors) in which the environmental sensors are fixed and protected.
 
 <iframe
   src="https://a360.co/4q3GGlT"
@@ -30,8 +30,7 @@ The Minodu Local Community Network mainly consists of two parts: the [Local Comm
 - Idealy PETG, ASA, ABS ( Unprotected ABS should almost never be used outdoors. To make ABS suitable for the sun, it must be coated in a UV-resistant paint or clear coat)
 - TPU for flexible and sealing components
 
-### 3D Files
-#### Protection Box 3d Files
+### Protection Box 3D Files
 *ABS or at least PETG for outdoor setup*
  - [01x Base](../assets/3dFiles/Base_x01.stl)
  - [01x Top](../assets/3dFiles/Top_x01.stl) if you can Print Mulitcolor use This [Top_x01-MultiColor.stl](../assets/3dFiles/Top_x01-MultiColor.stl)
@@ -43,16 +42,7 @@ The Minodu Local Community Network mainly consists of two parts: the [Local Comm
  - [02x TPU Cable outlet cap](../assets/3dFiles/TPU_CableOutletCap_x02.stl)
  - [01x TPU RPi5 ports dust cap](../assets/3dFiles/TPU_RPi5PortDustCaps_x01.stl)
 
-#### Stevenson Screen Files
-  - [01x Stevenson screen sensor plate](../assets/3dFiles/StevensonScreen_RC01_Sensor_Plate)
-  - [01x Stevenson screen top](../assets/3dFiles/StevensonScreen_RC01_Top.stl)
-  - [01x Stevenson screen sensor plate holder](../assets/3dFiles/StevensonScreen_RC01_Midlle_SensorPlate_Holder.stl)
-  - [06x Stevenson screen Midlle](../assets/3dFiles/StevensonScreen_RC01_Midlle_X06)
-  - [01x Stevenson screen base](../assets/3dFiles/StevensonScreen_RC01_Base.stl)
-  - [01x Stevenson screen bottom cover](../assets/3dFiles/StevensonScreen_RC01_Botom.stl)
- 
-
- 
+  For the 3D Files for the Stevenson Screen see [Stevenson Screen 3D Files](#stevenson-screen-3d-files)
 
 ### Slicer Setup
 3D printers only understand G-code language (**geometric code)**; So what we need to do is to convert the *STL* files into G CODE. 
@@ -63,7 +53,7 @@ Tool tutorial: Watch [this quick video](https://www.youtube.com/watch?v=KWfKkeOS
 Here is The Orca slicer projectfile withh all the parts
     - [Minodu_Box.3mf](../assets/3dFiles/Minodu_Box.3mf)
 
-## Protection Box
+## Protection Box assembly
 This guide explains how to assemble the 3D-printed protection box for the Minodu Local Network. The enclosure is designed to house a Raspberry Pi 5, the Tele-Agriculture Board, a 12V-to-5V DC-DC power converter, sensor cables, and can be mounted on a pole for outdoor installations with a Stevenson screen.
 
 **Assembly video**
@@ -211,11 +201,19 @@ ___
 The enclosure is now ready to be mounted on a pole together with the Stevenson screen for outdoor deployment.
 
 
-## Stevenson Screen : Sensors
+## Stevenson Screen
 - Stevenson Screen for environmental sensors that need to be protected but still measure temperature, humidity, etc.
 - Weather Meter connection
+
 ### Required Components
-3D Printed Parts
+
+#### Stevenson Screen 3D Files
+  - [01x Stevenson screen sensor plate](../assets/3dFiles/StevensonScreen_RC01_Sensor_Plate)
+  - [01x Stevenson screen top](../assets/3dFiles/StevensonScreen_RC01_Top.stl)
+  - [01x Stevenson screen sensor plate holder](../assets/3dFiles/StevensonScreen_RC01_Midlle_SensorPlate_Holder.stl)
+  - [06x Stevenson screen Midlle](../assets/3dFiles/StevensonScreen_RC01_Midlle_X06)
+  - [01x Stevenson screen base](../assets/3dFiles/StevensonScreen_RC01_Base.stl)
+  - [01x Stevenson screen bottom cover](../assets/3dFiles/StevensonScreen_RC01_Botom.stl)
 
 
 

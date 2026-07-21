@@ -7,16 +7,16 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
 
 ## Requirements
 
-* A Raspberry pi 4 or 5, preferebly with 8gb of ram.
+* A Raspberry pi 4 or 5, preferebly with 8GB of ram.
 * An ethernet adapter and a cable
-* An SD card reader and an sd card with a minimum size if 64gb.
+* An SD card reader and an sd card with a minimum size if 64GB.
 * Python has to be installed on your computer
 
 ## Setup Raspberry Pi Image
 
 ### Create Base Image
 
-* Install Raspberry Pi OS Lite (64 bit) on Raspberry Pi. *Tested with this [version](https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2026-04-21/)*. You can use [Raspberry PI Imager](https://www.raspberrypi.com/software/) to crate the Image
+* Install Raspberry Pi OS Lite (64 bit) on Raspberry Pi. (Tested with this [version](https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2026-04-21/).) You can use [Raspberry PI Imager](https://www.raspberrypi.com/software/) to create the Image
 
 ![](../assets/images/rpi-imager-2.png)
 ![](../assets/images/rpi-imager-3.png)

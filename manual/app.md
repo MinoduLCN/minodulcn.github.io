@@ -29,13 +29,10 @@ connect with others and share your knowledge and challenges on the field
 Séti AFANOU (software), Ousia FOLI-BÉBÉ (hardware/software interface), Friederike Fröbel (coordination and management), Lutz Reiter (software), Eric Tiedt (illustrations, animations), Victoire TSAMEDI (database), Jannes Ulbrich (UI/UX design, wireframing)*
 
 ### Access the app
-1) Start by connecting to the "Minodu" Wi-Fi network.
 
-![manual_wifi](../assets/images/manual_app_wi-fi.jpg)
-
-2) Open your browser and enter the address <span style="color:#25B86E">**minodupi.local**</span>
-
-![manual_browser](../assets/images/manual_app_browser.jpg)
+| --- | --- |
+| 1) Start by connecting to the "Minodu" Wi-Fi network. | ![manual_wifi](../assets/images/manual_app_wi-fi.jpg) |
+| 2) Open your browser and enter the address <span style="color:#25B86E">**minodupi.local**</span> | ![manual_browser](../assets/images/manual_app_browser.jpg) |
 
 <span style="color:#fff; background-color:#25B86E; padding:10px">http://minodupi.local</span>
 
@@ -163,4 +160,4 @@ Only the administrator has access to it. Please ask your community administrator
 
 ---  
 <br>
-This is the user manual. For guidance for administrators and management of the system please take a look at the [backoffice manual](backoffice.md).
+This is the user manual. For guidance for administrators and management of the system please take a look at the *[backoffice manual](backoffice.md)*.
