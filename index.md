@@ -12,7 +12,7 @@ title: Home
 target="_blank"
 rel="noopener noreferrer"
 title="Watch the Minodu project video">
-assets/images/minodu_cover.webp' | relative_url }}"
+<img src="assets/images/minodu_cover.webp"
 alt="Minodu project cover"
 class="cover-image">
 </a>
