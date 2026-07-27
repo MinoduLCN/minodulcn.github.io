@@ -10,7 +10,15 @@ title: Home
 {:.no_toc}
 
 <!--![cover](assets/images/minodu_cover.webp){: .cover-image}-->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Fekm3XAx7Lo?si=72WkAx9qg5GYL5uC&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe src="https://www.youtube.com/embed/Fekm3XAx7Lo?controls=0"
+title="Minodu Project Video"
+style="position: absolute; top00%;"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen>
+</iframe>
+</div>
 
 Together with rural communities in the Kara region of northern Togo, students, researchers, and technical partners, the Minodu project co-designed a **Local Community Network (LCN)** that works without continuous internet access or electricity. It provides local weather data, agricultural audio content in French and Kabiyè, a community forum, and a market interface. The system combines low-cost hardware, environmental sensing, local knowledge, and community-based maintenance. 
 
