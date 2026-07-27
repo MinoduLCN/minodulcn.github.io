@@ -4,8 +4,10 @@ title: Home
 ---
 
 # Welcome to Minodu!
+{:.no_toc}
 
 ## Fostering local sustainable development through technology and research
+{:.no_toc}
 
 ![cover](assets/images/minodu_cover.webp){: .cover-image}
 
@@ -14,26 +16,27 @@ Together with rural communities in the Kara region of northern Togo, students, r
 ## Getting started
 
 What do you want to do?
+### [About the Minodu project](about)
+**Learn more about this project.**
 
-- **Build or repair the system** → [Setup guide](setup)  
-- **Use the local network** → [Manual](manual)  
-- **Manage the system** → [Backoffice](manual/backoffice)  
-- **Understand the system** → [Documentation](docs) 
+### [Setup guide](setup) 
+**Learn how to build or repair the system.**
+- [Material list](setup/materials)
+- [Hardware assembly](setup/hardware)
+- [Raspberry PI installation](setup/pi)
+- [Teleagriculture installation](setup/teleagriculture)
 
-## Explore
+### [Manual](manual)
+**Take a look here if you want to use the local network.**
+- [Minodu app](manual/app)
+- [Backoffice](manual/backoffice)
 
-* [About the Minodu project](about)
-* [Setup guide](setup)
-    * [Material list](setup/materials)
-    * [Hardware assembly](setup/hardware)
-    * [Raspberry PI installation](setup/pi)
-    * [Teleagriculture installation](setup/teleagriculture)
-* [Manual](manual)
-    * [Minodu app](manual/app)
-    * [Backoffice](manual/backoffice)
-* [Documentation](docs)
-     * [System Architecture](docs/system-architecture)
-     * [Minodu API](docs/api)
-     * [Workshop materials](docs/workshop)
+### [Backoffice](manual/backoffice)
+**Get to know how to manage the system.**
 
 
+### [Documentation](docs)
+**Find here more detailed Information about the system.**
+- [System Architecture](docs/system-architecture)
+- [Minodu API](docs/api)
+- [Workshop materials](docs/workshop)
