@@ -31,7 +31,7 @@ In Minodu, the DIY approach helps create a robust local community network that i
 This project is the result of a collaboration between the following parties:
 - **Local communities**: Tchitchao, Lama-Saoudé, Soumdina-Haut
 - **Kara University**: Magnim Essolakina BOKOBANA, Damghane OUDANOU, Mikémina PILO
-- **DFKI (German Center for Artificial Intelligence)**: Carina Lange, Friederike Fröbel, Antonia Katthaen, Jannes Ulbrich, Philipp Gschwendtner
+- **DFKI (German Center for Artificial Intelligence)**: Friederike Fröbel, Philipp Gschwendtner, Antonia Katthaen, Carina Lange, Jannes Ulbrich 
 - **Further Contributers**: Séti AFANOU, Nihade ASSOUMANOU, Abiré BÉRÉ, Ousia FOLI-BEBE, Lutz Reiter, Eric Tiedt, Victoire TSAMEDI
 
 ### Funding
