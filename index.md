@@ -13,7 +13,7 @@ title: Home
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 <iframe src="https://www.youtube.com/embed/Fekm3XAx7Lo?controls=0"
 title="Minodu Project Video"
-style="position: absolute; top00%;"
+style="position: absolute; top00%; width: 100%; height: 100%;"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen>
