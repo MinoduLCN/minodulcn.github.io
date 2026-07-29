@@ -183,3 +183,11 @@ em > a:hover {
 .home h3, h4 {
   margin: 0;
 }
+
+.video {
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden;
+  margin: var(--space-small) 0;
+}

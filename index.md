@@ -10,7 +10,7 @@ title: Home
 {:.no_toc}
 
 <!--![cover](assets/images/minodu_cover.webp){: .cover-image}-->
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<div class="video">
 <iframe src="https://www.youtube.com/embed/Fekm3XAx7Lo?controls=0"
 title="Minodu Project Video"
 style="position: absolute; top00%; width: 100%; height: 100%;"
