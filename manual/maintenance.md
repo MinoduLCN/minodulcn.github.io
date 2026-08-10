@@ -4,7 +4,7 @@ title: Backoffice
 ---
 
 # Maintenance
-{:.no_toc}
+
 
 Regular maintenance is necessary to keep the system operational, up to date, and useful for the community. For the Minodu LCN, maintenance is shared between local users, technical partners, and content partners. The following structure defines the main responsibilities and recommended maintenance rhythm.
 
