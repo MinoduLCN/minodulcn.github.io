@@ -6,7 +6,7 @@ title: Backoffice
 # Maintenance
 
 
-Regular maintenance is necessary to keep the system operational, up to date, and useful for the community. For the Minodu LCN, maintenance is shared between local users, technical partners, and content partners. The following structure defines the main responsibilities and recommended maintenance rhythm.
+Regular maintenance is necessary to keep the system operational, up to date, and useful for the community. For the Minodu LCN, maintenance is shared between our 3 local communities (users), CAVRIS (working with technical partners), and Kara University (Students, researchers, and different institutions work together for the content creation). The following structure defines the main responsibilities and recommended maintenance rhythm.
 
 ## 1. Roles and responsibilities
 
@@ -177,8 +177,8 @@ A simple maintenance log can be used to keep track of interventions.
 
 | Date       | Problem / activity             | Person responsible    | Action taken           | Result           | Follow-up               |
 | ---------- | ------------------------------ | --------------------- | ---------------------- | ---------------- | ----------------------- |
-| YYYY-MM-DD | Example: system not accessible | Technical Focal Point | Restarted Raspberry Pi | System restored  | Monitor                 |
-| YYYY-MM-DD | Monthly backup                 | Technical Focal Point | Weather data exported  | Backup completed | Next backup: YYYY-MM-DD |
+| YYYY-MM-DD | Example: system not accessible | Technical focal point | Restarted Raspberry Pi | System restored  | Monitor                 |
+| YYYY-MM-DD | Monthly backup                 | Technical focal point | Weather data exported  | Backup completed | Next backup: YYYY-MM-DD |
 
 Keeping this log makes it easier to identify recurring problems and ensures that maintenance knowledge is not dependent on one person.
 
