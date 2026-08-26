@@ -58,7 +58,7 @@ This guide explains how to assemble the 3D-printed protection box for the Minodu
 
 **Assembly video**
 
-<iframe width="100%" style="aspect-ratio: 16 / 9" src="https://www.youtube.com/embed/7zh7hve5er4?si=OtjEWRjfrtD__3ae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1337" height="752" src="https://www.youtube.com/embed/IDYrpug46No?list=PLMNTAdNwypnw" title="Minodu StevensonScreen Assembly Steps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Required Components
 
