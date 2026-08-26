@@ -76,7 +76,7 @@ Minodu source code is released under the [GNU License](https://github.com/Minodu
 | Friederike Fröbel | [frfr01](https://github.com/frfr01) |
 | Jannes Ulbrich | [jannesulbrich](https://github.com/jannesulbrich) |
 | Lutz Reiter | [lutzer](https://github.com/lutzer) |
-| Ouisa A. FOLI-BEBE | [ousiafb](https://github.com/ousiafb) |
+| Ousia A. FOLI-BEBE | [ousiafb](https://github.com/ousiafb) |
 | Séti AFANOU | [setico](https://github.com/setico) |
 
 
