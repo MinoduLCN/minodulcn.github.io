@@ -58,7 +58,7 @@ This guide explains how to assemble the 3D-printed protection box for the Minodu
 
 **Assembly video**
 
-<iframe width="1337" height="752" src="https://www.youtube.com/embed/IDYrpug46No?list=PLMNTAdNwypnw" title="Minodu StevensonScreen Assembly Steps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" style="aspect-ratio: 16 / 9" src="https://www.youtube.com/embed/7zh7hve5er4?si=OtjEWRjfrtD__3ae" title="Minodu Protection Box Assembly steps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Required Components
 
@@ -208,7 +208,7 @@ This guide explains how to assemble the 3D-printed Stevenson Screen and install 
 
 **Assembly video**
 
-<iframe width="100%" style="aspect-ratio: 16 / 9" src="https://www.youtube.com/watch?v=IDYrpug46No&list=PLMNTAdNwypnw&index=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" style="aspect-ratio: 16 / 9" src="https://www.youtube.com/embed/IDYrpug46No?list=PLMNTAdNwypnw" title="Minodu StevensonScreen Assembly Steps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Required Hardware
   - 7 × M3 nuts
@@ -329,7 +329,7 @@ Before securing the final assembly, verify that:
 |Secure the complete assembly using M3 lock nuts (nyloc nuts).⚠️ Recommended: Use nyloc nuts rather than standard M3 nuts. A regular nut can gradually loosen due to vibration, especially in outdoor installations. Once all four lock nuts are tightened, check the complete assembly one final time. | ![Step 0X](../assets/images/StevesonS_15.jpg "Step 0X") |
 
 #### **Final Check**
-
+{:.no_toc}
 The Stevenson Screen is now ready to be connected to the Minodu Local Network protection box and mounted for outdoor deployment.
 
 Ensure that the sensors have sufficient exposure to the surrounding air and that the Stevenson Screen provides adequate protection from direct environmental exposure while allowing appropriate airflow.
