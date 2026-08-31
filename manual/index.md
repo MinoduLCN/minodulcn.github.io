@@ -3,6 +3,8 @@ layout: page
 title: Manual
 ---
 
+![manual](../assets/images/manual.webp)
+
 This section provides practical guidance for using and managing the Local Community Network (LCN). It combines user-facing instructions with administrative documentation.
 The manuals are structured to support two main user groups:
 - **Users** → accessing information and interacting with the application  

@@ -8,6 +8,9 @@ Minodu explores how decentralised, locally maintained digital infrastructures ca
 At the core of Minodu is the Local Community Network (LCN), a decentralised, offline-first system based on low-cost hardware and software. It combines environmental sensing, local data access, and community exchange.
 The system enables access to environmental data, agricultural advice, and community knowledge through local networks that operate without continuous Internet connectivity.
 
+![LCN_Tchitchao](../assets/images/minodu_cover.webp)
+Local Community Network in Tchitchao.
+
 ### Objectives
 Launched in 2023 in the Kara region of northern Togo, Minodu aims to: 
 
@@ -21,11 +24,15 @@ Launched in 2023 in the Kara region of northern Togo, Minodu aims to:
 
 Students from the [**Kara University**](https://univ-kara.org/) worked with the communities to co-design **simple, practical and context-based** solutions.
 
+![soumdina-group](../assets/images/Minodu_group_Soumdina-Haute.webp)
+
 ### What does DIY mean? 
 
 **DIY** stands for **«Do It Yourself»**. It means building, repairing, or adapting things with simple and accessible materials, without relying on expensive external experts.
 
 In Minodu, the DIY approach helps create a robust local community network that is affordable, locally understandable, and easier to maintain over time. 
+
+![diy](../assets/images/about_diy.jpg)
 
 ### Partners
 This project is the result of a collaboration between the following parties:

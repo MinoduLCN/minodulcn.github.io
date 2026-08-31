@@ -5,6 +5,8 @@ heading_title: Setup Guide
 ---
  
 Welcome to the **Local Community Network (LCN)** setup guide. A step-by-step reference for assembling and configuring a Raspberry Pi–based local network weather station with the DIY Teleagriculture board. Follow the sections below in order for a smooth setup experience.
+
+![lcn_soumdina](../assets/images/minodu_lcn_soumdina.webp)
  
 ## What You'll Be Building
  
@@ -35,3 +37,5 @@ Software setup for the Teleagriculture DIY weather kit. Covers driver installati
 
 ## Help
 **Need help?** Open an issue on the [Minodu issue tracker](https://github.com/MinoduLCN/minodu/issues) or make a post on our [Discussion Board](https://github.com/MinoduLCN/minodu/discussions).
+
+![soldering](../assets/images/setup_soldering.jpg)
