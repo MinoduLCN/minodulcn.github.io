@@ -57,7 +57,7 @@ Improve your yields and make better farming decisions.
 
 **How to use the agriculture page?**
 
-The audios are oraganized into four categories: plants, soil, livestock, and other. You can select or deselect the different categories by clicking on their icons at the top.
+The audios are organized into four categories: plants, soil, livestock, and other. You can select or deselect the different categories by clicking on their icons at the top.
 
 To access the audio files:
 Click the play button (small triangle) to play the audio. 
@@ -66,7 +66,7 @@ To pause, click the two lines that appear once you start playing the audio.
 ![agriculture](../assets/images/manual_app_agriculture.webp)
 
 ### Chatbot
-The chatbot can answer your questions about agriculture around the clock. It can only understand and speak french.
+The chatbot can answer your questions about agriculture around the clock. It can only understand and speak French.
 
 **How to use the chatbot?**
 
@@ -132,7 +132,7 @@ The TeleAgriculture board is a module to capture weather data, it has several po
 | ---                        | ---                          |
 | BME 680                    | Temperature in °C, Humidity in %, Atmospheric pressure in hPa |
 | LTR390                     | Light in lux, UV radiation |
-| Multichannel Gas Sensor V2 | Nitrpgen dioxide (NO₂), Carbon monoxide (CO), Ethanol (C₂H₅OH) (overall air quality) |
+| Multichannel Gas Sensor V2 | Nitrogen dioxide (NO₂), Carbon monoxide (CO), Ethanol (C₂H₅OH) (overall air quality) |
 | DS15901                    | Wind speed in m/s, wind direction in degrees |
 
 ![teleagriculture_board](../assets/images/tac_board_V2_1_03.jpg)

@@ -4,6 +4,8 @@ title: Workshop materials
 toc: true
 ---
 
+![workshop](../assets/images/docs_workshop_material.webp)
+
 The development and evaluation of the Local Community Network (LCN) followed an iterative, participatory process combining co-design, prototyping, and multi-layered evaluation methods.
 The workshops form an iterative process from exploration and co-design to prototyping, testing, and multi-layered evaluation.
 

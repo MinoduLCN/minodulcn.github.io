@@ -58,7 +58,7 @@ This guide explains how to assemble the 3D-printed protection box for the Minodu
 
 **Assembly video**
 
-<iframe width="100%" style="aspect-ratio: 16 / 9" src="https://www.youtube.com/embed/7zh7hve5er4?si=OtjEWRjfrtD__3ae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" style="aspect-ratio: 16 / 9" src="https://www.youtube.com/embed/7zh7hve5er4?si=OtjEWRjfrtD__3ae" title="Minodu Protection Box Assembly steps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Required Components
 
@@ -201,21 +201,137 @@ ___
 The enclosure is now ready to be mounted on a pole together with the Stevenson screen for outdoor deployment.
 
 
-## Stevenson Screen
-- Stevenson Screen for environmental sensors that need to be protected but still measure temperature, humidity, etc.
-- Weather Meter connection
 
-### Required Components
+## Stevenson Screen Assembly
 
-#### Stevenson Screen 3D Files
+This guide explains how to assemble the 3D-printed Stevenson Screen and install the environmental sensors.
+
+**Assembly video**
+
+<iframe width="100%" style="aspect-ratio: 16 / 9" src="https://www.youtube.com/embed/IDYrpug46No?list=PLMNTAdNwypnw" title="Minodu StevensonScreen Assembly Steps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Required Hardware
+  - 7 × M3 nuts
+  - 4 x M3 lock nuts / nyloc nuts
+  - 3 × M3 × 10 mm screws
+  - 4 × M3 × 140 mm threaded rods
+  - 30+ x M2 heat-set inserts
+   
+### Required 3D-Printed Parts
   - [01x Stevenson screen sensor plate](../assets/3dFiles/StevensonScreen_RC01_Sensor_Plate)
   - [01x Stevenson screen top](../assets/3dFiles/StevensonScreen_RC01_Top.stl)
   - [01x Stevenson screen sensor plate holder](../assets/3dFiles/StevensonScreen_RC01_Midlle_SensorPlate_Holder.stl)
-  - [06x Stevenson screen Midlle](../assets/3dFiles/StevensonScreen_RC01_Midlle_X06)
+  - [06x Stevenson screen Midlle sections](../assets/3dFiles/StevensonScreen_RC01_Midlle_X06)
   - [01x Stevenson screen base](../assets/3dFiles/StevensonScreen_RC01_Base.stl)
   - [01x Stevenson screen bottom cover](../assets/3dFiles/StevensonScreen_RC01_Botom.stl)
+  
+### Step by step assembly 
+
+#### Step 1 – Install the M3 Nuts in the Top
+{:.no_toc}
+
+| Steps | Images |
+|---|---|
+| Take the Stevenson Screen top and locate the four recessed holes. Insert the four M3 nuts into the recessed holes.| ![Step 0X](../assets/images/StevesonS_00.jpg "Step 0X") |
+| Push each nut fully into its recess and make sure that they are properly seated and secure. | ![Step 0X](../assets/images/StevesonS_01.jpg "Step 0X") |
+
+#### Step 2 – Install the Threaded Rods
+{:.no_toc}
+
+| Steps | Images |
+|---|---|
+| Take the four M3 × 140 mm threaded rods. Insert one threaded rod into each of the four holes and screw them gently into the M3 nuts installed in the previous step. Do not overtighten (⚠️ Important: Tighten the rods only enough to hold them securely. Excessive force may damage or crack the 3D-printed Stevenson Screen top).| ![Step 0X](../assets/images/StevesonS_02.jpg "Step 0X") |
+| Make sure all four rods are secure and properly aligned, then set the assembly aside. | ![Step 0X](../assets/images/StevesonS_03.jpg "Step 0X") |
+
+#### Step 3 – Install the M2 Heat-Set Inserts in the Sensor Plate
+{:.no_toc}
+
+| Steps | Images |
+|---|---|
+| Take the sensor plate and install the M2 heat-set inserts into the designated mounting holes. The position of the inserts can be adapted according to the sensors being used.Ideally, determine the sensor positions before installing the inserts.| ![Step 0X](../assets/images/StevesonS_04.jpg "Step 0X") |
+| Make sure each heat-set insert is: 1- Fully inserted; 2- Properly aligned with the sensor holes; 3- Flush with the surface of the sensor plate. | ![Step 0X](../assets/images/StevesonS_05.jpg "Step 0X") |
+
+#### Step 4 – Install the Sensors
+{:.no_toc}
+
+Once the inserts are installed, mount the sensors onto the sensor plate using the appropriate screws.
+Arrange the sensors according to your desired configuration and route their wires appropriately.
+
+If a particular sensor cannot be mounted using the heat-set inserts, it can instead be secured directly to the sensor plate using zip ties.
+
+Make sure that:
+- The sensors are firmly secured;
+- The sensors do not obstruct each other;
+- The cables are properly routed;
+
+#### Step 5 – Assemble the Sensor Plate Holder
+{:.no_toc}
+
+| Steps | Images |
+|---|---|
+| Take the 3D-printed sensor plate holder. Insert the three M3 nuts into the three recessed holes. | ![Step 0X](../assets/images/StevesonS_06.jpg "Step 0X") |
+| Make sure the nuts are fully seated and correctly oriented.| ![Step 0X](../assets/images/StevesonS_07.jpg "Step 0X") |
+
+#### Step 6 – Attach the Sensor Plate to the Holder
+{:.no_toc}
+
+| Steps | Images |
+|---|---|
+| Take the sensor plate with the sensors already installed and wired. Align it with the three sensor plate holder holes.| ![Step 0X](../assets/images/StevesonS_08.jpg "Step 0X") |
+| Secure the two parts using three M3 × 10 mm screws.| ![Step 0X](../assets/images/StevesonS_09.jpg "Step 0X") |
+| Make sure the sensor plate is firmly attached and that none of the parts are loose.| ![Step 0X](../assets/images/StevesonS_10.jpg "Step 0X") | 
 
 
+#### Step 7 – Install the Sensor Assembly on the Stevenson Screen Top
+{:.no_toc}
+
+| Steps | Images |
+|---|---|
+| Take the assembled sensor plate + sensor plate holder. Align the four holes with the four 140 mm threaded rods installed on the Stevenson Screen top. Carefully slide the sensor assembly down over the four rods. ⚠️ Important: Lower the assembly gradually and evenly. Do not force one side down while leaving the other side high, as this can bend the threaded rods and make assembly difficult. | ![Step 0X](../assets/images/StevesonS_11.jpg "Step 0X") |
+|Push the assembly down gently until it reaches its intended position. Verify that everything is correctly aligned and securely assembled.| ![Step 0X](../assets/images/StevesonS_11.0.jpg "Step 0X") |
+
+#### Step 8 – Install the Stevenson Screen Middle Sections
+{:.no_toc}
+
+| Steps | Images |
+|---|---|
+| Take the six 3D-printed Stevenson Screen middle sections.Stack them one by one on top of the previously assembled components. Make sure each section is correctly aligned before adding the next one. | ![Step 0X](../assets/images/StevesonS_12.jpg "Step 0X") |
+
+#### Step 9 – Install the Stevenson Screen Base
+{:.no_toc}
+
+| Steps | Images |
+|---|---|
+| TTake the Stevenson Screen base. Place it on top of the assembled middle sections. Check that all components are correctly aligned and that the sensor cables remain properly routed.| ![Step 0X](../assets/images/StevesonS_13.jpg "Step 0X")|
+
+#### Step 10 – Install the Bottom Cover
+{:.no_toc}
+
+| Steps | Images |
+|---|---|
+| Take the Stevenson Screen bottom cover and place it on the base. Make sure that the cable opening is positioned on the same side as the mounting bracket. This orientation will make it easier to route the sensor cables toward the main protection box. | ![Step 0X](../assets/images/StevesonS_14.jpg "Step 0X") |
+
+#### Step 11 – Secure the Assembly
+{:.no_toc}
+
+Before securing the final assembly, verify that:
+- All sensors are installed;
+- All sensors are properly wired;
+- All cables are correctly routed;
+- The Stevenson Screen sections are properly aligned;
+- The threaded rods are straight;
+- Nothing is interfering with the sensors.
+
+{:.no_toc}
+
+| Steps | Images |
+|---|---|
+|Secure the complete assembly using M3 lock nuts (nyloc nuts).⚠️ Recommended: Use nyloc nuts rather than standard M3 nuts. A regular nut can gradually loosen due to vibration, especially in outdoor installations. Once all four lock nuts are tightened, check the complete assembly one final time. | ![Step 0X](../assets/images/StevesonS_15.jpg "Step 0X") |
+
+#### **Final Check**
+{:.no_toc}
+The Stevenson Screen is now ready to be connected to the Minodu Local Network protection box and mounted for outdoor deployment.
+
+Ensure that the sensors have sufficient exposure to the surrounding air and that the Stevenson Screen provides adequate protection from direct environmental exposure while allowing appropriate airflow.
 
 
-##

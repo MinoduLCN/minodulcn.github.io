@@ -20,7 +20,7 @@ The login page is the single entry point to the Minodu backoffice. Only users wi
 
 ### 1.1 Features
 {:.no_toc}
-- Authentication using phone/username and password
+- Authentification using phone/username and password
 - Show/hide password using the eye icon
 - Session management via tokens (JWT)
 - Custom error messages depending on the failure type
