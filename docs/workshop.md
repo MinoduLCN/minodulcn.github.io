@@ -4,7 +4,7 @@ title: Workshop materials
 toc: true
 ---
 
-![workshop](../assets/images/docs_workshop_material.webp)
+![Minodu workshop](../assets/images/docs_workshop_material.webp)
 
 The development and evaluation of the Local Community Network (LCN) followed an iterative, participatory process combining co-design, prototyping, and multi-layered evaluation methods.
 The workshops form an iterative process from exploration and co-design to prototyping, testing, and multi-layered evaluation.
@@ -18,6 +18,7 @@ The full activity booklet, guiding participants through the workshop stations an
 - [Publication about a part of this workshop](https://dl.acm.org/doi/10.1145/3757232.3757251)
 
 ### Weather sounds 03/24
+![Minodu Weather sounds workshop](../assets/images/WS_weather_minodu.JPG)
 The workshop was conducted on March 2024 with students from the University of Kara. This workshop explored how weather sounds are associated with colors, emotions, and visual representations.
 
 The worksheet in English is available here: 
