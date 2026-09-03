@@ -18,6 +18,7 @@ The full activity booklet, guiding participants through the workshop stations an
 
 ### Weather sounds 03/24
 ![Minodu Weather sounds workshop](../assets/images/WS_weather_minodu.JPG)
+
 The workshop was conducted on March 2024 with students from the University of Kara. This workshop explored how weather sounds are associated with colors, emotions, and visual representations.
 
 The worksheet in English is available here: 
@@ -25,6 +26,7 @@ The worksheet in English is available here:
 
 ### Paper Prototyping with stickers 11/24
 ![Minodu Paper Prototyping Workshop](../assets/images/WS_PaperPrototyping_Minodu.jpg)
+
 These workshops were conducted in November 2024 with students from Kara University, who facilitated the activities in the local language with three rural communities (Tchitchao, Soumdina Haut, and Lama Saoudé) in the Kara region. Participants used a sticker-based paper prototyping method to explore needs, priorities, and expectations regarding a local community network. The participants expressed their ideas through drawing and sticker-based activities, focusing on relevant topics, desired services, and the role of weather information in their everyday practices.  
 
 The materials used in this workshop are available here:  
@@ -33,6 +35,7 @@ The materials used in this workshop are available here:
 
 ### Clickthrough Prototype Testing 05/25
 ![Minodu Card Sorting Game Workshop](../assets/images/WS_ClickThrough_Minodu.JPG)
+
 This workshop focused on testing and refining a local, offline-first interface through a clickthrough prototype. Participants navigated the interface through guided tasks, exploring different application sections and information pathways to evaluate usability, clarity, and structure.
 
 The activity booklet used to guide testing and collect feedback is available here:
@@ -40,6 +43,7 @@ The activity booklet used to guide testing and collect feedback is available her
 
 ### Card Sorting Game 05/25
 ![Minodu Card Sorting Game Workshop](../assets/images/WS_CardSorting_Minodu.jpg)
+
 This activity was inspired by prior research on culture-aware categorisations of interface elements by [Rodil et al.](https://link.springer.com/chapter/10.1007/978-3-642-40483-2_30). Participants grouped and organised different content images, icons and pictograms to express their own understanding and priorities and to create a categorisation for the Local Community Network (LCN).
 
 The materials used in this workshop are available here: 
@@ -55,6 +59,7 @@ The sheet is structured into three sections: the left side is used for the Syste
 
 #### Perception: Application Impression
 ![Minodu Application Workshop](../assets/images/docs_workshop_material.webp)
+
 During this workshop activity participants shared their impressions of the system, reflecting on which parts they found useful, confusing, or missing. The worksheet guided participants to evaluate different sections of the application and to articulate their expectations and suggestions for improvement. 
 Participants were also invited to rethink the representation of the chatbot by proposing alternative symbols. This task provided insights into how specific system elements are interpreted and how their representation can be adapted to local contexts.
 
@@ -63,6 +68,7 @@ The material used for this activity is available here:
 
 #### Interpretation: User Stories
 ![Minodu User Stories Workshop](../assets/images/WS_UserStory_Minodu.jpg)
+
 This activity focused on exploring how participants understand and explain the Local Community Network (LCN) through storytelling. Using a guided worksheet, participants were invited to imagine explaining the system to a family member and/or friend and to describe its purpose, use, and relevance within their everyday lives.
 The activity encouraged participants to express their perspectives through narratives, drawings, and stickers, supporting the development of user stories grounded in lived experience and local contexts.  
 
@@ -71,6 +77,7 @@ The worksheet used in this workshop is available here:
 
 #### Evaluation: System Usability Score (SUS)
 ![Minodu User Stories Workshop](../assets/images/WS_SUS_Minodu.jpg)
+
 This activity focused on evaluating the usability of the local network system using a context-adapted System Usability Scale (SUS). Participants interacted with the system and provided structured feedback on clarity, usability, and overall experience. 
 The adapted SUS was translated and simplified to ensure accessibility and comprehension in the local context, using a visual scale.
 

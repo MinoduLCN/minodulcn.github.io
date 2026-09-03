@@ -1,6 +1,6 @@
 title: The Minodu Project
 description: >-
-  Documentation and presentation for the Minodu Project.
+  Documentation, installation guides, workshop materials and open-source resources for the Minodu Local Community Network (LCN).
 baseurl: ""
 url: "https://minodulcn.github.io"
 github_username: minodulcn
@@ -22,3 +22,4 @@ header_image: /assets/images/minodu-logo.jpg
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
