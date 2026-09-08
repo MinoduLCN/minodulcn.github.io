@@ -40,10 +40,12 @@ Connect the sensors to the following ports on the Teleagriculture Board:
 
 | Sensor                     | Connection | Description |
 | -------------------------- | ---------- | ----------- |
-| Multichannel Gas Sensor V2 | I2C (5V)   | NO2, CO, C2H5OH |
-| BME 280                    | I2C (3V)   | Temperature, Humidity, Pressure |
-| LTR 390                    | I2C (3V)   | ambient light, UVA (UV light) |
-| DHT22                      | 1-W_1      | Temperature & Humidity (placed inside the protection box) |
+| Multichannel Gas Sensor V2 | I2C (5V)   | NO2, CO, C2H5OH - placed in the Stevenson screen |
+| BME 280                    | I2C (3V)   | Temperature, Humidity, Pressure - placed in the Stevenson screen |
+| LTR 390                    | I2C (3V)   | ambient light, UVA (UV light) - placed in the Stevenson screen |
+| DHT22                      | 1-W        | Temperature & Humidity - placed inside the protection box |
+| Sparkfun Anemometer        | 1_W        | Wind Speed |
+| Sparkfun Windvane          | ADC        | Wind Direction - Place a Pullup resistor of 4,7 kOhm between 5V and Signal Wire |
 
 ## Setup Firmware configuration
 
