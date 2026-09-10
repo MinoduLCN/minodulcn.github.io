@@ -7,9 +7,13 @@
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
     <div class="footer-links">
-        <a href="https://github.com/minodulcn/minodu"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">Minodu Repository</span></a>
+        <a href="https://github.com/minodulcn/minodu">
+          <svg class="svg-icon">
+          <use xlink:href="/assets/minima-social-icons.svg#github">
+          </use>
+        </svg>
+        <span class="username">Minodu Repository</span></a>
     </div>
-
 
     <div class="footer-col-wrapper" style="
       display: flex;
@@ -20,6 +24,10 @@
 
       <!-- Column 1 -->
       <div class="footer-col footer-col-1" style="flex: 1;">
+
+          <img src="{{ '/assets/images/BMFTR_en_DTP_CMYK_gef_durch.jpg' | relative_url }}"
+               alt="BMFTR Logo"
+               style="max-width: 220px; height: auto;">
 
         <p>project by</p>
         
@@ -34,21 +42,31 @@
               alt="Universite de Kara logo"
               style="max-width: 220px; height: auto;">
         </a>
-
-        <p>supported by</p>
+          
+      </div>
+<!-- Column 2 (supporter) -->
+      <div class="footer-col footer-col-2" style="
+        flex: 1;
+      ">
+      <p>supported by</p>
         
         <a href="https://teleagriculture.org/" target="_blank">
             <img src="{{ '/assets/images/tac_logo_color.png' | relative_url }}"
                 alt="TeleAgriCulture logo"
                 style="max-width: 150px; height: 80px">
         </a>
-          
+        </div>
       </div>
 
-      <!-- Column 2 (partners) -->
+      <!-- Column 3 (partners) -->
       <div class="footer-col footer-col-2" style="
         flex: 1;
       ">
+
+ <img src="{{ '/assets/images/Fona.png' | relative_url }}"
+               alt="FONA Logo"
+               style="max-width: 220px; height: auto;">
+
         <p>in cooperation with</p>
 
         <div style="
@@ -75,33 +93,6 @@
               style="max-width: 180px; height: 70px;">
         </a>
 
-          </p>
-        </div>
-      </div>
-
-      <!-- Column 3 (Funding) -->
-      <div class="footer-col footer-col-3" style="
-        flex: 1;
-      ">
-
-        <p style="width: 100%;">funded by</p>
-
-        <div style="
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 0.5em;
-          text-align: center;
-        ">
-
-          <img src="{{ '/assets/images/BMFTR_en_DTP_CMYK_gef_durch.jpg' | relative_url }}"
-               alt="BMFTR Logo"
-               style="max-width: 220px; height: auto;">
-
-          <p style="font-size: 0.9em; margin: 0;">
-            Funded by the German Federal Ministry of Research,<br>
-            Technology and Space (BMFTR)<br>
-            Minodu Project (FKZ 01LL2202A)
           </p>
         </div>
       </div>
