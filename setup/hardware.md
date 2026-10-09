@@ -31,7 +31,7 @@ The Minodu Local Community Network mainly consists of two parts: the [Local Comm
 - TPU for flexible and sealing components
 
 ### Protection Box 3D Files
-*ABS or at least PETG for outdoor setup*
+*PETG or at least ABS for outdoor setup*
  - [01x Base](../assets/3dFiles/Base_x01.stl)
  - [01x Top](../assets/3dFiles/Top_x01.stl) if you can Print Mulitcolor use This [Top_x01-MultiColor.stl](../assets/3dFiles/Top_x01-MultiColor.stl)
  - [02x Hinge](../assets/3dFiles/Hinge_x02.stl)
@@ -334,4 +334,10 @@ The Stevenson Screen is now ready to be connected to the Minodu Local Network pr
 
 Ensure that the sensors have sufficient exposure to the surrounding air and that the Stevenson Screen provides adequate protection from direct environmental exposure while allowing appropriate airflow.
 
+## Electronic wiring Diagram
+
+
+
+  <img src="../assets/images/MinoduWiringDiag.png"/>
+  
 
