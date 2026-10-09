@@ -63,7 +63,7 @@ This will guide you through the setup process of the Minodu LCN on the Raspberry
 * Follow the instructions and wait until the installer is done, if you select to install the llm the install procedure will take much longer, since it needs to build the vector database on the raspberry pi.
 * **The installer might drop the ssh connection after installing the wlan driver and throws an error. If that happens, just wait until it is rebooted and start the script again. It will skip the completed steps**
 
-## Windows Setup Guide
+### Windows Setup Guide
 
 This guide explains how to prepare a Windows computer, install the required tools, configure SSH, connect to the Raspberry Pi, download the Minodu Installer, and run the Minodu deployment.
 
@@ -83,6 +83,7 @@ Before starting, make sure you have:
 * The Raspberry Pi SSH password
 
 #### Example values used in this guide
+{:.no_toc}
 
 The examples below use:
 
@@ -104,6 +105,7 @@ This ensures that all required tools are already available when the actual insta
 ---
 
 #### Step 1 - Open PowerShell
+{:.no_toc}
 
 Open **Windows PowerShell**.
 
@@ -123,10 +125,12 @@ For the standard installation, administrator privileges should not be required.
 ---
 
 #### Step 2 - Install Python
+{:.no_toc}
 
 Minodu Installer requires Python.
 
 ##### Check whether Python is already installed
+{:.no_toc}
 
 Run:
 
@@ -153,6 +157,7 @@ Add python.exe to PATH
 Then complete the installation.
 
 ##### Important
+{:.no_toc}
 
 After installing Python, **close PowerShell and open a new PowerShell window**.
 
@@ -175,6 +180,7 @@ Do not continue until this command works.
 ---
 
 #### Step 3 - Verify Python's package manager
+{:.no_toc}
 
 Minodu uses Python's package manager (`pip`) to install `pyinfra`.
 
@@ -195,6 +201,7 @@ If the command works, Python and `pip` are ready.
 ---
 
 #### Step 4 - Install pyinfra
+{:.no_toc}
 
 Install `pyinfra`:
 
@@ -213,7 +220,7 @@ python -m pyinfra --version
 You should see the installed `pyinfra` version.
 
 ##### Important
-
+{:.no_toc}
 Use:
 
 ```powershell
@@ -231,6 +238,7 @@ This ensures that Windows uses the `pyinfra` installation associated with the Py
 ---
 
 #### Step 5 - Verify SSH
+{:.no_toc}
 
 The Minodu Installer uses SSH to communicate with the Raspberry Pi.
 
@@ -267,6 +275,7 @@ Do not continue until the SSH command is available.
 Once Python, `pip`, `pyinfra`, and SSH are ready, configure the SSH environment.
 
 #### Step 6 - Create the SSH directory
+{:.no_toc}
 
 Run:
 
@@ -279,6 +288,7 @@ This creates the SSH directory if it does not already exist.
 ---
 
 #### Step 7 - Create the known_hosts file
+{:.no_toc}
 
 Run:
 
@@ -297,6 +307,7 @@ Before installing Minodu, make sure that your PC can communicate with the Raspbe
 This is the **only connection test required before deployment**.
 
 #### Step 8 - Connect to the Raspberry Pi
+{:.no_toc}
 
 Run:
 
@@ -319,6 +330,7 @@ with your Raspberry Pi username and:
 with your Raspberry Pi IP address.
 
 ##### First SSH connection
+{:.no_toc}
 
 If this is the first time you connect to the Raspberry Pi, SSH may display:
 
@@ -363,6 +375,7 @@ You can now proceed with the Minodu installation.
 The Windows environment and SSH connection are now ready.
 
 #### Step 9 - Download the repository
+{:.no_toc}
 
 Return to PowerShell on your Windows PC.
 
@@ -381,6 +394,7 @@ repo.zip
 ---
 
 #### Step 10 - Extract the repository
+{:.no_toc}
 
 Extract the repository:
 
@@ -397,6 +411,7 @@ minodu-installer-main
 ---
 
 #### Step 11 - Open the project directory
+{:.no_toc}
 
 Navigate into the Minodu Installer directory:
 
@@ -410,11 +425,13 @@ You are now inside the Minodu Installer project.
 
 ### 6. Run the Minodu Deployment
 
+
 All required tools and the SSH connection have already been prepared.
 
 There is no need to go back to the previous steps.
 
 #### Step 12 - Run the deployment
+{:.no_toc}
 
 Run:
 
@@ -457,6 +474,7 @@ deploy.py
 ---
 
 #### Security Note
+{:.no_toc}
 
 Avoid putting a real password directly into a command if the command may be stored in PowerShell history or logs.
 
@@ -485,6 +503,7 @@ The commands above assume that the **Environment Setup** section has already bee
 ### 8. Troubleshooting
 
 #### Python is not recognized
+{:.no_toc}
 
 If PowerShell displays:
 
@@ -515,6 +534,7 @@ python --version
 ---
 
 #### pip is not available
+{:.no_toc}
 
 Run:
 
@@ -527,6 +547,7 @@ If this command fails, verify that Python was installed correctly before continu
 ---
 
 #### pyinfra is not available
+{:.no_toc}
 
 Always use:
 
@@ -551,6 +572,7 @@ directly.
 ---
 
 #### SSH is not recognized
+{:.no_toc}
 
 Run:
 
@@ -571,6 +593,7 @@ again.
 ---
 
 #### SSH cannot connect to the Raspberry Pi
+{:.no_toc}
 
 Check the following:
 
@@ -593,6 +616,7 @@ Do not run the Minodu deployment until this SSH connection succeeds.
 ---
 
 #### SSH reports that `known_hosts` does not exist
+{:.no_toc}
 
 Create the SSH directory:
 
